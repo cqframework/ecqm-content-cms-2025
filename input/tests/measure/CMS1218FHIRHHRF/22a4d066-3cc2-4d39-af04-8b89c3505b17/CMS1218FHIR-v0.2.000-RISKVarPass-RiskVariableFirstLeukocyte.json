@@ -82,7 +82,7 @@
       },
       "diagnosis": [ {
         "condition": {
-          "reference": "Procedure/967e440e-8766-4705-924b-00b4a61b0458"
+          "reference": "Procedure/4f10c30e-e6f0-4668-b937-800246f63779"
         },
         "rank": 1
       } ]
