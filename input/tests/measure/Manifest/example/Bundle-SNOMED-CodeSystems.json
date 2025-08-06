@@ -1,0 +1,3833 @@
+{
+    "resourceType": "Bundle",
+    "id": "SNOMED-CodeSystems",
+    "meta": {
+        "lastUpdated": "2025-08-05T10:05:03.619-04:00"
+    },
+    "type": "searchset",
+    "total": 29,
+    "link": [
+        {
+            "relation": "self",
+            "url": "http://cts.nlm.nih.gov/fhir/res/CodeSystem/?url=http://snomed.info/sct&_offset=0&_count=100"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "647422070",
+                    "lastUpdated": "2025-04-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20250301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2025-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 527311,
+                "concept": [
+                    {
+                        "code": "784994000",
+                        "display": "Product containing precisely glucose 100 milligram/1 milliliter and sodium chloride 1.8 milligram/1 milliliter conventional release solution for injection (clinical drug)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3463240012",
+                    "lastUpdated": "2024-10-03T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20240901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 523116,
+                "concept": [
+                    {
+                        "code": "715461005",
+                        "display": "Computed tomography of urinary bladder with contrast for radiotherapy planning (procedure)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3630010190",
+                    "lastUpdated": "2024-04-30T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20240301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 517628,
+                "concept": [
+                    {
+                        "code": "15495003",
+                        "display": "Cytidine diphosphate diacylglycerol-glycerol-3-phosphate 3-phosphatidyltransferase (substance)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3125242151",
+                    "lastUpdated": "2023-10-04T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20230901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 513765,
+                "concept": [
+                    {
+                        "code": "438484004",
+                        "display": "Measurement of blood flow rate in vascular access (procedure)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "319825257",
+                    "lastUpdated": "2023-04-20T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20230301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 508540,
+                "concept": [
+                    {
+                        "code": "75580000",
+                        "display": "Open dislocation of distal end of tibia (disorder)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3918917577",
+                    "lastUpdated": "2022-10-04T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20220901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 503453,
+                "concept": [
+                    {
+                        "code": "720856002",
+                        "display": "Ectodermal dysplasia with ectrodactyly and macular dystrophy syndrome (disorder)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "1800999828",
+                    "lastUpdated": "2022-04-01T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20220301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 498686,
+                "concept": [
+                    {
+                        "code": "13143004",
+                        "display": "Glycosaminoglycan galactosyltransferase (substance)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "162647213",
+                    "lastUpdated": "2021-09-28T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20210901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 494082,
+                "concept": [
+                    {
+                        "code": "415909008",
+                        "display": "Family Amphisphaeriaceae (organism)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "4181555849",
+                    "lastUpdated": "2021-03-23T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20210301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 489141,
+                "concept": [
+                    {
+                        "code": "93806005",
+                        "display": "Primary malignant neoplasm of frontal bone (disorder)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "962956995",
+                    "lastUpdated": "2020-10-01T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20200901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 485054,
+                "concept": [
+                    {
+                        "code": "73838006",
+                        "display": "Phosphatidyl myo-inositol alpha-mannosyltransferase (substance)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3985865018",
+                    "lastUpdated": "2020-03-17T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20200301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 481176,
+                "concept": [
+                    {
+                        "code": "16640008",
+                        "display": "Separation (morphologic abnormality)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "1111350296",
+                    "lastUpdated": "2019-10-03T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20190901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 478116,
+                "concept": [
+                    {
+                        "code": "321963000",
+                        "display": "Product containing paroxetine (medicinal product)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "2456191987",
+                    "lastUpdated": "2019-03-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20190301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 473756,
+                "concept": [
+                    {
+                        "code": "94539009",
+                        "display": "Secondary malignant neoplasm of skin of abdomen (disorder)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "669066113",
+                    "lastUpdated": "2018-09-17T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20180901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 461443,
+                "concept": [
+                    {
+                        "code": "767108006",
+                        "display": "Aluminum and aluminum compound (substance)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "2187162561",
+                    "lastUpdated": "2018-03-26T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20180301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 454772,
+                "concept": [
+                    {
+                        "code": "11420005",
+                        "display": "Rhubarb agent (substance)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "2642628317",
+                    "lastUpdated": "2017-10-16T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20170901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 449474,
+                "concept": [
+                    {
+                        "code": "727824006",
+                        "display": "Entire anomalous pulmonary vein (body structure)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3691425772",
+                    "lastUpdated": "2017-04-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20170301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 438406,
+                "concept": [
+                    {
+                        "code": "106625000",
+                        "display": "Order Entodiniomorphida (organism)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3863155663",
+                    "lastUpdated": "2016-09-29T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20160901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2016-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 432811,
+                "concept": [
+                    {
+                        "code": "203499004",
+                        "display": "Hypertrophic nonunion of fracture (disorder)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "2538374381",
+                    "lastUpdated": "2016-04-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20160301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2016-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 429676,
+                "concept": [
+                    {
+                        "code": "10004002",
+                        "display": "Moxostoma carinatum (organism)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "2541284943",
+                    "lastUpdated": "2015-10-30T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20150901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2015-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 425867,
+                "concept": [
+                    {
+                        "code": "10000006",
+                        "display": "Radiating chest pain (finding)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "811139482",
+                    "lastUpdated": "2015-04-20T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20150301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2015-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 420445,
+                "concept": [
+                    {
+                        "code": "409454004",
+                        "display": "Hydrocortisone acetate 2.0% cream (product)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "2706923099",
+                    "lastUpdated": "2014-10-01T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20140901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2014-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 406309,
+                "concept": [
+                    {
+                        "code": "257837004",
+                        "display": "Internal fixation using internal fixator system (procedure)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "2259151259",
+                    "lastUpdated": "2014-06-23T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20140301",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2014-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 403465,
+                "concept": [
+                    {
+                        "code": "119548005",
+                        "display": "Metatarsal bone part (body structure)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3764777214",
+                    "lastUpdated": "2013-10-29T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20130901",
+                "name": "SNOMEDCT",
+                "title": "SNOMED-CT US Edition",
+                "status": "active",
+                "experimental": false,
+                "date": "2013-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 401068,
+                "concept": [
+                    {
+                        "code": "232796001",
+                        "display": "Repair of defect of tricuspid leaflet (procedure)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "2210276153",
+                    "lastUpdated": "2013-03-01T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20130301",
+                "name": "SNOMEDCT",
+                "title": "US Extension to SNOMED-CT",
+                "status": "active",
+                "experimental": false,
+                "date": "2013-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 1495,
+                "concept": [
+                    {
+                        "code": "351000124102",
+                        "display": "Prescription observable (observable entity)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3095850021",
+                    "lastUpdated": "2013-01-31T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/900000000000207008/version/20130101",
+                "name": "SNOMEDCT",
+                "title": "SNOMED Clinical Terms",
+                "status": "active",
+                "experimental": false,
+                "date": "2013-01-31T00:00:00-05:00",
+                "content": "example",
+                "count": 397787,
+                "concept": [
+                    {
+                        "code": "10000006",
+                        "display": "Radiating chest pain (finding)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "947499493",
+                    "lastUpdated": "2012-09-01T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20120901",
+                "name": "SNOMEDCT",
+                "title": "US Extension to SNOMED-CT",
+                "status": "active",
+                "experimental": false,
+                "date": "2012-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 1327,
+                "concept": [
+                    {
+                        "code": "428931000124102",
+                        "display": "Pharmacogenetic consultation (procedure)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "981837343",
+                    "lastUpdated": "2012-07-31T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/900000000000207008/version/20120701",
+                "name": "SNOMEDCT",
+                "title": "SNOMED Clinical Terms",
+                "status": "active",
+                "experimental": false,
+                "date": "2012-07-31T00:00:00-04:00",
+                "content": "example",
+                "count": 396109,
+                "concept": [
+                    {
+                        "code": "10128002",
+                        "display": "Rosacea conjunctivitis (disorder)"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/SNOMEDCT",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "SNOMEDCT",
+                "meta": {
+                    "versionId": "3095155841",
+                    "lastUpdated": "2012-03-01T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://snomed.info/sct",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.96"
+                    }
+                ],
+                "version": "http://snomed.info/sct/731000124108/version/20120301",
+                "name": "SNOMEDCT",
+                "title": "US Extension to SNOMED-CT",
+                "status": "active",
+                "experimental": false,
+                "date": "2012-03-15T00:00:00-04:00",
+                "content": "complete",
+                "count": 694,
+                "concept": [
+                    {
+                        "code": "1001000124104",
+                        "display": "Normal left ventricular systolic function (finding)"
+                    },
+                    {
+                        "code": "101000124104",
+                        "display": "Carbapenem-resistant Klebsiella pneumonia (organism)"
+                    },
+                    {
+                        "code": "1011000124101",
+                        "display": "Influenza A virus subtype H5 asian strain detected (finding)"
+                    },
+                    {
+                        "code": "10189761000046105",
+                        "display": "Hypertension exercise education (procedure)"
+                    },
+                    {
+                        "code": "1021000124109",
+                        "display": "Physical object specimen (specimen)"
+                    },
+                    {
+                        "code": "1031000124107",
+                        "display": "Paper specimen (specimen)"
+                    },
+                    {
+                        "code": "1041000124102",
+                        "display": "Writing paper specimen (specimen)"
+                    },
+                    {
+                        "code": "1051000124100",
+                        "display": "Envelope specimen (specimen)"
+                    },
+                    {
+                        "code": "1061000124103",
+                        "display": "Package specimen (specimen)"
+                    },
+                    {
+                        "code": "1071000124105",
+                        "display": "Clothing specimen (specimen)"
+                    },
+                    {
+                        "code": "1081000124108",
+                        "display": "Surface wipe specimen (specimen)"
+                    },
+                    {
+                        "code": "1091000124106",
+                        "display": "Surface wet wipe specimen (specimen)"
+                    },
+                    {
+                        "code": "11000119105",
+                        "display": "History of peanut allergy (situation)"
+                    },
+                    {
+                        "code": "11000124108",
+                        "display": "Lasiurus ega (organism)"
+                    },
+                    {
+                        "code": "1101000124100",
+                        "display": "Finding of periwound skin (finding)"
+                    },
+                    {
+                        "code": "111000124101",
+                        "display": "Influenza A virus subtype H1 (organism)"
+                    },
+                    {
+                        "code": "1111000124102",
+                        "display": "Skin alteration type (observable entity)"
+                    },
+                    {
+                        "code": "1121000124105",
+                        "display": "Periwound condition (observable entity)"
+                    },
+                    {
+                        "code": "1131000124108",
+                        "display": "Induration of wound (finding)"
+                    },
+                    {
+                        "code": "1141000124103",
+                        "display": "Boggy periwound skin (finding)"
+                    },
+                    {
+                        "code": "1151000124101",
+                        "display": "Periwound inflammation (finding)"
+                    },
+                    {
+                        "code": "1161000124104",
+                        "display": "Periwound skin hemorrhage (finding)"
+                    },
+                    {
+                        "code": "1171000119108",
+                        "display": "Recurrent inguinal hernia (disorder)"
+                    },
+                    {
+                        "code": "1171000124106",
+                        "display": "Periwound skin rupture (finding)"
+                    },
+                    {
+                        "code": "1181000124109",
+                        "display": "Periwound skin swelling (finding)"
+                    },
+                    {
+                        "code": "1191000124107",
+                        "display": "Wound bed appearance (observable entity)"
+                    },
+                    {
+                        "code": "1201000119107",
+                        "display": "History of urinary tract infection (situation)"
+                    },
+                    {
+                        "code": "1201000124105",
+                        "display": "Edges of wound approximated (finding)"
+                    },
+                    {
+                        "code": "121000124109",
+                        "display": "Influenza A virus subtype H3 (organism)"
+                    },
+                    {
+                        "code": "1211000119105",
+                        "display": "History of total knee arthroplasty (situation)"
+                    },
+                    {
+                        "code": "1211000124108",
+                        "display": "Wound epithelialization (finding)"
+                    },
+                    {
+                        "code": "1221000119103",
+                        "display": "History of tobacco use (situation)"
+                    },
+                    {
+                        "code": "1221000124100",
+                        "display": "Fibrinous wound bed (finding)"
+                    },
+                    {
+                        "code": "1231000119100",
+                        "display": "History of aortic valve replacement (situation)"
+                    },
+                    {
+                        "code": "1231000124102",
+                        "display": "Wound slough (finding)"
+                    },
+                    {
+                        "code": "1241000119109",
+                        "display": "History of mitral valve replacement (situation)"
+                    },
+                    {
+                        "code": "1241000124107",
+                        "display": "Method of wound closure (observable entity)"
+                    },
+                    {
+                        "code": "1251000119106",
+                        "display": "History of melanoma in situ (situation)"
+                    },
+                    {
+                        "code": "1251000124109",
+                        "display": "Wound edge (observable entity)"
+                    },
+                    {
+                        "code": "1261000124106",
+                        "display": "Wound edges attached (finding)"
+                    },
+                    {
+                        "code": "126151000119107",
+                        "display": "History of bulemia nervosa (situation)"
+                    },
+                    {
+                        "code": "1271000119102",
+                        "display": "History of Hodgkin's lymphoma (situation)"
+                    },
+                    {
+                        "code": "1271000124104",
+                        "display": "Diffuse wound edge (finding)"
+                    },
+                    {
+                        "code": "1281000119104",
+                        "display": "History of gestational diabetes mellitus (situation)"
+                    },
+                    {
+                        "code": "1281000124101",
+                        "display": "Sharp wound edge (finding)"
+                    },
+                    {
+                        "code": "1291000119101",
+                        "display": "History of uterine cervix dysplasia (situation)"
+                    },
+                    {
+                        "code": "1291000124103",
+                        "display": "Rolled wound edge (finding)"
+                    },
+                    {
+                        "code": "1301000119100",
+                        "display": "History of primary malignant neoplasm of testis (situation)"
+                    },
+                    {
+                        "code": "1301000124102",
+                        "display": "Scabbed wound edge (finding)"
+                    },
+                    {
+                        "code": "131000124107",
+                        "display": "Influenza A virus subtype H5 (organism)"
+                    },
+                    {
+                        "code": "1311000119102",
+                        "display": "History of primary malignant neoplasm of oropharynx (situation)"
+                    },
+                    {
+                        "code": "1311000124104",
+                        "display": "Clock position of wound tunneling (observable entity)"
+                    },
+                    {
+                        "code": "1321000119109",
+                        "display": "History of primary malignant neoplasm of larynx (situation)"
+                    },
+                    {
+                        "code": "1321000124107",
+                        "display": "Length of wound tunneling (observable entity)"
+                    },
+                    {
+                        "code": "1331000119107",
+                        "display": "History of bilateral breast implants (situation)"
+                    },
+                    {
+                        "code": "1331000124105",
+                        "display": "Wound tissue undermining (finding)"
+                    },
+                    {
+                        "code": "133121000119109",
+                        "display": "Severe recurrent seasonal major depression (disorder)"
+                    },
+                    {
+                        "code": "1341000119103",
+                        "display": "History of bariatric surgery (situation)"
+                    },
+                    {
+                        "code": "1341000124100",
+                        "display": "Clock position of tissue undermining (observable entity)"
+                    },
+                    {
+                        "code": "1351000119101",
+                        "display": "History of atypical nevus (situation)"
+                    },
+                    {
+                        "code": "1351000124103",
+                        "display": "Length of wound undermining (observable entity)"
+                    },
+                    {
+                        "code": "1361000119104",
+                        "display": "History of actinic keratosis (situation)"
+                    },
+                    {
+                        "code": "1361000124101",
+                        "display": "Depth of wound undermining (observable entity)"
+                    },
+                    {
+                        "code": "1371000124108",
+                        "display": "Location of wound (observable entity)"
+                    },
+                    {
+                        "code": "1381000124106",
+                        "display": "Location of pressure ulcer (observable entity)"
+                    },
+                    {
+                        "code": "1391000124109",
+                        "display": "Bony prominence pressure point (finding)"
+                    },
+                    {
+                        "code": "1401000124106",
+                        "display": "Device related pressure point (finding)"
+                    },
+                    {
+                        "code": "141000124102",
+                        "display": "Influenza A virus subtype H7 (organism)"
+                    },
+                    {
+                        "code": "1411000124109",
+                        "display": "Wound exudate odor absent (situation)"
+                    },
+                    {
+                        "code": "1421000119104",
+                        "display": "Family history of colorectal cancer (situation)"
+                    },
+                    {
+                        "code": "1421000124101",
+                        "display": "Serosanguineous  discharge from wound (finding)"
+                    },
+                    {
+                        "code": "1431000124103",
+                        "display": "Viscous discharge from wound (finding)"
+                    },
+                    {
+                        "code": "1441000124108",
+                        "display": "Seropurulent discharge from wound (finding)"
+                    },
+                    {
+                        "code": "1451000124105",
+                        "display": "Sanguinous discharge from wound (finding)"
+                    },
+                    {
+                        "code": "1461000124107",
+                        "display": "Primary dressing (finding)"
+                    },
+                    {
+                        "code": "1471000124100",
+                        "display": "Secondary dressing (physical object)"
+                    },
+                    {
+                        "code": "1481000124102",
+                        "display": "Wound dressing (observable entity)"
+                    },
+                    {
+                        "code": "1491000124104",
+                        "display": "Moist saline gauze (physical object)"
+                    },
+                    {
+                        "code": "1501000124107",
+                        "display": "Petrolatum gauze dressing (physical object)"
+                    },
+                    {
+                        "code": "151000124100",
+                        "display": "Influenza A virus subtype H9 (organism)"
+                    },
+                    {
+                        "code": "1511000124105",
+                        "display": "Wet to moist dressing (physical object)"
+                    },
+                    {
+                        "code": "1521000124102",
+                        "display": "Negative pressure wound dressing (physical object)"
+                    },
+                    {
+                        "code": "1531000124104",
+                        "display": "Wet to dry dressing (physical object)"
+                    },
+                    {
+                        "code": "1541000124109",
+                        "display": "Wound edge finding (finding)"
+                    },
+                    {
+                        "code": "1561000124108",
+                        "display": "Wound tunneling (observable entity)"
+                    },
+                    {
+                        "code": "1571000124101",
+                        "display": "Pressure point (finding)"
+                    },
+                    {
+                        "code": "1581000124103",
+                        "display": "Wound dressing type (observable entity)"
+                    },
+                    {
+                        "code": "1591000124100",
+                        "display": "At risk for readmission to hospital (finding)"
+                    },
+                    {
+                        "code": "1601000124108",
+                        "display": "Pulmonary disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "161000124103",
+                        "display": "Influenza A virus subtype H1 swine-like (organism)"
+                    },
+                    {
+                        "code": "1611000124106",
+                        "display": "Chronic obstructive pulmonary disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "1621000124103",
+                        "display": "Endocrine disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "1631000124100",
+                        "display": "Cardiovascular disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "1641000124105",
+                        "display": "Heart failure medication review (procedure)"
+                    },
+                    {
+                        "code": "1651000124107",
+                        "display": "Hypertension medication review (procedure)"
+                    },
+                    {
+                        "code": "1661000124109",
+                        "display": "Metabolic disease medication review (procedure)"
+                    },
+                    {
+                        "code": "1671000119100",
+                        "display": "Secondary squamous cell carcinoma of lymph node (disorder)"
+                    },
+                    {
+                        "code": "1671000124102",
+                        "display": "Dyslipidemia medication review (procedure)"
+                    },
+                    {
+                        "code": "167811000119105",
+                        "display": "History of bucket handle tear of medial meniscus (situation)"
+                    },
+                    {
+                        "code": "1681000119102",
+                        "display": "Secondary adenocarcinoma of lymph node (disorder)"
+                    },
+                    {
+                        "code": "1681000124104",
+                        "display": "Gout medication review (procedure)"
+                    },
+                    {
+                        "code": "1691000124101",
+                        "display": "Renal disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "1701000124101",
+                        "display": "Oncologic medication review (procedure)"
+                    },
+                    {
+                        "code": "171000124105",
+                        "display": "Human bocavirus (organism)"
+                    },
+                    {
+                        "code": "1711000124103",
+                        "display": "Infectious disease medication review (procedure)"
+                    },
+                    {
+                        "code": "1721000124106",
+                        "display": "Human immunodeficiency virus medication review (procedure)"
+                    },
+                    {
+                        "code": "1731000124109",
+                        "display": "Gastrointestinal disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "1741000124104",
+                        "display": "Neurologic disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "1751000124102",
+                        "display": "Immunologic disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "1761000124100",
+                        "display": "Rheumatologic disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "1771000124107",
+                        "display": "Allergy medication review (procedure)"
+                    },
+                    {
+                        "code": "1781000124105",
+                        "display": "Transplant medication review (procedure)"
+                    },
+                    {
+                        "code": "1791000124108",
+                        "display": "Hematologic disorder medication review (procedure)"
+                    },
+                    {
+                        "code": "1801000124109",
+                        "display": "Anticoagulation medication review (procedure)"
+                    },
+                    {
+                        "code": "181000124108",
+                        "display": "Influenza A virus present (finding)"
+                    },
+                    {
+                        "code": "1811000124107",
+                        "display": "Pain medication review (procedure)"
+                    },
+                    {
+                        "code": "1821000124104",
+                        "display": "Smoking cessation medication review (procedure)"
+                    },
+                    {
+                        "code": "1831000124101",
+                        "display": "Pregnancy and lactation medication review (procedure)"
+                    },
+                    {
+                        "code": "1841000124106",
+                        "display": "Palliative care medication review (procedure)"
+                    },
+                    {
+                        "code": "1851000124108",
+                        "display": "Geriatric syndrome medication review (procedure)"
+                    },
+                    {
+                        "code": "1861000124105",
+                        "display": "Transition of care (finding)"
+                    },
+                    {
+                        "code": "1871000124103",
+                        "display": "Transition from acute care to home-health care (finding)"
+                    },
+                    {
+                        "code": "1881000124100",
+                        "display": "Transition from acute care to long-term care (finding)"
+                    },
+                    {
+                        "code": "1891000124102",
+                        "display": "Transition from acute care to hospice (finding)"
+                    },
+                    {
+                        "code": "1901000124103",
+                        "display": "Transition from home-health care to acute care (finding)"
+                    },
+                    {
+                        "code": "191000124106",
+                        "display": "Influenza A virus subtype H2 (organism)"
+                    },
+                    {
+                        "code": "1911000124100",
+                        "display": "Transition from home-health care to long-term care (finding)"
+                    },
+                    {
+                        "code": "1921000124108",
+                        "display": "Transition from home-health care to hospice (finding)"
+                    },
+                    {
+                        "code": "1931000124106",
+                        "display": "Transition from long-term care to acute care (finding)"
+                    },
+                    {
+                        "code": "1941000124101",
+                        "display": "Transition from long-term care to home-health care (finding)"
+                    },
+                    {
+                        "code": "1951000124104",
+                        "display": "Transition from long-term care to hospice (finding)"
+                    },
+                    {
+                        "code": "1961000124102",
+                        "display": "Transition from hospice to home-health care (finding)"
+                    },
+                    {
+                        "code": "1971000124109",
+                        "display": "Transition from hospice to acute care (finding)"
+                    },
+                    {
+                        "code": "1981000124107",
+                        "display": "Transition from hospice to long-term care (finding)"
+                    },
+                    {
+                        "code": "1991000124105",
+                        "display": "Referred by self (finding)"
+                    },
+                    {
+                        "code": "2001000124107",
+                        "display": "Referred by payer (finding)"
+                    },
+                    {
+                        "code": "201000124109",
+                        "display": "Trypticase soy agar (substance)"
+                    },
+                    {
+                        "code": "2011000124105",
+                        "display": "Referred by health care professional (finding)"
+                    },
+                    {
+                        "code": "2021000124102",
+                        "display": "Referred by primary care physician (finding)"
+                    },
+                    {
+                        "code": "2031000124104",
+                        "display": "Referred by specialist physician (finding)"
+                    },
+                    {
+                        "code": "2041000124109",
+                        "display": "Referred by nurse practitioner (finding)"
+                    },
+                    {
+                        "code": "2051000124106",
+                        "display": "Referred by physician assistant (finding)"
+                    },
+                    {
+                        "code": "2061000124108",
+                        "display": "Chronic disease present (situation)"
+                    },
+                    {
+                        "code": "2071000124101",
+                        "display": "One chronic disease (situation)"
+                    },
+                    {
+                        "code": "2081000124103",
+                        "display": "Multiple chronic diseases (situation)"
+                    },
+                    {
+                        "code": "2091000124100",
+                        "display": "Under care of multiple providers (finding)"
+                    },
+                    {
+                        "code": "21000124100",
+                        "display": "Lasiurus Intermedius (organism)"
+                    },
+                    {
+                        "code": "2101000124106",
+                        "display": "Unable to self-administer medication (finding)"
+                    },
+                    {
+                        "code": "211000124107",
+                        "display": "Heart infusion agar (substance)"
+                    },
+                    {
+                        "code": "2111000124109",
+                        "display": "Improper medication administration technique (finding)"
+                    },
+                    {
+                        "code": "2121000124101",
+                        "display": "Disease condition determination, poorly controlled (finding)"
+                    },
+                    {
+                        "code": "2131000124103",
+                        "display": "Supernumerary permanent mandibular  tooth (disorder)"
+                    },
+                    {
+                        "code": "2141000124108",
+                        "display": "Supernumerary permanent maxillary tooth (disorder)"
+                    },
+                    {
+                        "code": "2151000124105",
+                        "display": "Supernumerary deciduous maxillary tooth (disorder)"
+                    },
+                    {
+                        "code": "2161000124107",
+                        "display": "Supernumerary deciduous mandibular tooth (disorder)"
+                    },
+                    {
+                        "code": "2171000124100",
+                        "display": "Supernumerary deciduous mandibular left lateral incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2181000124102",
+                        "display": "Supernumerary deciduous mandibular left first molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2191000124104",
+                        "display": "Supernumerary deciduous mandibular right central incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2201000124101",
+                        "display": "Supernumerary deciduous mandibular right lateral incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "221000124104",
+                        "display": "Influenza A virus subtype H1 2009 pandemic strain (organism)"
+                    },
+                    {
+                        "code": "2211000124103",
+                        "display": "Supernumerary deciduous mandibular left canine tooth (disorder)"
+                    },
+                    {
+                        "code": "2221000124106",
+                        "display": "Supernumerary deciduous mandibular right canine tooth (disorder)"
+                    },
+                    {
+                        "code": "2231000124109",
+                        "display": "Supernumerary deciduous mandibular right first molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2241000124104",
+                        "display": "Supernumerary deciduous mandibular left second molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2251000124102",
+                        "display": "Supernumerary deciduous mandibular right second molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2261000124100",
+                        "display": "Supernumerary deciduous mandibular left central incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2271000124107",
+                        "display": "Supernumerary deciduous maxillary left lateral incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2281000124105",
+                        "display": "Supernumerary deciduous maxillary right lateral incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2291000124108",
+                        "display": "Supernumerary deciduous maxillary right canine tooth (disorder)"
+                    },
+                    {
+                        "code": "22981000119106",
+                        "display": "Recurrent severe manic episodes (disorder)"
+                    },
+                    {
+                        "code": "2301000124109",
+                        "display": "Supernumerary deciduous maxillary right central incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "231000124101",
+                        "display": "Influenza A virus subtype H1 2009 pandemic strain present (finding)"
+                    },
+                    {
+                        "code": "2311000124107",
+                        "display": "Supernumerary deciduous maxillary left second molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2321000124104",
+                        "display": "Supernumerary deciduous maxillary right first molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2331000124101",
+                        "display": "Supernumerary deciduous maxillary left first molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2341000124106",
+                        "display": "Supernumerary deciduous maxillary right second molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2351000124108",
+                        "display": "Supernumerary deciduous maxillary left central incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2361000124105",
+                        "display": "Supernumerary deciduous maxillary left canine tooth (disorder)"
+                    },
+                    {
+                        "code": "2371000124103",
+                        "display": "Supernumerary permanent mandibular left second molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2381000124100",
+                        "display": "Supernumerary permanent mandibular left lateral incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2391000124102",
+                        "display": "Supernumerary permanent mandibular left third molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2401000124100",
+                        "display": "Supernumerary permanent mandibular right second molar tooth (disorder)"
+                    },
+                    {
+                        "code": "241000124106",
+                        "display": "Performance measure status (finding)"
+                    },
+                    {
+                        "code": "2411000124102",
+                        "display": "Supernumerary permanent mandibular right third molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2421000124105",
+                        "display": "Supernumerary permanent mandibular right second premolar tooth (disorder)"
+                    },
+                    {
+                        "code": "2431000124108",
+                        "display": "Supernumerary permanent mandibular left first molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2441000124103",
+                        "display": "Supernumerary permanent mandibular left canine tooth (disorder)"
+                    },
+                    {
+                        "code": "2451000124101",
+                        "display": "Supernumerary permanent mandibular left first premolar tooth (disorder)"
+                    },
+                    {
+                        "code": "2461000124104",
+                        "display": "Supernumerary permanent mandibular right first premolar tooth (disorder)"
+                    },
+                    {
+                        "code": "2471000124106",
+                        "display": "Supernumerary permanent mandibular left second premolar tooth (disorder)"
+                    },
+                    {
+                        "code": "2481000124109",
+                        "display": "Supernumerary permanent mandibular left central incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2491000124107",
+                        "display": "Supernumerary permanent mandibular right first molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2501000124104",
+                        "display": "Supernumerary permanent mandibular right canine tooth (disorder)"
+                    },
+                    {
+                        "code": "251000124108",
+                        "display": "Dialysis care plan (regime/therapy)"
+                    },
+                    {
+                        "code": "2511000124101",
+                        "display": "Supernumerary permanent mandibular right central incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2521000124109",
+                        "display": "Supernumerary permanent mandibular right lateral incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2531000124107",
+                        "display": "Supernumerary permanent maxillary right third molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2541000124102",
+                        "display": "Supernumerary permanent maxillary left central incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2551000124100",
+                        "display": "Supernumerary permanent maxillary right central incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2561000124103",
+                        "display": "Supernumerary permanent maxillary right second premolar tooth (disorder)"
+                    },
+                    {
+                        "code": "2571000124105",
+                        "display": "Supernumerary permanent maxillary right lateral incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2581000124108",
+                        "display": "Supernumerary permanent maxillary left third molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2591000124106",
+                        "display": "Supernumerary permanent maxillary right first molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2601000124103",
+                        "display": "Supernumerary permanent maxillary right canine tooth (disorder)"
+                    },
+                    {
+                        "code": "261000124105",
+                        "display": "Adjustment of prescription for hemodialysis (procedure)"
+                    },
+                    {
+                        "code": "2611000124100",
+                        "display": "Supernumerary permanent maxillary left canine tooth (disorder)"
+                    },
+                    {
+                        "code": "2621000124108",
+                        "display": "Supernumerary permanent maxillary left second molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2631000124106",
+                        "display": "Supernumerary permanent maxillary right second molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2641000124101",
+                        "display": "Supernumerary permanent maxillary left first premolar tooth (disorder)"
+                    },
+                    {
+                        "code": "2651000124104",
+                        "display": "Supernumerary permanent maxillary left lateral incisor tooth (disorder)"
+                    },
+                    {
+                        "code": "2661000124102",
+                        "display": "Supernumerary permanent maxillary left first molar tooth (disorder)"
+                    },
+                    {
+                        "code": "2671000124109",
+                        "display": "Supernumerary permanent maxillary right first premolar tooth (disorder)"
+                    },
+                    {
+                        "code": "2681000124107",
+                        "display": "Supernumerary permanent maxillary left second premolar tooth (disorder)"
+                    },
+                    {
+                        "code": "2691000124105",
+                        "display": "Recurrent optic neuritis (disorder)"
+                    },
+                    {
+                        "code": "2701000124105",
+                        "display": "Recurrent acute disseminated encephalomyelitis (disorder)"
+                    },
+                    {
+                        "code": "271000124103",
+                        "display": "Medical reason for exclusion from performance measure (observable entity)"
+                    },
+                    {
+                        "code": "2711000124108",
+                        "display": "Escherichia coli, Serotype ORough:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "2721000124100",
+                        "display": "Escherichia coli, serotype Orough:H8 (organism)"
+                    },
+                    {
+                        "code": "2731000124102",
+                        "display": "Escherichia coli, serotype ORough:H7 (organism)"
+                    },
+                    {
+                        "code": "2741000124107",
+                        "display": "Escherichia coli, serotype ORough:H49 (organism)"
+                    },
+                    {
+                        "code": "2751000124109",
+                        "display": "Escherichia coli, serotype ORough:H45 (organism)"
+                    },
+                    {
+                        "code": "2761000124106",
+                        "display": "Escherichia coli, serotype ORough:H34 (organism)"
+                    },
+                    {
+                        "code": "2771000124104",
+                        "display": "Escherichia coli, serotype ORough:H28 (organism)"
+                    },
+                    {
+                        "code": "2781000124101",
+                        "display": "Escherichia coli, serotype ORough:H25 (organism)"
+                    },
+                    {
+                        "code": "2791000124103",
+                        "display": "Escherichia coli, serotype ORough:H2 (organism)"
+                    },
+                    {
+                        "code": "2801000124102",
+                        "display": "Escherichia coli, serotype ORough:H19 (organism)"
+                    },
+                    {
+                        "code": "281000119103",
+                        "display": "Severe recurrent major depression (disorder)"
+                    },
+                    {
+                        "code": "281000124100",
+                        "display": "Patient reason for exclusion from performance measure (observable entity)"
+                    },
+                    {
+                        "code": "2811000124104",
+                        "display": "Escherichia coli, serotype ORough:H18 (organism)"
+                    },
+                    {
+                        "code": "2821000124107",
+                        "display": "Escherichia coli, serotype ORough:H16 (organism)"
+                    },
+                    {
+                        "code": "2831000124105",
+                        "display": "Escherichia coli, serotype ORough:H14 (organism)"
+                    },
+                    {
+                        "code": "2841000124100",
+                        "display": "Escherichia coli, serotype ORough:H10 (organism)"
+                    },
+                    {
+                        "code": "2851000124103",
+                        "display": "Escherichia coli, serotype ORough:H11 (organism)"
+                    },
+                    {
+                        "code": "2861000124101",
+                        "display": "Escherichia coli, serogroup O181 (organism)"
+                    },
+                    {
+                        "code": "2871000124108",
+                        "display": "Escherichia coli, serotype O181:H28 (organism)"
+                    },
+                    {
+                        "code": "2881000124106",
+                        "display": "Escherichia coli, serotype O179:H8 (organism)"
+                    },
+                    {
+                        "code": "288761000119104",
+                        "display": "History of amphetamine abuse (situation)"
+                    },
+                    {
+                        "code": "288771000119105",
+                        "display": "History of anxiolytic abuse (situation)"
+                    },
+                    {
+                        "code": "288781000119108",
+                        "display": "History of cannabis abuse (situation)"
+                    },
+                    {
+                        "code": "288791000119106",
+                        "display": "History of cocaine abuse (situation)"
+                    },
+                    {
+                        "code": "288801000119107",
+                        "display": "History of hallucinogen abuse (situation)"
+                    },
+                    {
+                        "code": "288811000119105",
+                        "display": "History of heroine abuse (situation)"
+                    },
+                    {
+                        "code": "288821000119103",
+                        "display": "History of laxative abuse (situation)"
+                    },
+                    {
+                        "code": "288831000119100",
+                        "display": "History of opioid abuse (situation)"
+                    },
+                    {
+                        "code": "288841000119109",
+                        "display": "History of sedative hypnotic abuse (situation)"
+                    },
+                    {
+                        "code": "2891000124109",
+                        "display": "Escherichia coli, serotype O178:H7 (organism)"
+                    },
+                    {
+                        "code": "2901000124108",
+                        "display": "Escherichia coli, serotype O178:H19 (organism)"
+                    },
+                    {
+                        "code": "291000124102",
+                        "display": "System reason for exclusion from performance measure (observable entity)"
+                    },
+                    {
+                        "code": "2911000124106",
+                        "display": "Escherichia coli, serogroup O177 (organism)"
+                    },
+                    {
+                        "code": "2921000124103",
+                        "display": "Escherichia coli, serotype O177:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "2931000124100",
+                        "display": "Escherichia coli, serogroup O175 (organism)"
+                    },
+                    {
+                        "code": "2941000124105",
+                        "display": "Escherichia coli, serotype O175:H16 (organism)"
+                    },
+                    {
+                        "code": "2951000124107",
+                        "display": "Escherichia coli, serotype O175:H21 (organism)"
+                    },
+                    {
+                        "code": "2961000124109",
+                        "display": "Escherichia coli, serotype O175:H27 (organism)"
+                    },
+                    {
+                        "code": "2971000124102",
+                        "display": "Escherichia coli, serotype O174:H2 (organism)"
+                    },
+                    {
+                        "code": "2981000124104",
+                        "display": "Escherichia coli, serotype O174:H21 (organism)"
+                    },
+                    {
+                        "code": "2991000124101",
+                        "display": "Escherichia coli, serotype O174:H28 (organism)"
+                    },
+                    {
+                        "code": "3001000124100",
+                        "display": "Escherichia coli, serotype O172:H2 (organism)"
+                    },
+                    {
+                        "code": "301000124101",
+                        "display": "Hemodialysis care plan (regime/therapy)"
+                    },
+                    {
+                        "code": "3011000124102",
+                        "display": "Escherichia coli, serotype O172:H16 (organism)"
+                    },
+                    {
+                        "code": "3021000124105",
+                        "display": "Escherichia coli, serotype O172:H11 (organism)"
+                    },
+                    {
+                        "code": "3031000124108",
+                        "display": "Escherichia coli, serogroup O168 (organism)"
+                    },
+                    {
+                        "code": "3041000124103",
+                        "display": "Escherichia coli, serotype O168:H14 (organism)"
+                    },
+                    {
+                        "code": "3051000124101",
+                        "display": "Escherichia coli, serotype O166:H15 (organism)"
+                    },
+                    {
+                        "code": "3061000124104",
+                        "display": "Escherichia coli, serotype O165:H7 (organism)"
+                    },
+                    {
+                        "code": "3071000124106",
+                        "display": "Escherichia coli, serogroup O162 (organism)"
+                    },
+                    {
+                        "code": "3081000124109",
+                        "display": "Escherichia coli, serotype O162:H11 (organism)"
+                    },
+                    {
+                        "code": "3091000124107",
+                        "display": "Escherichia coli, serotype O162:H6 (organism)"
+                    },
+                    {
+                        "code": "31000119100",
+                        "display": "Secondary anemia (disorder)"
+                    },
+                    {
+                        "code": "31000124102",
+                        "display": "Lasiurus seminolus (organism)"
+                    },
+                    {
+                        "code": "3101000124101",
+                        "display": "Escherichia coli, serogroup O160 (organism)"
+                    },
+                    {
+                        "code": "311000124103",
+                        "display": "Peritoneal dialysis care plan (regime/therapy)"
+                    },
+                    {
+                        "code": "3111000124103",
+                        "display": "Escherichia coli, serotype O160:H18 (organism)"
+                    },
+                    {
+                        "code": "3121000124106",
+                        "display": "Escherichia coli, serotype O160:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3131000124109",
+                        "display": "Escherichia coli, serotype O157:H29 (organism)"
+                    },
+                    {
+                        "code": "3141000124104",
+                        "display": "Escherichia coli, serotype O157:H16 (organism)"
+                    },
+                    {
+                        "code": "3151000124102",
+                        "display": "Escherichia coli, serogroup O156 (organism)"
+                    },
+                    {
+                        "code": "3161000124100",
+                        "display": "Escherichia coli, serotype O156:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3171000124107",
+                        "display": "Escherichia coli, serotype O156:H8 (organism)"
+                    },
+                    {
+                        "code": "3181000124105",
+                        "display": "Escherichia coli, serotype O156:H25 (organism)"
+                    },
+                    {
+                        "code": "3191000124108",
+                        "display": "Escherichia coli, serotype O156:H23 (organism)"
+                    },
+                    {
+                        "code": "3201000124106",
+                        "display": "Escherichia coli, serotype O153:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "321000119108",
+                        "display": "History of - malignant melanoma of the skin (situation)"
+                    },
+                    {
+                        "code": "321000124106",
+                        "display": "Dialyzer size (observable entity)"
+                    },
+                    {
+                        "code": "3211000124109",
+                        "display": "Escherichia coli, serotype O153:H7 (organism)"
+                    },
+                    {
+                        "code": "3221000124101",
+                        "display": "Escherichia coli, serogroup O150 (organism)"
+                    },
+                    {
+                        "code": "3231000124103",
+                        "display": "Escherichia coli, serotype O150:H11 (organism)"
+                    },
+                    {
+                        "code": "3241000124108",
+                        "display": "Escherichia coli, serogroup O149 (organism)"
+                    },
+                    {
+                        "code": "3251000124105",
+                        "display": "Escherichia coli, serogroup O148 (organism)"
+                    },
+                    {
+                        "code": "3261000124107",
+                        "display": "Escherichia coli, serogroup O146 (organism)"
+                    },
+                    {
+                        "code": "3271000124100",
+                        "display": "Escherichia coli, serotype O146:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3281000124102",
+                        "display": "Escherichia coli, serotype O146:H28 (organism)"
+                    },
+                    {
+                        "code": "3291000124104",
+                        "display": "Escherichia coli, serotype O146:H21 (organism)"
+                    },
+                    {
+                        "code": "3301000124103",
+                        "display": "Escherichia coli, serotype O146:H11 (organism)"
+                    },
+                    {
+                        "code": "331000124109",
+                        "display": "Hemodialysis finding (finding)"
+                    },
+                    {
+                        "code": "3311000124100",
+                        "display": "Escherichia coli, serotype O145:H34 (organism)"
+                    },
+                    {
+                        "code": "3321000124108",
+                        "display": "Escherichia coli, serotype O145:H28 (organism)"
+                    },
+                    {
+                        "code": "3331000124106",
+                        "display": "Escherichia coli, serotype O145:H25 (organism)"
+                    },
+                    {
+                        "code": "3341000124101",
+                        "display": "Escherichia coli, serotype O145:H16 (organism)"
+                    },
+                    {
+                        "code": "3351000124104",
+                        "display": "Escherichia coli, serogroup O141 (organism)"
+                    },
+                    {
+                        "code": "3361000124102",
+                        "display": "Escherichia coli, serotype O141:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3371000124109",
+                        "display": "Escherichia coli, serotype O141:H49 (organism)"
+                    },
+                    {
+                        "code": "3381000124107",
+                        "display": "Escherichia coli, serotype O141:H14 (organism)"
+                    },
+                    {
+                        "code": "3391000124105",
+                        "display": "Escherichia coli, serogroup O140 (organism)"
+                    },
+                    {
+                        "code": "3401000124107",
+                        "display": "Escherichia coli, serotype O140:H32 (organism)"
+                    },
+                    {
+                        "code": "341000124104",
+                        "display": "Peritoneal dialysis finding (finding)"
+                    },
+                    {
+                        "code": "3411000124105",
+                        "display": "Escherichia coli, serotype O136:H16 (organism)"
+                    },
+                    {
+                        "code": "3421000124102",
+                        "display": "Escherichia coli, serotype O136:H12 (organism)"
+                    },
+                    {
+                        "code": "3431000124104",
+                        "display": "Escherichia coli, serogroup O132 (organism)"
+                    },
+                    {
+                        "code": "3441000124109",
+                        "display": "Escherichia coli, serotype O132:H31 (organism)"
+                    },
+                    {
+                        "code": "3451000124106",
+                        "display": "Escherichia coli, serotype O130:H11 (organism)"
+                    },
+                    {
+                        "code": "3461000124108",
+                        "display": "Escherichia coli, serotype O128:H28 (organism)"
+                    },
+                    {
+                        "code": "3471000124101",
+                        "display": "Escherichia coli, serotype O126:H8 (organism)"
+                    },
+                    {
+                        "code": "3481000124103",
+                        "display": "Escherichia coli, serogroup O123 (organism)"
+                    },
+                    {
+                        "code": "3491000124100",
+                        "display": "Escherichia coli, serotype O123:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3501000124108",
+                        "display": "Escherichia coli, serotype O123:H2 (organism)"
+                    },
+                    {
+                        "code": "351000124102",
+                        "display": "Prescription observable (observable entity)"
+                    },
+                    {
+                        "code": "3511000124106",
+                        "display": "Escherichia coli, serotype O123:H11 (organism)"
+                    },
+                    {
+                        "code": "3521000124103",
+                        "display": "Escherichia coli, serotype O121:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3531000124100",
+                        "display": "Escherichia coli, serotype O121:H7 (organism)"
+                    },
+                    {
+                        "code": "3541000124105",
+                        "display": "Escherichia coli, serotype O119:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3551000124107",
+                        "display": "Escherichia coli, serotype O119:H4 (organism)"
+                    },
+                    {
+                        "code": "3561000124109",
+                        "display": "Escherichia coli, serotype O119:H28 (organism)"
+                    },
+                    {
+                        "code": "3571000124102",
+                        "display": "Escherichia coli, serotype O118:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3581000124104",
+                        "display": "Escherichia coli, serogroup O117 (organism)"
+                    },
+                    {
+                        "code": "3591000124101",
+                        "display": "Escherichia coli, serotype O117:H4 (organism)"
+                    },
+                    {
+                        "code": "3601000124109",
+                        "display": "Escherichia coli, serotype O117:H7 (organism)"
+                    },
+                    {
+                        "code": "361000124100",
+                        "display": "Error in prescription for peritoneal dialysis (finding)"
+                    },
+                    {
+                        "code": "3611000124107",
+                        "display": "Escherichia coli, serogroup O116 (organism)"
+                    },
+                    {
+                        "code": "3621000124104",
+                        "display": "Escherichia coli, serotype O116:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3631000124101",
+                        "display": "Escherichia coli, serotype O116:H21 (organism)"
+                    },
+                    {
+                        "code": "3641000124106",
+                        "display": "Escherichia coli, serogroup O115 (organism)"
+                    },
+                    {
+                        "code": "3651000124108",
+                        "display": "Escherichia coli, serotype O115:H25 (organism)"
+                    },
+                    {
+                        "code": "3661000124105",
+                        "display": "Escherichia coli, serotype O113:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3671000124103",
+                        "display": "Escherichia coli, serotype O113:H8 (organism)"
+                    },
+                    {
+                        "code": "3681000124100",
+                        "display": "Escherichia coli, serotype O112:H19 (organism)"
+                    },
+                    {
+                        "code": "3691000124102",
+                        "display": "Escherichia coli, serotype O111:H2 (organism)"
+                    },
+                    {
+                        "code": "3701000124102",
+                        "display": "Escherichia coli, serotype O111:H11 (organism)"
+                    },
+                    {
+                        "code": "371000124107",
+                        "display": "Increase blood flow for hemodialysis (procedure)"
+                    },
+                    {
+                        "code": "3711000124104",
+                        "display": "Escherichia coli, serogroup O110 (organism)"
+                    },
+                    {
+                        "code": "3721000124107",
+                        "display": "Escherichia coli, serotype O110:H28 (organism)"
+                    },
+                    {
+                        "code": "3731000124105",
+                        "display": "Escherichia coli, serotype O110:H2 (organism)"
+                    },
+                    {
+                        "code": "3741000124100",
+                        "display": "Escherichia coli, serotype O110:H19 (organism)"
+                    },
+                    {
+                        "code": "3751000124103",
+                        "display": "Escherichia coli, serogroup O109 (organism)"
+                    },
+                    {
+                        "code": "3761000124101",
+                        "display": "Escherichia coli, serotype O109:H25 (organism)"
+                    },
+                    {
+                        "code": "3771000124108",
+                        "display": "Escherichia coli, serotype O104:H7 (organism)"
+                    },
+                    {
+                        "code": "3781000124106",
+                        "display": "Escherichia coli, serotype O103:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3791000124109",
+                        "display": "Escherichia coli, serotype O103:H4 (organism)"
+                    },
+                    {
+                        "code": "3801000124105",
+                        "display": "Escherichia coli, serotype O103:H25 (organism)"
+                    },
+                    {
+                        "code": "381000124105",
+                        "display": "Increase dialyzer size for hemodialysis (procedure)"
+                    },
+                    {
+                        "code": "3811000124108",
+                        "display": "Escherichia coli, serotype O103:H11 (organism)"
+                    },
+                    {
+                        "code": "3821000124100",
+                        "display": "Escherichia coli, serogroup O101 (organism)"
+                    },
+                    {
+                        "code": "3831000124102",
+                        "display": "Escherichia coli, serogroup O100 (organism)"
+                    },
+                    {
+                        "code": "3841000124107",
+                        "display": "Escherichia coli, serogroup O98 (organism)"
+                    },
+                    {
+                        "code": "3851000124109",
+                        "display": "Escherichia coli, serotype O98:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3861000124106",
+                        "display": "Escherichia coli, serotype O98:H8 (organism)"
+                    },
+                    {
+                        "code": "3871000124104",
+                        "display": "Escherichia coli, serotype O91:H49 (organism)"
+                    },
+                    {
+                        "code": "3881000124101",
+                        "display": "Escherichia coli, serotype O91:H14 (organism)"
+                    },
+                    {
+                        "code": "3891000124103",
+                        "display": "Escherichia coli, serotype O88:H25 (organism)"
+                    },
+                    {
+                        "code": "3901000124104",
+                        "display": "Escherichia coli, serogroup O85 (organism)"
+                    },
+                    {
+                        "code": "391000124108",
+                        "display": "Increase session time for hemodialysis (procedure)"
+                    },
+                    {
+                        "code": "3911000124101",
+                        "display": "Escherichia coli, serotype O85:H1 (organism)"
+                    },
+                    {
+                        "code": "3921000124109",
+                        "display": "Escherichia coli, serotype O85:H43 (organism)"
+                    },
+                    {
+                        "code": "3931000124107",
+                        "display": "Escherichia coli, serotype O84:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "3941000124102",
+                        "display": "Escherichia coli, serotype O84:H2 (organism)"
+                    },
+                    {
+                        "code": "3951000124100",
+                        "display": "Escherichia coli, serotype O84:H16 (organism)"
+                    },
+                    {
+                        "code": "3961000124103",
+                        "display": "Escherichia coli, serogroup O82 (organism)"
+                    },
+                    {
+                        "code": "3971000124105",
+                        "display": "Escherichia coli, serotype O82:H8 (organism)"
+                    },
+                    {
+                        "code": "3981000124108",
+                        "display": "Escherichia coli, serogroup O80 (organism)"
+                    },
+                    {
+                        "code": "3991000124106",
+                        "display": "Escherichia coli, serotype O80:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "4001000124102",
+                        "display": "Escherichia coli, serotype O79:H19 (organism)"
+                    },
+                    {
+                        "code": "401000124105",
+                        "display": "Hemodialysis blood flow (observable entity)"
+                    },
+                    {
+                        "code": "4011000124104",
+                        "display": "Escherichia coli, serogroup O76 (organism)"
+                    },
+                    {
+                        "code": "4021000124107",
+                        "display": "Escherichia coli, serotype O76:H7 (organism)"
+                    },
+                    {
+                        "code": "4031000124105",
+                        "display": "Escherichia coli, serotype O76:H21 (organism)"
+                    },
+                    {
+                        "code": "4041000124100",
+                        "display": "Escherichia coli, serotype O76:H2 (organism)"
+                    },
+                    {
+                        "code": "4051000124103",
+                        "display": "Escherichia coli, serotype O76:H19 (organism)"
+                    },
+                    {
+                        "code": "4061000124101",
+                        "display": "Escherichia coli, serogroup O74 (organism)"
+                    },
+                    {
+                        "code": "4071000124108",
+                        "display": "Escherichia coli, serotype O74:H25 (organism)"
+                    },
+                    {
+                        "code": "4081000124106",
+                        "display": "Escherichia coli, serogroup O73 (organism)"
+                    },
+                    {
+                        "code": "4091000124109",
+                        "display": "Escherichia coli, serotype O73:H45 (organism)"
+                    },
+                    {
+                        "code": "41000124107",
+                        "display": "Myotis keeni (organism)"
+                    },
+                    {
+                        "code": "410011000124101",
+                        "display": "Education about respiratory disorder (procedure)"
+                    },
+                    {
+                        "code": "4101000124103",
+                        "display": "Escherichia coli, serotype O73:H18 (organism)"
+                    },
+                    {
+                        "code": "411000124108",
+                        "display": "Hemodialysis residual renal function (observable entity)"
+                    },
+                    {
+                        "code": "411011000124109",
+                        "display": "Education about endocrine disorder (procedure)"
+                    },
+                    {
+                        "code": "4111000124100",
+                        "display": "Escherichia coli, serotype O100:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "412011000124100",
+                        "display": "Education about metabolic disease (procedure)"
+                    },
+                    {
+                        "code": "4121000124108",
+                        "display": "Escherichia coli, serogroup O71 (organism)"
+                    },
+                    {
+                        "code": "413011000124108",
+                        "display": "Educaton about infectious disease (procedure)"
+                    },
+                    {
+                        "code": "4131000124106",
+                        "display": "Escherichia coli, serotype O71:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "414011000124106",
+                        "display": "Education about immune disorder (procedure)"
+                    },
+                    {
+                        "code": "4141000124101",
+                        "display": "Escherichia coli, serotype O71:H28 (organism)"
+                    },
+                    {
+                        "code": "415011000124107",
+                        "display": "Education about hematologic disorder (procedure)"
+                    },
+                    {
+                        "code": "4151000124104",
+                        "display": "Escherichia coli, serogroup O70 (organism)"
+                    },
+                    {
+                        "code": "416011000124104",
+                        "display": "Education about neurologic disorder (procedure)"
+                    },
+                    {
+                        "code": "4161000124102",
+                        "display": "Escherichia coli, serotype O70:H11 (organism)"
+                    },
+                    {
+                        "code": "417011000124102",
+                        "display": "Education about gastrointestinal disorder (procedure)"
+                    },
+                    {
+                        "code": "4171000124109",
+                        "display": "Escherichia coli, serotype O69:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "418011000124103",
+                        "display": "Continuous ambulatory peritoneal dialysis education (procedure)"
+                    },
+                    {
+                        "code": "4181000124107",
+                        "display": "Escherichia coli, serotype O69:H11 (organism)"
+                    },
+                    {
+                        "code": "419011000124105",
+                        "display": "Continuous cycling peritoneal dialysis education (procedure)"
+                    },
+                    {
+                        "code": "4191000124105",
+                        "display": "Escherichia coli, serotype O63:H6 (organism)"
+                    },
+                    {
+                        "code": "4201000124108",
+                        "display": "Escherichia coli, serogroup O60 (organism)"
+                    },
+                    {
+                        "code": "421000119103",
+                        "display": "Complex ovarian cyst (disorder)"
+                    },
+                    {
+                        "code": "421000124100",
+                        "display": "Hemodialysis session time (observable entity)"
+                    },
+                    {
+                        "code": "4211000124106",
+                        "display": "Escherichia coli, serotype O60:H19 (organism)"
+                    },
+                    {
+                        "code": "422011000124105",
+                        "display": "Geriatric syndrome education (procedure)"
+                    },
+                    {
+                        "code": "4221000124103",
+                        "display": "Escherichia coli, serotype O55:H12 (organism)"
+                    },
+                    {
+                        "code": "423011000124102",
+                        "display": "Pregnancy and lactation education (procedure)"
+                    },
+                    {
+                        "code": "4231000124100",
+                        "display": "Escherichia coli, serogroup O53 (organism)"
+                    },
+                    {
+                        "code": "424011000124104",
+                        "display": "Chronic obstructive pulmonary disorder education (procedure)"
+                    },
+                    {
+                        "code": "4241000124105",
+                        "display": "Escherichia coli, serotype O53:H7 (organism)"
+                    },
+                    {
+                        "code": "425011000124103",
+                        "display": "Diabetes mellitus education (procedure)"
+                    },
+                    {
+                        "code": "4251000124107",
+                        "display": "Escherichia coli, serogroup O52 (organism)"
+                    },
+                    {
+                        "code": "426011000124106",
+                        "display": "Dyslipidemia education (procedure)"
+                    },
+                    {
+                        "code": "4261000124109",
+                        "display": "Escherichia coli, serotype O52:H45 (organism)"
+                    },
+                    {
+                        "code": "427011000124108",
+                        "display": "Gout education (procedure)"
+                    },
+                    {
+                        "code": "4271000124102",
+                        "display": "Escherichia coli, serotype O50:H8 (organism)"
+                    },
+                    {
+                        "code": "428011000124107",
+                        "display": "Human immunodeficiency virus education (procedure)"
+                    },
+                    {
+                        "code": "4281000124104",
+                        "display": "Escherichia coli, serotype O50:H2 (organism)"
+                    },
+                    {
+                        "code": "4291000124101",
+                        "display": "Escherichia coli, serotype O49:H19 (organism)"
+                    },
+                    {
+                        "code": "4301000124100",
+                        "display": "Escherichia coli, serotype O45:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "431000124102",
+                        "display": "Hemodialysis access site non-patent (finding)"
+                    },
+                    {
+                        "code": "4311000124102",
+                        "display": "Escherichia coli, serotype O45:H8 (organism)"
+                    },
+                    {
+                        "code": "4321000124105",
+                        "display": "Escherichia coli, serotype O45:H77 (organism)"
+                    },
+                    {
+                        "code": "4331000124108",
+                        "display": "Escherichia coli, serogroup O43 (organism)"
+                    },
+                    {
+                        "code": "4341000124103",
+                        "display": "Escherichia coli, serotype O43:H2 (organism)"
+                    },
+                    {
+                        "code": "4351000124101",
+                        "display": "Escherichia coli, serogroup O42 (organism)"
+                    },
+                    {
+                        "code": "4361000124104",
+                        "display": "Escherichia coli, serotype O42:H25 (organism)"
+                    },
+                    {
+                        "code": "4371000124106",
+                        "display": "Escherichia coli, serogroup O38 (organism)"
+                    },
+                    {
+                        "code": "4381000124109",
+                        "display": "Escherichia coli, serotype O38:H26 (organism)"
+                    },
+                    {
+                        "code": "4391000124107",
+                        "display": "Escherichia coli, serotype O28:H25 (organism)"
+                    },
+                    {
+                        "code": "4401000124109",
+                        "display": "Escherichia coli, serotype O28:H174 (organism)"
+                    },
+                    {
+                        "code": "441000119109",
+                        "display": "History of cow's milk protein sensitivity (situation)"
+                    },
+                    {
+                        "code": "441000124107",
+                        "display": "Hemodialysis access site patent (finding)"
+                    },
+                    {
+                        "code": "4411000124107",
+                        "display": "Escherichia coli, serotype O26:H2 (organism)"
+                    },
+                    {
+                        "code": "4421000124104",
+                        "display": "Escherichia coli, serotype O26:H46 (organism)"
+                    },
+                    {
+                        "code": "4431000124101",
+                        "display": "Escherichia coli, serotype O25:H1 (organism)"
+                    },
+                    {
+                        "code": "4441000124106",
+                        "display": "Escherichia coli, serotype O25:H156 (organism)"
+                    },
+                    {
+                        "code": "4451000124108",
+                        "display": "Escherichia coli, serogroup O24 (organism)"
+                    },
+                    {
+                        "code": "4461000124105",
+                        "display": "Escherichia coli, serotype O24:H25 (organism)"
+                    },
+                    {
+                        "code": "4471000124103",
+                        "display": "Escherichia coli, serogroup O21 (organism)"
+                    },
+                    {
+                        "code": "4481000124100",
+                        "display": "Escherichia coli, serotype O21:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "4491000124102",
+                        "display": "Escherichia coli, serotype O18:H7 (organism)"
+                    },
+                    {
+                        "code": "4501000124105",
+                        "display": "Escherichia coli, serotype O14:H7 (organism)"
+                    },
+                    {
+                        "code": "451000124109",
+                        "display": "Increase in hemodialysis blood flow (finding)"
+                    },
+                    {
+                        "code": "4511000124108",
+                        "display": "Escherichia coli, serotype O14:H28 (organism)"
+                    },
+                    {
+                        "code": "4521000124100",
+                        "display": "Escherichia coli, serotype O14:H23 (organism)"
+                    },
+                    {
+                        "code": "4531000124102",
+                        "display": "Escherichia coli, serotype O14:H11 (organism)"
+                    },
+                    {
+                        "code": "4541000124107",
+                        "display": "Escherichia coli, serogroup O11 (organism)"
+                    },
+                    {
+                        "code": "4551000124109",
+                        "display": "Escherichia coli, serotype O11:H26 (organism)"
+                    },
+                    {
+                        "code": "4561000124106",
+                        "display": "Escherichia coli, serotype O8:H8 (organism)"
+                    },
+                    {
+                        "code": "4571000124104",
+                        "display": "Escherichia coli, serotype O8:H28 (organism)"
+                    },
+                    {
+                        "code": "4581000124101",
+                        "display": "Escherichia coli, serotype O8:H19 (organism)"
+                    },
+                    {
+                        "code": "4591000124103",
+                        "display": "Escherichia coli, serotype O8:H16 (organism)"
+                    },
+                    {
+                        "code": "4601000124106",
+                        "display": "Escherichia coli, serogroup O7 (organism)"
+                    },
+                    {
+                        "code": "461000124106",
+                        "display": "Increase in hemodialysis dialyzer size (finding)"
+                    },
+                    {
+                        "code": "4611000124109",
+                        "display": "Escherichia coli, serotype O7:Nonmotile (organism)"
+                    },
+                    {
+                        "code": "4621000124101",
+                        "display": "Escherichia coli, serotype O7:H7 (organism)"
+                    },
+                    {
+                        "code": "4631000124103",
+                        "display": "Escherichia coli, serotype O7:H15 (organism)"
+                    },
+                    {
+                        "code": "4641000124108",
+                        "display": "Escherichia coli, serotype O7:H18 (organism)"
+                    },
+                    {
+                        "code": "4651000124105",
+                        "display": "Escherichia coli, serotype O7:H157 (organism)"
+                    },
+                    {
+                        "code": "4661000124107",
+                        "display": "Escherichia coli, serotype O6:34 (organism)"
+                    },
+                    {
+                        "code": "4671000124100",
+                        "display": "Escherichia coli, serogroup O3 (organism)"
+                    },
+                    {
+                        "code": "4681000124102",
+                        "display": "Escherichia coli, serotype O3:H4 (organism)"
+                    },
+                    {
+                        "code": "4691000124104",
+                        "display": "Escherichia coli, serotype O2:H45 (organism)"
+                    },
+                    {
+                        "code": "4701000124104",
+                        "display": "Recommendation to discontinue medication (procedure)"
+                    },
+                    {
+                        "code": "471000124104",
+                        "display": "Increase in hemodialysis session time (finding)"
+                    },
+                    {
+                        "code": "4711000124101",
+                        "display": "Recommendation to discontinue dietary supplement (procedure)"
+                    },
+                    {
+                        "code": "4721000124109",
+                        "display": "Herbal supplement discontinued (situation)"
+                    },
+                    {
+                        "code": "4731000124107",
+                        "display": "Dietary supplement discontinued (situation)"
+                    },
+                    {
+                        "code": "4741000124102",
+                        "display": "Over-the counter medication discontinued (situation)"
+                    },
+                    {
+                        "code": "4751000124100",
+                        "display": "Prescription medication discontinued (situation)"
+                    },
+                    {
+                        "code": "4761000124103",
+                        "display": "Recommendation to continue a medication (procedure)"
+                    },
+                    {
+                        "code": "4771000124105",
+                        "display": "Takes medication more frequently than recommended (finding)"
+                    },
+                    {
+                        "code": "4781000124108",
+                        "display": "Recommendation to discontinue prescription medication (procedure)"
+                    },
+                    {
+                        "code": "4791000124106",
+                        "display": "Recommendation to discontinue herbal supplement (procedure)"
+                    },
+                    {
+                        "code": "4801000124107",
+                        "display": "Recommendation to discontinue over-the-counter medication (procedure)"
+                    },
+                    {
+                        "code": "481000124101",
+                        "display": "Hemodialysis detail (observable entity)"
+                    },
+                    {
+                        "code": "4811000124105",
+                        "display": "Recommendation to start over-the-counter medication (procedure)"
+                    },
+                    {
+                        "code": "4821000124102",
+                        "display": "Recommendation to start herbal supplement (procedure)"
+                    },
+                    {
+                        "code": "4831000124104",
+                        "display": "Recommendation to start dietary supplement (procedure)"
+                    },
+                    {
+                        "code": "4841000124109",
+                        "display": "Seafood specimen (specimen)"
+                    },
+                    {
+                        "code": "4851000124106",
+                        "display": "Sand specimen (specimen)"
+                    },
+                    {
+                        "code": "4861000124108",
+                        "display": "Baby food specimen (specimen)"
+                    },
+                    {
+                        "code": "4871000124101",
+                        "display": "Whey specimen (specimen)"
+                    },
+                    {
+                        "code": "4881000124103",
+                        "display": "Education about disorders requiring anticoagulation therapy (procedure)"
+                    },
+                    {
+                        "code": "4891000124100",
+                        "display": "Pain education (procedure)"
+                    },
+                    {
+                        "code": "4901000124101",
+                        "display": "Palliative care education (procedure)"
+                    },
+                    {
+                        "code": "491000124103",
+                        "display": "Clinical performance measure (observable entity)"
+                    },
+                    {
+                        "code": "4911000124103",
+                        "display": "Plasmodium falciparum malaria with complication (disorder)"
+                    },
+                    {
+                        "code": "4921000124106",
+                        "display": "Latrine (physical object)"
+                    },
+                    {
+                        "code": "4931000124109",
+                        "display": "Pit latrine (physical object)"
+                    },
+                    {
+                        "code": "4941000124104",
+                        "display": "Pit latrine without slab (physical object)"
+                    },
+                    {
+                        "code": "4951000124102",
+                        "display": "Pit latrine with slab (physical object)"
+                    },
+                    {
+                        "code": "4961000124100",
+                        "display": "White or yellow-green tinged lochia (finding)"
+                    },
+                    {
+                        "code": "4971000124107",
+                        "display": "Red or brown-green tinged lochia (finding)"
+                    },
+                    {
+                        "code": "4981000124105",
+                        "display": "Bacillus anthracis - avirulent strain (organism)"
+                    },
+                    {
+                        "code": "4991000124108",
+                        "display": "Seen by traditional medicine practitioner (finding)"
+                    },
+                    {
+                        "code": "5001000124101",
+                        "display": "Thrombosis of internal jugular vein (disorder)"
+                    },
+                    {
+                        "code": "501000124106",
+                        "display": "Exclusion from performance measure for medical reason (finding)"
+                    },
+                    {
+                        "code": "5011000124103",
+                        "display": "Blood agar (substance)"
+                    },
+                    {
+                        "code": "5021000124106",
+                        "display": "Rabbit blood agar (substance)"
+                    },
+                    {
+                        "code": "5031000124109",
+                        "display": "Horse blood agar (substance)"
+                    },
+                    {
+                        "code": "5041000124104",
+                        "display": "Campylobacter sheep blood agar (substance)"
+                    },
+                    {
+                        "code": "5051000124102",
+                        "display": "Neopeptone agar (substance)"
+                    },
+                    {
+                        "code": "5061000124100",
+                        "display": "Nutrient agar (substance)"
+                    },
+                    {
+                        "code": "5071000124107",
+                        "display": "Middlebrook 7H11 agar (substance)"
+                    },
+                    {
+                        "code": "5081000124105",
+                        "display": "Middlebrook 7H10 agar (substance)"
+                    },
+                    {
+                        "code": "5091000124108",
+                        "display": "Lowenstein-Jensen medium (substance)"
+                    },
+                    {
+                        "code": "51000124109",
+                        "display": "Myotis lucifugus (organism)"
+                    },
+                    {
+                        "code": "5101000124102",
+                        "display": "Lowenstein-Jensen medium with 5% sodium chloride (substance)"
+                    },
+                    {
+                        "code": "511000124109",
+                        "display": "Exclusion from performance measure for patient reason (finding)"
+                    },
+                    {
+                        "code": "5111000124104",
+                        "display": "Lowenstein-Jensen medium with iron (substance)"
+                    },
+                    {
+                        "code": "5121000124107",
+                        "display": "Sabouraud agar (substance)"
+                    },
+                    {
+                        "code": "5131000124105",
+                        "display": "Brain-heart Infusion agar (substance)"
+                    },
+                    {
+                        "code": "5141000124100",
+                        "display": "Chopped meat agar (substance)"
+                    },
+                    {
+                        "code": "5151000124103",
+                        "display": "Dextrose starch agar (substance)"
+                    },
+                    {
+                        "code": "5161000124101",
+                        "display": "Parent in-law (person)"
+                    },
+                    {
+                        "code": "5171000124108",
+                        "display": "Father in-law (person)"
+                    },
+                    {
+                        "code": "5181000124106",
+                        "display": "Mother in-law (person)"
+                    },
+                    {
+                        "code": "5191000124109",
+                        "display": "Private midwife (occupation)"
+                    },
+                    {
+                        "code": "5201000124107",
+                        "display": "Middlebrook 7H9 broth (substance)"
+                    },
+                    {
+                        "code": "521000124101",
+                        "display": "Exclusion from performance measure for system reason (finding)"
+                    },
+                    {
+                        "code": "5211000124105",
+                        "display": "Heart Infusion Broth (substance)"
+                    },
+                    {
+                        "code": "5221000124102",
+                        "display": "Brain-heart Infusion broth (substance)"
+                    },
+                    {
+                        "code": "5231000124104",
+                        "display": "Chopped meat broth (substance)"
+                    },
+                    {
+                        "code": "5241000124109",
+                        "display": "MacConkey Broth (substance)"
+                    },
+                    {
+                        "code": "5251000124106",
+                        "display": "SP4 broth (substance)"
+                    },
+                    {
+                        "code": "5261000124108",
+                        "display": "Gram Negative Broth (substance)"
+                    },
+                    {
+                        "code": "5271000124101",
+                        "display": "Normal cranial nerves (finding)"
+                    },
+                    {
+                        "code": "5281000124103",
+                        "display": "Persistent asthma (disorder)"
+                    },
+                    {
+                        "code": "5291000124100",
+                        "display": "Compression fracture of lumbosacral spine (disorder)"
+                    },
+                    {
+                        "code": "5301000124104",
+                        "display": "Compression fracture of thoracic vertebra (disorder)"
+                    },
+                    {
+                        "code": "531000124103",
+                        "display": "Increase exchange volume of peritoneal dialysis (procedure)"
+                    },
+                    {
+                        "code": "5311000124101",
+                        "display": "Anatomic landmark of head (body structure)"
+                    },
+                    {
+                        "code": "5321000124109",
+                        "display": "Temporal lobe epilepsy with mesial temporal sclerosis (disorder)"
+                    },
+                    {
+                        "code": "5331000124107",
+                        "display": "Corrugated metal (substance)"
+                    },
+                    {
+                        "code": "5341000124102",
+                        "display": "Charcoal seller (occupation)"
+                    },
+                    {
+                        "code": "5351000124100",
+                        "display": "Primary care clinic (environment)"
+                    },
+                    {
+                        "code": "5361000124103",
+                        "display": "Red-green tinged lochia (finding)"
+                    },
+                    {
+                        "code": "5371000124105",
+                        "display": "Referral for imaging study (procedure)"
+                    },
+                    {
+                        "code": "5381000124108",
+                        "display": "Vegetable seller (occupation)"
+                    },
+                    {
+                        "code": "5391000124106",
+                        "display": "Vinyl strips (substance)"
+                    },
+                    {
+                        "code": "5401000124108",
+                        "display": "Wood plank (substance)"
+                    },
+                    {
+                        "code": "541000124108",
+                        "display": "Increase number of perfusion exchanges per 24 hours (procedure)"
+                    },
+                    {
+                        "code": "5411000124106",
+                        "display": "Ethanol 70% (product)"
+                    },
+                    {
+                        "code": "5421000124103",
+                        "display": "Glycerol saline solution (product)"
+                    },
+                    {
+                        "code": "5431000124100",
+                        "display": "Thrombosis of anterior cerebral artery (disorder)"
+                    },
+                    {
+                        "code": "5441000124105",
+                        "display": "Thrombosis of middle cerebral artery (disorder)"
+                    },
+                    {
+                        "code": "5451000124107",
+                        "display": "Thrombosis of superior cerebellar artery (disorder)"
+                    },
+                    {
+                        "code": "5461000124109",
+                        "display": "Thrombosis of anterior inferior cerebellar artery (disorder)"
+                    },
+                    {
+                        "code": "5471000124102",
+                        "display": "Ruptured aneurysm of intracranial artery  (disorder)"
+                    },
+                    {
+                        "code": "5481000124104",
+                        "display": "Thrombophlebitis of straight sinus  (disorder)"
+                    },
+                    {
+                        "code": "5491000124101",
+                        "display": "Thrombophlebitis of transverse sinus (disorder)"
+                    },
+                    {
+                        "code": "5501000124109",
+                        "display": "Thrombophlebitis of internal cerebral vein (disorder)"
+                    },
+                    {
+                        "code": "551000124105",
+                        "display": "Peritoneal dialysate analysis compliance (observable entity)"
+                    },
+                    {
+                        "code": "5511000124107",
+                        "display": "Thrombophlebitis of sigmoid sinus (disorder)"
+                    },
+                    {
+                        "code": "5521000124104",
+                        "display": "Thrombophlebitis of internal jugular vein (disorder)"
+                    },
+                    {
+                        "code": "5531000124101",
+                        "display": "Thrombophlebitis of basal vein of Rosenthal (disorder)"
+                    },
+                    {
+                        "code": "5541000124106",
+                        "display": "Carpet (substance)"
+                    },
+                    {
+                        "code": "5551000124108",
+                        "display": "Parquet wood flooring (substance)"
+                    },
+                    {
+                        "code": "5561000124105",
+                        "display": "Idiopathic cardiac arrest (disorder)"
+                    },
+                    {
+                        "code": "5571000124103",
+                        "display": "Cerebrovascular accident with intracranial hemorrhage (disorder)"
+                    },
+                    {
+                        "code": "5581000124100",
+                        "display": "Thrombosis of posterior cerebral artery (disorder)"
+                    },
+                    {
+                        "code": "5591000124102",
+                        "display": "Thrombosis of superior anastomotic vein (disorder)"
+                    },
+                    {
+                        "code": "5601000124105",
+                        "display": "Thrombosis of posterior inferior cerebellar artery (disorder)"
+                    },
+                    {
+                        "code": "561000124107",
+                        "display": "Peritoneal dialysate collection compliance (observable entity)"
+                    },
+                    {
+                        "code": "5611000124108",
+                        "display": "Thrombosis of basal vein (disorder)"
+                    },
+                    {
+                        "code": "5621000124100",
+                        "display": "Small business owner (occupation)"
+                    },
+                    {
+                        "code": "5631000124102",
+                        "display": "Facies leprosa (disorder)"
+                    },
+                    {
+                        "code": "5641000124107",
+                        "display": "Brachyfacial (finding)"
+                    },
+                    {
+                        "code": "5651000124109",
+                        "display": "Pseudoaneurysm of vertebral artery (disorder)"
+                    },
+                    {
+                        "code": "5661000124106",
+                        "display": "Smoker's melanosis (disorder)"
+                    },
+                    {
+                        "code": "5671000124104",
+                        "display": "Minimally compromised occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "5681000124101",
+                        "display": "Moderately compromised occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "5691000124103",
+                        "display": "Substantially compromised occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "5701000124103",
+                        "display": "Severely compromised occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "571000124100",
+                        "display": "Additional peritoneal dialysis education required (finding)"
+                    },
+                    {
+                        "code": "5711000124100",
+                        "display": "Moderately compromised dentate occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "5721000124108",
+                        "display": "Substantially compromised dentate occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "5731000124106",
+                        "display": "Severely compromised dentate occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "5741000124101",
+                        "display": "Moderately compromised partially dentate occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "5751000124104",
+                        "display": "Substantially compromised partially dentate occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "5761000124102",
+                        "display": "Severely compromised partially dentate occlusal scheme (finding)"
+                    },
+                    {
+                        "code": "5781000124107",
+                        "display": "Infradentale (body structure)"
+                    },
+                    {
+                        "code": "5791000124105",
+                        "display": "Stomion superius (body structure)"
+                    },
+                    {
+                        "code": "5801000124106",
+                        "display": "Condylion (body structure)"
+                    },
+                    {
+                        "code": "581000124102",
+                        "display": "Compliant with collection of peritoneal dialysate specimen (finding)"
+                    },
+                    {
+                        "code": "5811000124109",
+                        "display": "Porion (body structure)"
+                    },
+                    {
+                        "code": "5821000124101",
+                        "display": "Pogonion (body structure)"
+                    },
+                    {
+                        "code": "5831000124103",
+                        "display": "Molariform supernumerary tooth (disorder)"
+                    },
+                    {
+                        "code": "5841000124108",
+                        "display": "Caliber-persistent labial artery (morphologic abnormality)"
+                    },
+                    {
+                        "code": "5851000124105",
+                        "display": "Gonion-Gnathion plane (body structure)"
+                    },
+                    {
+                        "code": "5861000124107",
+                        "display": "Molar inferius (body structure)"
+                    },
+                    {
+                        "code": "5871000124100",
+                        "display": "Incisor inferius (body structure)"
+                    },
+                    {
+                        "code": "5881000124102",
+                        "display": "Stomion inferiorus (body structure)"
+                    },
+                    {
+                        "code": "5891000124104",
+                        "display": "Orbitale (body structure)"
+                    },
+                    {
+                        "code": "5901000124100",
+                        "display": "Soft tissue nasion (body structure)"
+                    },
+                    {
+                        "code": "591000119102",
+                        "display": "Vaccine refused by patient (situation)"
+                    },
+                    {
+                        "code": "591000124104",
+                        "display": "Compliant with peritoneal dialysate analysis (finding)"
+                    },
+                    {
+                        "code": "5911000124102",
+                        "display": "Incisor plane (body structure)"
+                    },
+                    {
+                        "code": "5921000124105",
+                        "display": "Point A (body structure)"
+                    },
+                    {
+                        "code": "5931000124108",
+                        "display": "Gonion (body structure)"
+                    },
+                    {
+                        "code": "5941000124103",
+                        "display": "Point B (body structure)"
+                    },
+                    {
+                        "code": "5951000124101",
+                        "display": "Nasion (body structure)"
+                    },
+                    {
+                        "code": "5961000124104",
+                        "display": "Menton (body structure)"
+                    },
+                    {
+                        "code": "5971000124106",
+                        "display": "Articulare (body structure)"
+                    },
+                    {
+                        "code": "5981000124109",
+                        "display": "Frankfort-horizontal plane (body structure)"
+                    },
+                    {
+                        "code": "5991000124107",
+                        "display": "SNOMED CT to ICD-10-CM rule-based mapping module (core metadata concept)"
+                    },
+                    {
+                        "code": "6001000124108",
+                        "display": "ICD-10-CM map category reference set (foundation metadata concept)"
+                    },
+                    {
+                        "code": "601000119109",
+                        "display": "History of bee sting allergy (situation)"
+                    },
+                    {
+                        "code": "601000124107",
+                        "display": "Inadequate monitoring of delivered dose of peritoneal dialysis (finding)"
+                    },
+                    {
+                        "code": "6011000124106",
+                        "display": "ICD-10-CM complex map reference set (foundation metadata concept)"
+                    },
+                    {
+                        "code": "6021000124103",
+                        "display": "Targeted medication therapy review (procedure)"
+                    },
+                    {
+                        "code": "6031000124100",
+                        "display": "Complication for medication therapy (navigational concept)"
+                    },
+                    {
+                        "code": "6041000124105",
+                        "display": "Medication regimen review (procedure)"
+                    },
+                    {
+                        "code": "6051000124107",
+                        "display": "Pharmacokinetic consultation (procedure)"
+                    },
+                    {
+                        "code": "6061000124109",
+                        "display": "Risk evaluation and mitigation strategy consultation (procedure)"
+                    },
+                    {
+                        "code": "6071000124102",
+                        "display": "Medication overuse (finding)"
+                    },
+                    {
+                        "code": "6081000124104",
+                        "display": "Recommendation refused (situation)"
+                    },
+                    {
+                        "code": "6091000124101",
+                        "display": "Medication therapy management recommendation refused by prescriber (situation)"
+                    },
+                    {
+                        "code": "61000124106",
+                        "display": "Genus Nycticeius (organism)"
+                    },
+                    {
+                        "code": "6101000124107",
+                        "display": "Medication therapy management recommendation refused by patient (situation)"
+                    },
+                    {
+                        "code": "611000124105",
+                        "display": "Non-compliant with collection of peritoneal dialysate specimen (finding)"
+                    },
+                    {
+                        "code": "6111000124105",
+                        "display": "Medication dosage form inappropriate (finding)"
+                    },
+                    {
+                        "code": "6121000124102",
+                        "display": "Medication taken at lower dose than recommended (finding)"
+                    },
+                    {
+                        "code": "6131000124104",
+                        "display": "Medication taken at higher dose than recommended (finding)"
+                    },
+                    {
+                        "code": "6141000124109",
+                        "display": "Transport medium (substance)"
+                    },
+                    {
+                        "code": "6151000124106",
+                        "display": "Stuart's transport medium (substance)"
+                    },
+                    {
+                        "code": "6161000124108",
+                        "display": "Wang's semisolid medium (substance)"
+                    },
+                    {
+                        "code": "6171000124101",
+                        "display": "Viral transport medium (substance)"
+                    },
+                    {
+                        "code": "6181000124103",
+                        "display": "Buffered glycerol saline solution (substance)"
+                    },
+                    {
+                        "code": "6191000124100",
+                        "display": "Venketraman-Ramakrishnan transport medium (substance)"
+                    },
+                    {
+                        "code": "6201000124102",
+                        "display": "Amies transport medium (substance)"
+                    },
+                    {
+                        "code": "621000124102",
+                        "display": "Non-compliant with peritoneal dialysate analysis (finding)"
+                    },
+                    {
+                        "code": "6211000124104",
+                        "display": "Amies charcoal transport medium (substance)"
+                    },
+                    {
+                        "code": "6221000124107",
+                        "display": "Cary-Blair transport medium (substance)"
+                    },
+                    {
+                        "code": "6231000124105",
+                        "display": "Modified Cary Blair medium (substance)"
+                    },
+                    {
+                        "code": "6241000124100",
+                        "display": "Regan-Lowe transport medium (substance)"
+                    },
+                    {
+                        "code": "6251000124103",
+                        "display": "Enteric plus transport medium (substance)"
+                    },
+                    {
+                        "code": "6261000124101",
+                        "display": "Sodium azide (substance)"
+                    },
+                    {
+                        "code": "6271000124108",
+                        "display": "Campylobacter-thioglycolate broth (substance)"
+                    },
+                    {
+                        "code": "6281000124106",
+                        "display": "Motility medium (substance)"
+                    },
+                    {
+                        "code": "6291000124109",
+                        "display": "Mycobacteria growth indicator tube medium (substance)"
+                    },
+                    {
+                        "code": "6301000124105",
+                        "display": "Soft tissue plane (body structure)"
+                    },
+                    {
+                        "code": "631000124104",
+                        "display": "Compliant with peritoneal dialysis prescription (finding)"
+                    },
+                    {
+                        "code": "6311000124108",
+                        "display": "History of angioedema (situation)"
+                    },
+                    {
+                        "code": "6321000124100",
+                        "display": "On rectal examination of prostate, abnormality detected (finding)"
+                    },
+                    {
+                        "code": "63761000119101",
+                        "display": "Family history of autism in sibling (situation)"
+                    },
+                    {
+                        "code": "641000124109",
+                        "display": "Non-compliant with peritoneal dialysis prescription (finding)"
+                    },
+                    {
+                        "code": "651000124106",
+                        "display": "Peritoneal dialysis prescription compliance (observable entity)"
+                    },
+                    {
+                        "code": "661000124108",
+                        "display": "Error in Prescription (finding)"
+                    },
+                    {
+                        "code": "671000124101",
+                        "display": "Prescription compliance status (finding)"
+                    },
+                    {
+                        "code": "681000124103",
+                        "display": "Care plan (regime/therapy)"
+                    },
+                    {
+                        "code": "691000124100",
+                        "display": "Dosage of radiation exposure (observable entity)"
+                    },
+                    {
+                        "code": "701000124100",
+                        "display": "Calculation of stenosis of internal carotid artery using the diameter of the distal internal carotid artery lumen as denominator (procedure)"
+                    },
+                    {
+                        "code": "71000124104",
+                        "display": "Nycticeius humeralis (organism)"
+                    },
+                    {
+                        "code": "711000124102",
+                        "display": "Calculation of stenosis of internal carotid artery using the NASCET method (procedure)"
+                    },
+                    {
+                        "code": "721000124105",
+                        "display": "Ultrasound calculation of stenosis of internal carotid artery using the diameter of the distal internal carotid artery lumen as denominator (procedure)"
+                    },
+                    {
+                        "code": "731000124108",
+                        "display": "US National Library of Medicine maintained module (core metadata concept)"
+                    },
+                    {
+                        "code": "74081000119101",
+                        "display": "Family history of affective disorder (situation)"
+                    },
+                    {
+                        "code": "741000124103",
+                        "display": "Dorsoventral (qualifier value)"
+                    },
+                    {
+                        "code": "761000124104",
+                        "display": "Dorsolateral (qualifier value)"
+                    },
+                    {
+                        "code": "771000124106",
+                        "display": "Ventrolateral (qualifier value)"
+                    },
+                    {
+                        "code": "781000124109",
+                        "display": "Palmar (qualifier value)"
+                    },
+                    {
+                        "code": "791000124107",
+                        "display": "2-methyl-3-hydroxybutyric aciduria (disorder)"
+                    },
+                    {
+                        "code": "801000124108",
+                        "display": "2-Methyl-3-hydroxybutyryl-CoA dehydrogenase deficiency (disorder)"
+                    },
+                    {
+                        "code": "81000124101",
+                        "display": "Pipistrellus hesperus (organism)"
+                    },
+                    {
+                        "code": "811000124106",
+                        "display": "Ethylmalonic encephalopathy (disorder)"
+                    },
+                    {
+                        "code": "821000124103",
+                        "display": "Ethylmalonic encephalopathy protein 1 deficiency (disorder)"
+                    },
+                    {
+                        "code": "831000124100",
+                        "display": "Infection of hemodialysis tunneled catheter (disorder)"
+                    },
+                    {
+                        "code": "841000119107",
+                        "display": "History of flexible sigmoidoscopy (situation)"
+                    },
+                    {
+                        "code": "841000124105",
+                        "display": "Infection of hemodialysis catheter (disorder)"
+                    },
+                    {
+                        "code": "851000119109",
+                        "display": "History of colonoscopy (situation)"
+                    },
+                    {
+                        "code": "851000124107",
+                        "display": "Infection of hemodialysis temporary catheter (disorder)"
+                    },
+                    {
+                        "code": "861000119106",
+                        "display": "History of total hip arthroplasty (situation)"
+                    },
+                    {
+                        "code": "861000124109",
+                        "display": "Interdialytic time (observable entity)"
+                    },
+                    {
+                        "code": "871000124102",
+                        "display": "Virus not detected (finding)"
+                    },
+                    {
+                        "code": "881000124104",
+                        "display": "Influenza A virus not detected (finding)"
+                    },
+                    {
+                        "code": "891000124101",
+                        "display": "Influenza A virus subtype H1 not detected (finding)"
+                    },
+                    {
+                        "code": "901000124102",
+                        "display": "Influenza A virus subtype H1 2009 pandemic strain not detected (finding)"
+                    },
+                    {
+                        "code": "91000124103",
+                        "display": "Plecotus rafinesquii (organism)"
+                    },
+                    {
+                        "code": "911000124104",
+                        "display": "Virus inconclusive (finding)"
+                    },
+                    {
+                        "code": "921000124107",
+                        "display": "Influenza A virus inconclusive (finding)"
+                    },
+                    {
+                        "code": "931000124105",
+                        "display": "Influenza A virus subtype H1 inconclusive (finding)"
+                    },
+                    {
+                        "code": "941000124100",
+                        "display": "Influenza A virus subtype H1 2009 pandemic strain inconclusive (finding)"
+                    },
+                    {
+                        "code": "951000124103",
+                        "display": "Influenza A virus subtype H5 inconclusive (finding)"
+                    },
+                    {
+                        "code": "961000124101",
+                        "display": "Influenza A virus subtype H5 asian strain inconclusive (finding)"
+                    },
+                    {
+                        "code": "971000124108",
+                        "display": "Mild left ventricular systolic dysfunction (disorder)"
+                    },
+                    {
+                        "code": "97941000119109",
+                        "display": "Family history of pervasive developmental disorder (situation)"
+                    },
+                    {
+                        "code": "981000124106",
+                        "display": "Moderate left ventricular systolic dysfunction (disorder)"
+                    },
+                    {
+                        "code": "991000124109",
+                        "display": "Severe left ventricular systolic dysfunction (disorder)"
+                    }
+                ]
+            }
+        }
+    ]
+}

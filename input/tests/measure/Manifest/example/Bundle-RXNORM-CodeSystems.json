@@ -1,0 +1,3625 @@
+{
+    "resourceType": "Bundle",
+    "id": "RXNORM-CodeSystems",
+    "meta": {
+        "lastUpdated": "2025-08-05T10:23:02.679-04:00"
+    },
+    "type": "searchset",
+    "total": 144,
+    "link": [
+        {
+            "relation": "self",
+            "url": "http://cts.nlm.nih.gov/fhir/res/CodeSystem/?url=http://www.nlm.nih.gov/research/umls/rxnorm&_offset=0&_count=100"
+        },
+        {
+            "relation": "next",
+            "url": "http://cts.nlm.nih.gov/fhir/res/CodeSystem/?url=http://www.nlm.nih.gov/research/umls/rxnorm&_offset=100&_count=100"
+        },
+        {
+            "relation": "last",
+            "url": "http://cts.nlm.nih.gov/fhir/res/CodeSystem/?url=http://www.nlm.nih.gov/research/umls/rxnorm&_offset=44&_count=100"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "454352961",
+                    "lastUpdated": "2025-07-21T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "07072025",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2025-07-01T00:00:00-04:00",
+                "content": "example",
+                "count": 225798,
+                "concept": [
+                    {
+                        "code": "1364510",
+                        "display": "Sirturo"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1397116398",
+                    "lastUpdated": "2025-06-16T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "06022025",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2025-06-01T00:00:00-04:00",
+                "content": "example",
+                "count": 225405,
+                "concept": [
+                    {
+                        "code": "1487907",
+                        "display": "dinitolmide"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3196063346",
+                    "lastUpdated": "2025-05-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "05052025",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2025-05-01T00:00:00-04:00",
+                "content": "example",
+                "count": 225209,
+                "concept": [
+                    {
+                        "code": "2385345",
+                        "display": "citric acid / lactate / potassium bitartrate Vaginal Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1801359801",
+                    "lastUpdated": "2025-04-21T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "04072025",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2025-04-01T00:00:00-04:00",
+                "content": "example",
+                "count": 224898,
+                "concept": [
+                    {
+                        "code": "2654293",
+                        "display": "influenza A virus A/Singapore/GP1908/2015 (H1N1) antigen / influenza A virus A/Singapore/INFIMH-16-0019/2016 (H3N2) antigen / influenza B virus B/Maryland/15/2016 antigen / influenza B virus B/Phuket/3073/2013 antigen Prefilled Syringe [Afluria Quadrivalent 2018-2019]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2175365970",
+                    "lastUpdated": "2025-03-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "03032025",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2025-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 224404,
+                "concept": [
+                    {
+                        "code": "452656",
+                        "display": "zinc oxide 0.3 MG/MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "44612396",
+                    "lastUpdated": "2025-02-17T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "02032025",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2025-02-01T00:00:00-05:00",
+                "content": "example",
+                "count": 224094,
+                "concept": [
+                    {
+                        "code": "616805",
+                        "display": "ethanol 0.7 ML/ML Topical Foam"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3838077061",
+                    "lastUpdated": "2025-01-15T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "01062025",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2025-01-01T00:00:00-05:00",
+                "content": "example",
+                "count": 223749,
+                "concept": [
+                    {
+                        "code": "544996",
+                        "display": "hydrocortisone / pramoxine Topical Foam [Epifoam]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "427503135",
+                    "lastUpdated": "2024-12-16T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "12022024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-12-01T00:00:00-05:00",
+                "content": "example",
+                "count": 223498,
+                "concept": [
+                    {
+                        "code": "2257315",
+                        "display": "mineral oil / tetracaine Topical Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "434300951",
+                    "lastUpdated": "2024-11-18T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "11042024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-11-01T00:00:00-04:00",
+                "content": "example",
+                "count": 223366,
+                "concept": [
+                    {
+                        "code": "1192944",
+                        "display": "stannous fluoride 0.004 MG/MG [Omni Gel]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1233635985",
+                    "lastUpdated": "2024-10-21T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "10072024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-10-01T00:00:00-04:00",
+                "content": "example",
+                "count": 223262,
+                "concept": [
+                    {
+                        "code": "261178",
+                        "display": "nystatin 100 UNT/MG Topical Powder [Nystop]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3440299626",
+                    "lastUpdated": "2024-09-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "09032024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 223081,
+                "concept": [
+                    {
+                        "code": "647346",
+                        "display": "niacin 250 MG Extended Release Oral Tablet [Slo-Niacin]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2862731494",
+                    "lastUpdated": "2024-08-15T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "08052024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-08-01T00:00:00-04:00",
+                "content": "example",
+                "count": 222721,
+                "concept": [
+                    {
+                        "code": "2625146",
+                        "display": "omeprazole 2 MG/ML / sodium bicarbonate 84 MG/ML [Konvomep]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3692135342",
+                    "lastUpdated": "2024-07-22T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "07012024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-07-01T00:00:00-04:00",
+                "content": "example",
+                "count": 222392,
+                "concept": [
+                    {
+                        "code": "1014265",
+                        "display": "privet pollen extract 10000 UNT/ML"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "784277432",
+                    "lastUpdated": "2024-06-17T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "06032024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-06-01T00:00:00-04:00",
+                "content": "example",
+                "count": 222199,
+                "concept": [
+                    {
+                        "code": "1743781",
+                        "display": "1 ML methylprednisolone acetate 40 MG/ML Injection [Depo-Medrol]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3161143133",
+                    "lastUpdated": "2024-05-20T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "05062024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-05-01T00:00:00-04:00",
+                "content": "example",
+                "count": 221949,
+                "concept": [
+                    {
+                        "code": "540180",
+                        "display": "alosetron 0.5 MG [Lotronex]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2639778099",
+                    "lastUpdated": "2024-04-17T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "04012024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-04-01T00:00:00-04:00",
+                "content": "example",
+                "count": 221584,
+                "concept": [
+                    {
+                        "code": "1009463",
+                        "display": "sodium chloride 2 MG/ML Nasal Spray"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3812840045",
+                    "lastUpdated": "2024-03-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "03042024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 221327,
+                "concept": [
+                    {
+                        "code": "1295800",
+                        "display": "Emcin Clear Topical Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "4133331742",
+                    "lastUpdated": "2024-02-21T12:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "02052024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-02-01T00:00:00-05:00",
+                "content": "example",
+                "count": 221656,
+                "concept": [
+                    {
+                        "code": "686428",
+                        "display": "mesalamine 1200 MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1675279949",
+                    "lastUpdated": "2024-01-15T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "01022024",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2024-01-01T00:00:00-05:00",
+                "content": "example",
+                "count": 221402,
+                "concept": [
+                    {
+                        "code": "1424835",
+                        "display": "5-hydroxytryptophan 200 MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1600092905",
+                    "lastUpdated": "2023-12-18T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "12042023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-12-01T00:00:00-05:00",
+                "content": "example",
+                "count": 221122,
+                "concept": [
+                    {
+                        "code": "438272",
+                        "display": "calcium glycerophosphate 65 MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3078207410",
+                    "lastUpdated": "2023-11-20T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "11062023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-11-01T00:00:00-04:00",
+                "content": "example",
+                "count": 220769,
+                "concept": [
+                    {
+                        "code": "316745",
+                        "display": "sulfamethoxazole 40 MG/ML"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2474415154",
+                    "lastUpdated": "2023-10-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "10022023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-10-01T00:00:00-04:00",
+                "content": "example",
+                "count": 220398,
+                "concept": [
+                    {
+                        "code": "1486830",
+                        "display": "emodepside 19.8 MG/ML / praziquantel 79.4 MG/ML Topical Solution [Profender]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1860904877",
+                    "lastUpdated": "2023-09-26T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "09052023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 220161,
+                "concept": [
+                    {
+                        "code": "901212",
+                        "display": "amlodipine / telmisartan"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1997258701",
+                    "lastUpdated": "2023-08-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "08072023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-08-01T00:00:00-04:00",
+                "content": "example",
+                "count": 206167,
+                "concept": [
+                    {
+                        "code": "2465230",
+                        "display": "4-methyl-1-pentanol"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3786893647",
+                    "lastUpdated": "2023-07-22T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "07032023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-07-01T00:00:00-04:00",
+                "content": "example",
+                "count": 205584,
+                "concept": [
+                    {
+                        "code": "1361667",
+                        "display": "hepatitis A vaccine (inactivated) strain HM175 / typhoid Vi polysaccharide vaccine, S typhi Ty2 strain"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2475928592",
+                    "lastUpdated": "2023-06-23T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "06052023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-06-01T00:00:00-04:00",
+                "content": "example",
+                "count": 205351,
+                "concept": [
+                    {
+                        "code": "1151913",
+                        "display": "acetaminophen / phenylephrine Oral Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2245740422",
+                    "lastUpdated": "2023-05-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "05012023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-05-01T00:00:00-04:00",
+                "content": "example",
+                "count": 204980,
+                "concept": [
+                    {
+                        "code": "213069",
+                        "display": "acitretin 10 MG Oral Capsule [Soriatane]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2934423756",
+                    "lastUpdated": "2023-04-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "04032023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-04-01T00:00:00-04:00",
+                "content": "example",
+                "count": 204813,
+                "concept": [
+                    {
+                        "code": "350560",
+                        "display": "clonazepam 0.125 MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3451576336",
+                    "lastUpdated": "2023-03-31T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "03062023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 204557,
+                "concept": [
+                    {
+                        "code": "339990",
+                        "display": "hydrocortisone 0.005 MG/MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2043183510",
+                    "lastUpdated": "2023-02-24T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "02062023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-02-01T00:00:00-05:00",
+                "content": "example",
+                "count": 204339,
+                "concept": [
+                    {
+                        "code": "330439",
+                        "display": "dyphylline 10.7 MG/ML"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3228063319",
+                    "lastUpdated": "2023-01-12T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "01032023",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2023-01-01T00:00:00-05:00",
+                "content": "example",
+                "count": 203980,
+                "concept": [
+                    {
+                        "code": "806396",
+                        "display": "calcium chloride 0.004 MEQ/ML / magnesium chloride 0.003 MEQ/ML / potassium chloride 0.01 MEQ/ML / sodium acetate 0.0475 MEQ/ML / sodium chloride 0.109 MEQ/ML / sodium citrate 0.012 MEQ/ML Ophthalmic Solution [BSS Ophthalmic Solution]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2587164918",
+                    "lastUpdated": "2022-12-21T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "12072022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-12-01T00:00:00-05:00",
+                "content": "example",
+                "count": 203882,
+                "concept": [
+                    {
+                        "code": "2380866",
+                        "display": "povidone-iodine 12.5 MG/ML"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "4013538677",
+                    "lastUpdated": "2022-11-23T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "11072022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-11-01T00:00:00-04:00",
+                "content": "example",
+                "count": 203758,
+                "concept": [
+                    {
+                        "code": "1716036",
+                        "display": "alpha tocopherol 300 UNT/ML / cholecalciferol 100000 UNT/ML / vitamin A 200000 UNT/ML Injectable Solution [Vital E- Repro]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2211998067",
+                    "lastUpdated": "2022-11-03T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "10032022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-11-01T00:00:00-04:00",
+                "content": "example",
+                "count": 203611,
+                "concept": [
+                    {
+                        "code": "2381730",
+                        "display": "ethanol / isopropyl alcohol Topical Spray"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "4162185559",
+                    "lastUpdated": "2022-09-17T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "09062022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 203573,
+                "concept": [
+                    {
+                        "code": "6377",
+                        "display": "levopropoxyphene"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1967512290",
+                    "lastUpdated": "2022-08-17T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "08012022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-08-01T00:00:00-04:00",
+                "content": "example",
+                "count": 203440,
+                "concept": [
+                    {
+                        "code": "1161639",
+                        "display": "methazolamide Oral Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1515749133",
+                    "lastUpdated": "2022-07-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "07142022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-07-01T00:00:00-04:00",
+                "content": "example",
+                "count": 203213,
+                "concept": [
+                    {
+                        "code": "1161079",
+                        "display": "povidone / tetrahydrozoline Ophthalmic Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3159175351",
+                    "lastUpdated": "2022-06-17T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "06062022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-06-01T00:00:00-04:00",
+                "content": "example",
+                "count": 202968,
+                "concept": [
+                    {
+                        "code": "1159489",
+                        "display": "diperodon Topical Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2452998778",
+                    "lastUpdated": "2022-05-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "05022022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-05-01T00:00:00-04:00",
+                "content": "example",
+                "count": 202739,
+                "concept": [
+                    {
+                        "code": "829877",
+                        "display": "Trisenox"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1308083470",
+                    "lastUpdated": "2022-04-16T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "04042022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-04-01T00:00:00-04:00",
+                "content": "example",
+                "count": 202575,
+                "concept": [
+                    {
+                        "code": "1155216",
+                        "display": "dextromethorphan / pseudoephedrine Pill"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "283352126",
+                    "lastUpdated": "2022-03-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "03072022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 202350,
+                "concept": [
+                    {
+                        "code": "2288429",
+                        "display": "{3 (5000 MG) (miconazole nitrate 40 MG/ML Vaginal Cream) } Pack"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3195378675",
+                    "lastUpdated": "2022-02-19T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "02072022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-02-01T00:00:00-05:00",
+                "content": "example",
+                "count": 201997,
+                "concept": [
+                    {
+                        "code": "2045490",
+                        "display": "fingolimod 0.25 MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1987602656",
+                    "lastUpdated": "2022-01-08T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "01032022",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2022-01-01T00:00:00-05:00",
+                "content": "example",
+                "count": 201795,
+                "concept": [
+                    {
+                        "code": "2284161",
+                        "display": "ascorbic acid / cholecalciferol / ferrous sulfate / vitamin A"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2279095528",
+                    "lastUpdated": "2021-12-23T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "12062021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-12-01T00:00:00-05:00",
+                "content": "example",
+                "count": 201494,
+                "concept": [
+                    {
+                        "code": "210605",
+                        "display": "piperonyl butoxide 30 MG/ML / pyrethrins 3 MG/ML Medicated Shampoo [Triple X Pediculicide]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "810928204",
+                    "lastUpdated": "2021-11-13T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "11012021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-11-01T00:00:00-04:00",
+                "content": "example",
+                "count": 201291,
+                "concept": [
+                    {
+                        "code": "1153767",
+                        "display": "betamethasone / clioquinol Topical Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1393396517",
+                    "lastUpdated": "2021-10-22T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "10042021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-10-01T00:00:00-04:00",
+                "content": "example",
+                "count": 201145,
+                "concept": [
+                    {
+                        "code": "848751",
+                        "display": "{2 (iloperidone 1 MG Oral Tablet) / 2 (iloperidone 2 MG Oral Tablet) / 2 (iloperidone 4 MG Oral Tablet) / 2 (iloperidone 6 MG Oral Tablet) } Pack"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3916782780",
+                    "lastUpdated": "2021-09-23T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "09072021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-09-01T00:00:00-04:00",
+                "content": "example",
+                "count": 200935,
+                "concept": [
+                    {
+                        "code": "217693",
+                        "display": "Ibu"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1089159972",
+                    "lastUpdated": "2021-08-31T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "08022021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-08-01T00:00:00-04:00",
+                "content": "example",
+                "count": 200573,
+                "concept": [
+                    {
+                        "code": "2397710",
+                        "display": "trans-3-isocamphylcyclohexanol"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1946096778",
+                    "lastUpdated": "2021-07-22T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "07062021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-07-01T00:00:00-04:00",
+                "content": "example",
+                "count": 200233,
+                "concept": [
+                    {
+                        "code": "359514",
+                        "display": "ascorbic acid 75 MG / ferrous fumarate 110 MG / folic acid 0.5 MG / intrinsic factor 240 MG / vitamin B12 0.015 MG Oral Capsule"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3252142110",
+                    "lastUpdated": "2021-06-24T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "06072021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-06-01T00:00:00-04:00",
+                "content": "example",
+                "count": 199928,
+                "concept": [
+                    {
+                        "code": "1300389",
+                        "display": "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / tetanus toxoid vaccine, inactivated"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1396035869",
+                    "lastUpdated": "2021-05-25T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "05032021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-05-01T00:00:00-04:00",
+                "content": "example",
+                "count": 199744,
+                "concept": [
+                    {
+                        "code": "800310",
+                        "display": "phenylalanine 3 MG/ML"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2937410482",
+                    "lastUpdated": "2021-04-15T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "04052021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-04-01T00:00:00-04:00",
+                "content": "example",
+                "count": 199390,
+                "concept": [
+                    {
+                        "code": "1191399",
+                        "display": "fluocinolone / zinc pyrithione"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "336806375",
+                    "lastUpdated": "2021-03-25T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "03012021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-03-01T00:00:00-05:00",
+                "content": "example",
+                "count": 199132,
+                "concept": [
+                    {
+                        "code": "539399",
+                        "display": "ferric hexacyanoferrate"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2895629223",
+                    "lastUpdated": "2021-02-23T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "02012021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-02-01T00:00:00-05:00",
+                "content": "example",
+                "count": 198865,
+                "concept": [
+                    {
+                        "code": "897969",
+                        "display": "burweed marshelder pollen extract 100 MG/ML"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1834557328",
+                    "lastUpdated": "2021-01-15T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "01042021",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2021-01-01T00:00:00-05:00",
+                "content": "example",
+                "count": 198750,
+                "concept": [
+                    {
+                        "code": "847178",
+                        "display": "dextroamphetamine Oral Solution [ProCentra]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "550965361",
+                    "lastUpdated": "2020-12-15T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "12072020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-12-07T00:00:00-05:00",
+                "content": "example",
+                "count": 198505,
+                "concept": [
+                    {
+                        "code": "1102207",
+                        "display": "{6 (ascorbic acid 100 MG / biotin 0.3 MG / calcium carbonate 100 MG / calcium pantothenate 7 MG / folic acid 1 MG / niacin 25 MG / pyridoxine hydrochloride 30 MG / riboflavin 5 MG / succinic acid 150 MG / thiamine hydrochloride 5 MG / vitamin B12 0.01 MG Oral Tablet) / 24 (ascorbic acid 100 MG / biotin 0.3 MG / calcium pantothenate 0.3 MG / ferrous bisglycinate 65 MG / folic acid 1 MG / formic acid 155 MG / iron-dextran complex 65 MG / niacin 25 MG / pyridoxine hydrochloride 30 MG / riboflavin 5 MG / thiamine hydrochloride 5 MG / vitamin B12 0.01 MG Oral Tablet [Irospan Tablet]) } Pack [Irospan 24/6 Kit]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3485665696",
+                    "lastUpdated": "2020-11-16T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "11022020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-11-02T00:00:00-05:00",
+                "content": "example",
+                "count": 198322,
+                "concept": [
+                    {
+                        "code": "1099870",
+                        "display": "divalproex sodium 500 MG Delayed Release Oral Tablet"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3494137407",
+                    "lastUpdated": "2020-10-30T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "10052020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-10-05T00:00:00-04:00",
+                "content": "example",
+                "count": 198337,
+                "concept": [
+                    {
+                        "code": "1179021",
+                        "display": "Tannic-12 S Oral Liquid Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1850154131",
+                    "lastUpdated": "2020-09-30T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "09082020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-09-08T00:00:00-04:00",
+                "content": "example",
+                "count": 198037,
+                "concept": [
+                    {
+                        "code": "1998437",
+                        "display": "flunixin Topical Solution"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "793376647",
+                    "lastUpdated": "2020-08-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "08032020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-08-03T00:00:00-04:00",
+                "content": "example",
+                "count": 202118,
+                "concept": [
+                    {
+                        "code": "861364",
+                        "display": "0.4 ML fondaparinux sodium 12.5 MG/ML Prefilled Syringe [Arixtra]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2942479461",
+                    "lastUpdated": "2020-07-20T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "07062020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-07-06T00:00:00-04:00",
+                "content": "example",
+                "count": 202244,
+                "concept": [
+                    {
+                        "code": "730044",
+                        "display": "0.5 ML darbepoetin alfa 0.2 MG/ML Prefilled Syringe"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "99873813",
+                    "lastUpdated": "2020-07-02T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "06012020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-06-01T00:00:00-04:00",
+                "content": "example",
+                "count": 202524,
+                "concept": [
+                    {
+                        "code": "565729",
+                        "display": "mafenide 85 MG/ML [Sulfamylon]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1561148283",
+                    "lastUpdated": "2020-05-23T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "05042020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-05-04T00:00:00-04:00",
+                "content": "example",
+                "count": 202375,
+                "concept": [
+                    {
+                        "code": "1799177",
+                        "display": "Vitron-C Reformulated Jul 2016 Pill"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2365156901",
+                    "lastUpdated": "2020-05-08T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "04062020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-04-06T00:00:00-04:00",
+                "content": "example",
+                "count": 202026,
+                "concept": [
+                    {
+                        "code": "2011",
+                        "display": "carbazochrome"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3160840922",
+                    "lastUpdated": "2020-03-16T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "03022020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-03-02T00:00:00-05:00",
+                "content": "example",
+                "count": 202779,
+                "concept": [
+                    {
+                        "code": "1156960",
+                        "display": "Magnesium Chloride / Potassium Chloride / potassium phosphate / Sodium Acetate / Sodium Chloride / Sodium gluconate / Sodium Phosphate, Dibasic Injectable Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2822586949",
+                    "lastUpdated": "2020-02-11T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "02032020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-02-03T00:00:00-05:00",
+                "content": "example",
+                "count": 203326,
+                "concept": [
+                    {
+                        "code": "700886",
+                        "display": "Menthol 3.1 MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2327352679",
+                    "lastUpdated": "2020-01-16T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "01062020",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2020-01-06T00:00:00-05:00",
+                "content": "example",
+                "count": 203986,
+                "concept": [
+                    {
+                        "code": "406196",
+                        "display": "Sulfacetamide Topical Foam"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1948935917",
+                    "lastUpdated": "2019-12-16T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "12022019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-12-02T00:00:00-05:00",
+                "content": "example",
+                "count": 203826,
+                "concept": [
+                    {
+                        "code": "1307300",
+                        "display": "enzalutamide Oral Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "4108627646",
+                    "lastUpdated": "2019-11-25T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "11042019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-11-04T00:00:00-05:00",
+                "content": "example",
+                "count": 204042,
+                "concept": [
+                    {
+                        "code": "1537434",
+                        "display": "Benzalkonium Chloride 1.4 MG/ML / Lidocaine 25 MG/ML Topical Spray"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "253103976",
+                    "lastUpdated": "2019-10-28T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "10072019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-10-07T00:00:00-04:00",
+                "content": "example",
+                "count": 203770,
+                "concept": [
+                    {
+                        "code": "1152647",
+                        "display": "Benzocaine / butamben / Tetracaine Topical Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "859543335",
+                    "lastUpdated": "2019-10-03T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "09032019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-09-03T00:00:00-04:00",
+                "content": "example",
+                "count": 203865,
+                "concept": [
+                    {
+                        "code": "751611",
+                        "display": "nebivolol 10 MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3967907990",
+                    "lastUpdated": "2019-08-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "08052019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-08-05T00:00:00-04:00",
+                "content": "example",
+                "count": 203805,
+                "concept": [
+                    {
+                        "code": "884672",
+                        "display": "Propoven"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "35022220",
+                    "lastUpdated": "2019-07-22T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "07012019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-07-01T00:00:00-04:00",
+                "content": "example",
+                "count": 203712,
+                "concept": [
+                    {
+                        "code": "245536",
+                        "display": "Zinc Gluconate 50 MG Oral Capsule"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "391189165",
+                    "lastUpdated": "2019-06-20T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "06032019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-06-03T00:00:00-04:00",
+                "content": "example",
+                "count": 203691,
+                "concept": [
+                    {
+                        "code": "308769",
+                        "display": "bivalirudin 250 MG Injection"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3592677316",
+                    "lastUpdated": "2019-05-22T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "05062019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-05-06T00:00:00-04:00",
+                "content": "example",
+                "count": 203436,
+                "concept": [
+                    {
+                        "code": "202740",
+                        "display": "Dilantin"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1706714686",
+                    "lastUpdated": "2019-04-15T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "04012019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-04-01T00:00:00-04:00",
+                "content": "example",
+                "count": 203727,
+                "concept": [
+                    {
+                        "code": "1014446",
+                        "display": "Broad leaved paperbark pollen extract 10000 UNT/ML Injectable Solution"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3574194728",
+                    "lastUpdated": "2019-03-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "03042019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-03-04T00:00:00-05:00",
+                "content": "example",
+                "count": 203604,
+                "concept": [
+                    {
+                        "code": "826910",
+                        "display": "PHENTERMINE RESIN 30 MG Oral Capsule"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "868308541",
+                    "lastUpdated": "2019-02-28T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "02042019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-02-04T00:00:00-05:00",
+                "content": "example",
+                "count": 205851,
+                "concept": [
+                    {
+                        "code": "385284",
+                        "display": "Cefuroxime 12.5 MG/ML"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "4129962488",
+                    "lastUpdated": "2019-01-14T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "01072019",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2019-01-07T00:00:00-05:00",
+                "content": "example",
+                "count": 207097,
+                "concept": [
+                    {
+                        "code": "1166645",
+                        "display": "Isopto Alkaline Ophthalmic Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1670571454",
+                    "lastUpdated": "2018-12-31T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "12032018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-12-03T00:00:00-05:00",
+                "content": "example",
+                "count": 207260,
+                "concept": [
+                    {
+                        "code": "1166381",
+                        "display": "Drontal Pill"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2661847525",
+                    "lastUpdated": "2018-11-20T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "11052018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-11-05T00:00:00-05:00",
+                "content": "example",
+                "count": 206434,
+                "concept": [
+                    {
+                        "code": "4331",
+                        "display": "Fenoprofen"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3428327257",
+                    "lastUpdated": "2018-10-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "10012018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-10-01T00:00:00-04:00",
+                "content": "example",
+                "count": 205956,
+                "concept": [
+                    {
+                        "code": "808586",
+                        "display": "Valproate Delayed Release Oral Capsule"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "4023970529",
+                    "lastUpdated": "2018-09-17T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "09042018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-09-03T00:00:00-04:00",
+                "content": "example",
+                "count": 205608,
+                "concept": [
+                    {
+                        "code": "1295901",
+                        "display": "Zicam Cough Oral Spray Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3088026398",
+                    "lastUpdated": "2018-08-20T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "08062018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-08-06T00:00:00-04:00",
+                "content": "example",
+                "count": 205353,
+                "concept": [
+                    {
+                        "code": "371257",
+                        "display": "Carbamazepine Chewable Tablet"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "24986923",
+                    "lastUpdated": "2018-07-06T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "07022018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-07-02T00:00:00-04:00",
+                "content": "example",
+                "count": 208996,
+                "concept": [
+                    {
+                        "code": "995849",
+                        "display": "Folic Acid 2 MG"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1123902158",
+                    "lastUpdated": "2018-06-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "06042018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-06-04T00:00:00-04:00",
+                "content": "example",
+                "count": 208845,
+                "concept": [
+                    {
+                        "code": "753476",
+                        "display": "{21 (Ethinyl Estradiol 0.05 MG / Norethindrone 1 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1078246857",
+                    "lastUpdated": "2018-05-21T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "05072018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-05-07T00:00:00-04:00",
+                "content": "example",
+                "count": 208750,
+                "concept": [
+                    {
+                        "code": "1370476",
+                        "display": "Hydrochlorothiazide 12.5 MG / metoprolol succinate 50 MG [Dutoprol]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "4102281927",
+                    "lastUpdated": "2018-04-16T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "04022018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-04-02T00:00:00-04:00",
+                "content": "example",
+                "count": 208548,
+                "concept": [
+                    {
+                        "code": "1364104",
+                        "display": "pasireotide diaspartate"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3726495966",
+                    "lastUpdated": "2018-03-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "03052018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-03-05T00:00:00-05:00",
+                "content": "example",
+                "count": 208303,
+                "concept": [
+                    {
+                        "code": "1297278",
+                        "display": "Lurasidone Hydrochloride 120 MG Oral Tablet"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3625466280",
+                    "lastUpdated": "2018-02-19T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "02052018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-02-05T00:00:00-05:00",
+                "content": "example",
+                "count": 208005,
+                "concept": [
+                    {
+                        "code": "763539",
+                        "display": "{1 (30 ML) (Hydrocortisone 20 MG/ML Topical Lotion) / 1 (177 ML) (Salicylic Acid 20 MG/ML / Sulfur 20 MG/ML Medicated Shampoo) } Pack"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "4113704098",
+                    "lastUpdated": "2018-01-11T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "01022018",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2018-01-02T00:00:00-05:00",
+                "content": "example",
+                "count": 207847,
+                "concept": [
+                    {
+                        "code": "577185",
+                        "display": "Psyllium 500 MG / sennosides, USP 9 MG Oral Capsule"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "237481915",
+                    "lastUpdated": "2017-12-18T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "12042017",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-12-04T00:00:00-05:00",
+                "content": "example",
+                "count": 207530,
+                "concept": [
+                    {
+                        "code": "385457",
+                        "display": "Benoxyl"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2345801546",
+                    "lastUpdated": "2017-11-20T00:00:00-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "11062017",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-11-06T00:00:00-05:00",
+                "content": "example",
+                "count": 207269,
+                "concept": [
+                    {
+                        "code": "1158511",
+                        "display": "salt grass pollen extract Injectable Product"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "502593530",
+                    "lastUpdated": "2017-10-16T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "10022017",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-10-02T00:00:00-04:00",
+                "content": "example",
+                "count": 207045,
+                "concept": [
+                    {
+                        "code": "885725",
+                        "display": "carprofen Oral Tablet"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2108297382",
+                    "lastUpdated": "2017-09-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "09052017",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-09-05T00:00:00-04:00",
+                "content": "example",
+                "count": 206957,
+                "concept": [
+                    {
+                        "code": "823932",
+                        "display": "Hydrochlorothiazide 12.5 MG / irbesartan 150 MG [Avalide]"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "2848010363",
+                    "lastUpdated": "2017-08-21T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "08072017",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-08-07T00:00:00-04:00",
+                "content": "example",
+                "count": 206639,
+                "concept": [
+                    {
+                        "code": "1928538",
+                        "display": "0.5 ML influenza A virus A/Singapore/GP1908/2015 (H1N1) antigen 0.03 MG/ML / influenza A virus A/Singapore/GP2050/2015 (H3N2) antigen 0.03 MG/ML / influenza B virus B/Hong Kong/259/2010 antigen 0.03 MG/ML / influenza B virus B/Utah/9/2014 antigen 0.03 MG/ML Prefilled Syringe"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "1973010201",
+                    "lastUpdated": "2017-07-18T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "07032017",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-07-03T00:00:00-04:00",
+                "content": "example",
+                "count": 206287,
+                "concept": [
+                    {
+                        "code": "220422",
+                        "display": "Triacin C"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "191482995",
+                    "lastUpdated": "2017-06-19T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "06052017",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-06-05T00:00:00-04:00",
+                "content": "example",
+                "count": 206225,
+                "concept": [
+                    {
+                        "code": "239212",
+                        "display": "Lincomycin 300 MG/ML Injectable Solution"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "416015472",
+                    "lastUpdated": "2017-05-15T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "05012017",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-05-01T00:00:00-04:00",
+                "content": "example",
+                "count": 205980,
+                "concept": [
+                    {
+                        "code": "797873",
+                        "display": "Menthol 14 MG/ML"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://cts.nlm.nih.gov/fhir/CodeSystem/RXNORM",
+            "resource": {
+                "resourceType": "CodeSystem",
+                "id": "RXNORM",
+                "meta": {
+                    "versionId": "3481193877",
+                    "lastUpdated": "2017-04-17T00:00:00-04:00",
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
+                        "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"
+                    ]
+                },
+                "url": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "identifier": [
+                    {
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:oid:2.16.840.1.113883.6.88"
+                    }
+                ],
+                "version": "04032017",
+                "name": "RXNORM",
+                "title": "RxNorm Vocabulary",
+                "status": "active",
+                "experimental": false,
+                "date": "2017-04-03T00:00:00-04:00",
+                "content": "example",
+                "count": 205751,
+                "concept": [
+                    {
+                        "code": "1789467",
+                        "display": "Salicylic Acid 20 MG/ML [Natural Acne Solutions Maximum Strength Spot Treatment]"
+                    }
+                ]
+            }
+        }
+    ]
+}

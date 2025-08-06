@@ -1,0 +1,169 @@
+{
+    "resourceType": "Library",
+    "id": "ecqm-update-2025-05-08",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/quality-program-cqfm"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-partOf",
+            "valueCanonical": "http://hl7.org/fhir/us/cqfmeasures/Library/ecqm-quality-program"
+        },
+        {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-activeOnly",
+            "valueBoolean": true
+        }
+    ],
+    "url": "http://cts.nlm.nih.gov/fhir/Library/ecqm-update-2025-05-08",
+    "identifier": [
+        {
+            "use": "official",
+            "system": "http://cts.nlm.nih.gov/fhir/cqi/ecqm/Library/Identifier",
+            "value": "ecqm-update-2025-05-08"
+        }
+    ],
+    "version": "1.0.0",
+    "name": "eCQM Update 2025-05-08",
+    "title": "eCQM Update 2025-05-08",
+    "status": "draft",
+    "experimental": false,
+    "type": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/library-type",
+                "code": "asset-collection"
+            }
+        ]
+    },
+    "date": "2025-04-16",
+    "publisher": "Clinical Quality Information WG",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://www.hl7.org/Special/committees/cqi/index.cfm"
+                }
+            ]
+        }
+    ],
+    "description": "eCQM Update 2025-05-08",
+    "useContext": [
+        {
+            "code": {
+                "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+                "code": "program"
+            },
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/quality-programs",
+                        "code": "ep-ec",
+                        "display": "EP/EC"
+                    },
+                    {
+                        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/quality-programs",
+                        "code": "eh-cah",
+                        "display": "EH/CAH"
+                    }
+                ]
+            }
+        }
+    ],
+    "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "urn:iso:std:iso:3166",
+                    "code": "US"
+                }
+            ]
+        }
+    ],
+    "approvalDate": "2025-04-16",
+    "lastReviewDate": "2025-04-16",
+    "relatedArtifact": [
+        {
+            "type": "depends-on",
+            "display": "ActCode, 9.0.0",
+            "resource": "http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0"
+        },
+        {
+            "type": "depends-on",
+            "display": "CDCREC, 1.2",
+            "resource": "urn:oid:2.16.840.1.113883.6.238|1.2"
+        },
+        {
+            "type": "depends-on",
+            "display": "CDT, 2023",
+            "resource": "http://www.ada.org/cdt|2023"
+        },
+        {
+            "type": "depends-on",
+            "display": "CPT, 2025",
+            "resource": "http://www.ama-assn.org/go/cpt|2025"
+        },
+        {
+            "type": "depends-on",
+            "display": "CVX, 2024-12-16",
+            "resource": "http://hl7.org/fhir/sid/cvx|20241216"
+        },
+        {
+            "type": "depends-on",
+            "display": "DataAbsentReason, 1.0.0",
+            "resource": "http://terminology.hl7.org/CodeSystem/data-absent-reason|1.0.0"
+        },
+        {
+            "type": "depends-on",
+            "display": "HCPCS, 2025",
+            "resource": "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets|2025"
+        },
+        {
+            "type": "depends-on",
+            "display": "HSLOC, 2022",
+            "resource": "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html|2022"
+        },
+        {
+            "type": "depends-on",
+            "display": "ICD10CM, 2025",
+            "resource": "http://hl7.org/fhir/sid/icd-10-cm|2025"
+        },
+        {
+            "type": "depends-on",
+            "display": "ICD10PCS, 2025",
+            "resource": "http://www.cms.gov/Medicare/Coding/ICD10|2025"
+        },
+        {
+            "type": "depends-on",
+            "display": "ICD9CM, 2013",
+            "resource": "http://hl7.org/fhir/sid/icd-9-cm|2013"
+        },
+        {
+            "type": "depends-on",
+            "display": "LOINC, 2.78",
+            "resource": "http://loinc.org|2.78"
+        },
+        {
+            "type": "depends-on",
+            "display": "PresentOnAdmission, 2021",
+            "resource": "https://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/HospitalAcqCond/Coding|2021"
+        },
+        {
+            "type": "depends-on",
+            "display": "RXNORM, 2025-01",
+            "resource": "http://www.nlm.nih.gov/research/umls/rxnorm|01062025"
+        },
+        {
+            "type": "depends-on",
+            "display": "SNOMEDCT, 2024-09",
+            "resource": "http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20240901"
+        },
+        {
+            "type": "depends-on",
+            "display": "SOP, 9.2",
+            "resource": "https://nahdo.org/sopt|9.2"
+        }
+    ]
+}

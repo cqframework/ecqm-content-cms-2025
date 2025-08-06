@@ -1,0 +1,450 @@
+{
+    "resourceType": "TerminologyCapabilities",
+    "id": "vsac-fhir-terminology",
+    "name": "VsacFhirTerminologyServices",
+    "title": "VSAC FHIR Terminology Services",
+    "status": "active",
+    "experimental": false,
+    "publisher": "VSAC",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "email",
+                    "value": "pishing.chiang@nih.gov"
+                }
+            ]
+        }
+    ],
+    "kind": "instance",
+    "software": {
+        "name": "vsac-fhir",
+        "version": "2.25.3"
+    },
+    "codeSystem": [
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "version": [
+                {
+                    "code": "9.0.0"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ActMood",
+            "version": [
+                {
+                    "code": "3.0.0"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+            "version": [
+                {
+                    "code": "3.0.0"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ActStatus",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-AddressUse",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v2-0001",
+            "version": [
+                {
+                    "code": "2.0.0"
+                }
+            ]
+        },
+        {
+            "uri": "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html",
+            "version": [
+                {
+                    "code": "2023-04"
+                }
+            ]
+        },
+        {
+            "uri": "urn:oid:2.16.840.1.113883.6.238",
+            "version": [
+                {
+                    "code": "1.2"
+                }
+            ]
+        },
+        {
+            "uri": "http://www.ada.org/cdt",
+            "version": [
+                {
+                    "code": "2023"
+                }
+            ]
+        },
+        {
+            "uri": "http://www.ama-assn.org/go/cpt",
+            "version": [
+                {
+                    "code": "2025"
+                }
+            ]
+        },
+        {
+            "uri": "http://hl7.org/fhir/sid/cvx",
+            "version": [
+                {
+                    "code": "2025-07-03"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+            "version": [
+                {
+                    "code": "3.0.0"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+            "version": [
+                {
+                    "code": "0.1.0"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v2-0112",
+            "version": [
+                {
+                    "code": "HL7V2.5"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-EntityNameUse",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://hl7.org/fhir/event-timing",
+            "version": [
+                {
+                    "code": "5.0.0"
+                }
+            ]
+        },
+        {
+            "uri": "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+            "version": [
+                {
+                    "code": "2025"
+                }
+            ]
+        },
+        {
+            "uri": "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html",
+            "version": [
+                {
+                    "code": "2022"
+                }
+            ]
+        },
+        {
+            "uri": "http://hl7.org/fhir/sid/icd-10-cm",
+            "version": [
+                {
+                    "code": "2026"
+                }
+            ]
+        },
+        {
+            "uri": "http://www.cms.gov/Medicare/Coding/ICD10",
+            "version": [
+                {
+                    "code": "2025"
+                }
+            ]
+        },
+        {
+            "uri": "http://hl7.org/fhir/sid/icd-9-cm",
+            "version": [
+                {
+                    "code": "2013"
+                }
+            ]
+        },
+        {
+            "uri": "http://loinc.org",
+            "version": [
+                {
+                    "code": "2.80"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityProficiency",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-LivingArrangement",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://www.nlm.nih.gov/research/umls/MED-RT",
+            "version": [
+                {
+                    "code": "2025-03"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-mediaType",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+            "version": [
+                {
+                    "code": "2025-04"
+                }
+            ]
+        },
+        {
+            "uri": "http://hl7.org/fhir/ndfrt",
+            "version": [
+                {
+                    "code": "2018-03"
+                }
+            ]
+        },
+        {
+            "uri": "http://nucc.org/provider-taxonomy",
+            "version": [
+                {
+                    "code": "24.1"
+                }
+            ]
+        },
+        {
+            "uri": "https://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/HospitalAcqCond/Coding",
+            "version": [
+                {
+                    "code": "2021"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "version": [
+                {
+                    "code": "2025-07"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-RoleStatus",
+            "version": [
+                {
+                    "code": "2023-02"
+                }
+            ]
+        },
+        {
+            "uri": "http://snomed.info/sct",
+            "version": [
+                {
+                    "code": "2025-03"
+                }
+            ]
+        },
+        {
+            "uri": "https://nahdo.org/sopt",
+            "version": [
+                {
+                    "code": "9.2"
+                }
+            ]
+        },
+        {
+            "uri": "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+            "version": [
+                {
+                    "code": "3.0.0"
+                }
+            ]
+        },
+        {
+            "uri": "http://unitsofmeasure.org",
+            "version": [
+                {
+                    "code": "1.5"
+                }
+            ]
+        },
+        {
+            "uri": "http://www.nlm.nih.gov/research/umls",
+            "version": [
+                {
+                    "code": "2024AB"
+                }
+            ]
+        },
+        {
+            "uri": "http://fdasis.nlm.nih.gov",
+            "version": [
+                {
+                    "code": "2024-12"
+                }
+            ]
+        }
+    ]
+}
