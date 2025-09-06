@@ -1,0 +1,67 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "d68af2cd-78cf-4cff-bafc-cd9d9c2ddcbc",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "7f3f6139-f115-4b0c-a6e2-5dfc9d4a7c58-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "9d6e376f-0bd5-4a36-8991-435c0e7c1bcc"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#7f3f6139-f115-4b0c-a6e2-5dfc9d4a7c58-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "Inpatient encounter with diabetic medication during MP, encounter status \"unknown\" - not part of approved codes for measure"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 0
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Patient/9d6e376f-0bd5-4a36-8991-435c0e7c1bcc"
+  }, {
+    "reference": "Encounter/9ede07a1-d1e2-4844-a53f-28bc212b0e53"
+  }, {
+    "reference": "Location/abc04d69-d729-4f14-8f18-683ebb3b6c8a"
+  }, {
+    "reference": "MedicationRequest/adcf5d25-05c9-4382-9f27-54102b398a03"
+  }, {
+    "reference": "Coverage/cdb68913-8d8a-4940-bfbb-ddc541a79fa1"
+  }, {
+    "reference": "Organization/7d6a6db5-41e4-4bbf-afc1-84761f3cbd9e"
+  }, {
+    "reference": "Practitioner/6eb7be08-30e3-4e81-af3f-9f484ba4f17d"
+  } ]
+}

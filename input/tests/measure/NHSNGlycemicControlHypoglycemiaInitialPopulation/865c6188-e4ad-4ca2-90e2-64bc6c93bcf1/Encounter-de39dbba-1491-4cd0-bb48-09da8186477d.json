@@ -1,0 +1,41 @@
+{
+  "resourceType": "Encounter",
+  "id": "de39dbba-1491-4cd0-bb48-09da8186477d",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter" ]
+  },
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "ACUTE",
+    "display": "inpatient acute"
+  },
+  "type": [ {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "version": "2024",
+      "code": "32485007",
+      "display": "Hospital admission (procedure)",
+      "userSelected": true
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/865c6188-e4ad-4ca2-90e2-64bc6c93bcf1"
+  },
+  "period": {
+    "start": "2026-01-01T08:00:00.000+00:00",
+    "end": "2026-01-02T09:15:00.000+00:00"
+  },
+  "diagnosis": [ {
+    "condition": {
+      "reference": "Condition/96515cbe-4dfe-43a9-97c9-49bf5aab7b66"
+    },
+    "use": {
+      "coding": [ {
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "code": "billing"
+      } ]
+    },
+    "rank": 1
+  } ]
+}

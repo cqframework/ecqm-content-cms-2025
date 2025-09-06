@@ -1,0 +1,65 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "7701e608-601a-4fb3-963a-7356dc6151d3",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "344bb350-66c7-405c-9669-adf5d9649f58-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "deeb9e7e-4c29-45e6-a27e-1fc4f987f59f"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#344bb350-66c7-405c-9669-adf5d9649f58-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "Encounter with meds and 3 glucose labs. Two are <40, one is >80 but is not within 5 minutes of other labs. Meets num. = 1 harm. Used start of relevant period for lab test timings\n\n(CMS #22)"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 1
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Encounter/fa0985b9-2076-412e-9ca0-a52ba873aeb4"
+  }, {
+    "reference": "MedicationAdministration/1a950853-d336-4c7c-9cc3-866ad2adae36"
+  }, {
+    "reference": "Observation/870c8f1d-2905-4b09-ab76-70563966e131"
+  }, {
+    "reference": "Observation/3c226bd9-be68-4996-be43-8d199884ddce"
+  }, {
+    "reference": "Observation/68f5d66b-12c1-4313-9f41-3659d384abc9"
+  }, {
+    "reference": "Patient/deeb9e7e-4c29-45e6-a27e-1fc4f987f59f"
+  } ]
+}

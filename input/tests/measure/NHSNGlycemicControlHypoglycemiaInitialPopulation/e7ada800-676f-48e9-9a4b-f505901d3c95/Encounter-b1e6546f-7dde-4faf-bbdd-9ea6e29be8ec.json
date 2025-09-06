@@ -1,0 +1,74 @@
+{
+  "resourceType": "Encounter",
+  "id": "b1e6546f-7dde-4faf-bbdd-9ea6e29be8ec",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter" ]
+  },
+  "identifier": [ {
+    "type": {
+      "coding": [ {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code": "MR"
+      } ]
+    },
+    "system": "https://bonnie-fhir.healthit.gov/",
+    "value": "657cbdc9b4f1f0343662347a"
+  } ],
+  "status": "entered-in-error",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "ACUTE",
+    "display": "inpatient acute"
+  },
+  "type": [ {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "version": "2024",
+      "code": "32485007",
+      "display": "Hospital admission (procedure)",
+      "userSelected": true
+    } ]
+  } ],
+  "serviceType": {
+    "coding": [ {
+      "system": "https://hl7.org/fhir/R4/codesystem-service-type.html",
+      "code": "21",
+      "display": "Hydrotherapy"
+    } ]
+  },
+  "priority": {
+    "coding": [ {
+      "system": "https://terminology.hl7.org/5.5.0/CodeSystem-v3-ActPriority.html",
+      "code": "R",
+      "display": "routine"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/e7ada800-676f-48e9-9a4b-f505901d3c95"
+  },
+  "period": {
+    "start": "2026-01-01T08:00:00.000+00:00",
+    "end": "2026-01-02T09:15:00.000+00:00"
+  },
+  "reasonCode": [ {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "code": "183932001",
+      "display": "Procedure contraindicated (situation)",
+      "userSelected": true
+    } ]
+  } ],
+  "location": [ {
+    "location": {
+      "reference": "Location/fa2bf6eb-9da7-4f29-ab4b-76aa21240fb9"
+    },
+    "period": {
+      "start": "2026-01-01T00:00:00.000+00:00",
+      "end": "2026-01-01T10:01:00.000+00:00"
+    }
+  } ],
+  "partOf": {
+    "reference": "Location/2",
+    "display": "USS Enterprise"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "resourceType": "Medication",
+  "id": "331c1184-ed77-4d29-bc32-d36d891e8d55",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medication" ]
+  },
+  "code": {
+    "coding": [ {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1007184",
+      "display": "insulin aspart protamine, human"
+    } ]
+  },
+  "status": "active",
+  "manufacturer": {
+    "reference": "Organization/8f0d2f46-43ae-493b-9525-d8391ce1dfc5"
+  },
+  "form": {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "code": "385219001",
+      "display": "Conventional release solution for injection (dose form)"
+    } ]
+  },
+  "amount": {
+    "numerator": {
+      "value": 1
+    },
+    "denominator": {
+      "value": 128
+    }
+  },
+  "ingredient": [ {
+    "itemCodeableConcept": {
+      "coding": [ {
+        "system": "http://snomed.info/sct",
+        "code": "420609005",
+        "display": "Human regular insulin (substance)"
+      } ]
+    },
+    "strength": {
+      "numerator": {
+        "value": 12,
+        "system": "http://unitsofmeasure.org",
+        "code": "mg"
+      },
+      "denominator": {
+        "value": 1.2,
+        "system": "http://unitsofmeasure.org",
+        "code": "mL"
+      }
+    }
+  } ],
+  "batch": {
+    "lotNumber": "9494788",
+    "expirationDate": "2026-05-22"
+  }
+}

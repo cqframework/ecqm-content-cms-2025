@@ -1,0 +1,61 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "5015a821-c722-409f-8f65-8693f2b57c05",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "c345152e-e780-40cf-898b-e12072bb8023-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "bee09e12-d66f-48c2-9dc5-6271644e2dc2"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#c345152e-e780-40cf-898b-e12072bb8023-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "Pt started in Observation, hypoglycemic administered during Observ stay. Pt transferred to inpatient but transfer occurred 1 hour + 1 minute after end of observation stay. Transfer must be within hour or less to meet IPP. \n\n(CMS #14)"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 0
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Encounter/648313f7-14fe-4bd1-9ebb-df8bf40ae72c"
+  }, {
+    "reference": "Encounter/6dbaa77f-742b-45fb-9e01-36d870b63708"
+  }, {
+    "reference": "MedicationAdministration/4a05e115-09bc-46df-927b-45b46ecb843f"
+  }, {
+    "reference": "Patient/bee09e12-d66f-48c2-9dc5-6271644e2dc2"
+  } ]
+}

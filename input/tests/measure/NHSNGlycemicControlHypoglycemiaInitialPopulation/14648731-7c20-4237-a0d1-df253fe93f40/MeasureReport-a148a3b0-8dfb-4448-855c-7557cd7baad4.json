@@ -1,0 +1,63 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "a148a3b0-8dfb-4448-855c-7557cd7baad4",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "039a3b5e-739e-4930-976c-f774239fb612-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "14648731-7c20-4237-a0d1-df253fe93f40"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#039a3b5e-739e-4930-976c-f774239fb612-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "IP enc where pt given hypo med in ED, but ED not part of inpatient encounter, because  Observation start date/time was > 1 hour from ED end date/time. Obs to IP stay occurred, hypo meds given in ED don't count. Doesn't meet IPP criteria. \n\n(CMS #2)"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 0
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Patient/14648731-7c20-4237-a0d1-df253fe93f40"
+  }, {
+    "reference": "Encounter/b91d5c59-c026-4367-9c0f-69ec4c537148"
+  }, {
+    "reference": "Encounter/d5c3fa4f-f61d-43ea-909b-9c4d6ded9f3d"
+  }, {
+    "reference": "Encounter/77fa3f42-8b89-4c8f-84de-3107ef3bc76e"
+  }, {
+    "reference": "MedicationAdministration/e2603907-9a09-4bf5-afe5-1eb8b6bf0569"
+  } ]
+}

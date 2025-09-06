@@ -1,0 +1,23 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "b9f97221-18e8-4262-82f0-aa914fb57e5e",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-servicerequest" ]
+  },
+  "status": "active",
+  "intent": "order",
+  "doNotPerform": false,
+  "code": {
+    "coding": [ {
+      "system": "http://www.ama-assn.org/go/cpt",
+      "version": "2024",
+      "code": "64450",
+      "display": "Injection(s), anesthetic agent(s) and/or steroid; other peripheral nerve or branch",
+      "userSelected": true
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/7fef44cf-ef02-4bca-8e88-ebf5b72a212f"
+  },
+  "authoredOn": "2026-01-02T09:16:00.000+00:00"
+}

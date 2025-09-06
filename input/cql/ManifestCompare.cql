@@ -16,15 +16,15 @@ define QDMManifest:
 define FHIRManifest:
   singleton from (
     [Library] L
-      //where L.id = 'ecqm-fhir-update-2025' // Use FHIR Update for Code System Comparison
-      where L.id = 'Manifest-Partial-Set-Release-2025' // Use Partial Release for Value Set Comparison
+      where L.id = 'ecqm-fhir-update-2025' // Use FHIR Update for Code System and Final Value Set Comparison
+      //where L.id = 'Manifest-Partial-Set-Release-2025' // Use Partial Release for Test Value Set Comparison
   )
 
 define QDMParameters:
-  QDMManifest.contained.where(id = '#exp-params').single() as FHIR.Parameters
+  QDMManifest.contained.where(id = 'exp-params').single() as FHIR.Parameters
 
 define FHIRParameters:
-  FHIRManifest.contained.where(id = '#exp-params').single() as FHIR.Parameters
+  FHIRManifest.contained.where(id = 'manifest').single() as FHIR.Parameters
 
 define ParameterCounts: {
     QDM: QDMParameters.parameter.count(),
@@ -35,7 +35,8 @@ define SystemVersionsInFHIR:
   FHIRParameters.parameter.where(name = 'system-version').value.value
 
 define ValueSetVersionsInFHIR:
-  FHIRParameters.parameter.where(name = 'canonical-version' and PositionOf('/Library/', value) = -1 and PositionOf('/Measure/', value) = -1).value.value
+  FHIRParameters.parameter.where(name = 'canonicalVersion' and PositionOf('/Library/', value) = -1 and PositionOf('/Measure/', value) = -1).value.value
+  //FHIRParameters.parameter.where(name = 'canonical-version' and PositionOf('/Library/', value) = -1 and PositionOf('/Measure/', value) = -1).value.value
 
 define SystemVersionsInQDM:
   QDMParameters.parameter.where(name = 'system-version').value.value
@@ -136,6 +137,13 @@ define _SystemComparison:
       VSAC: (SystemsWithVersionsInVSAC VCS where VCS.system = CS.system return VCS.versions).single()
     }
 
+define _SystemComparisonCSV:
+  Combine(
+    _SystemComparison SC
+      return SC.system + ', ' + Coalesce(Combine(SC.QDM S return 'v' + Split(S, '/').last(), ','), '') + ', ' + Coalesce(Combine(SC.FHIR S return 'v' + Split(S, '/').last(), ', '), ''),
+    '\r\n'
+  )
+
 define _SystemComparisonString:
   Combine(
     _SystemComparison SC
@@ -180,7 +188,7 @@ define _ValueSetComparisonCounts: {
 define _ValueSetComparisonCSV:
   Combine(
     _ValueSetComparison VC
-      return VC.url + ', ' + Coalesce(VC.QDM, '') + ', ' + Coalesce(VC.FHIR, ''),
+      return VC.url + ', ' + Coalesce('v' + VC.QDM, '') + ', ' + Coalesce('v' + VC.FHIR, ''),
     '\r\n'
   )
 

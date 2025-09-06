@@ -1,0 +1,2588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+   <id value="98730f65-0f39-4535-b08f-eb2bba5efda0"/>
+   <meta>
+      <versionId value="1"/>
+      <lastUpdated value="2025-07-15T16:03:33.224+00:00"/>
+      <profile value="http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle"/>
+      <tag>
+         <system value="https://nhsnlink.org"/>
+         <code value="report"/>
+         <display value="Report"/>
+      </tag>
+   </meta>
+   <identifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:uuid:e73cb1f1-4862-4b2a-9bbb-b9574f7947ac"/>
+   </identifier>
+   <type value="transaction"/>
+   <timestamp value="2025-07-15T15:53:07.673+00:00"/>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Organization/a76e4464-0d74-4150-9af0-bd6998d024ef"/>
+      <resource>
+         <Organization>
+            <id value="a76e4464-0d74-4150-9af0-bd6998d024ef"/>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-submitting-organization"/>
+            </meta>
+            <identifier>
+               <system value="https://www.cdc.gov/nhsn/OrgID"/>
+               <value value="someTestOrgId"/>
+            </identifier>
+            <active value="true"/>
+            <type>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+                  <code value="prov"/>
+                  <display value="Healthcare Provider"/>
+               </coding>
+            </type>
+            <name value="Some Test Tenant"/>
+            <telecom>
+               <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                  <valueCode value="unknown"/>
+               </extension>
+            </telecom>
+            <address>
+               <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                  <valueCode value="unknown"/>
+               </extension>
+            </address>
+         </Organization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Device/ee3af811-ec84-4b26-9e1c-c9e054974ac8"/>
+      <resource>
+         <Device>
+            <id value="ee3af811-ec84-4b26-9e1c-c9e054974ac8"/>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-submitting-device"/>
+            </meta>
+            <deviceName>
+               <name value="NHSNLink"/>
+               <type value="user-friendly-name"/>
+            </deviceName>
+            <version>
+               <type>
+                  <coding>
+                     <system value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/CodeSystem/codesystem-link-device-version"/>
+                     <code value="build"/>
+                  </coding>
+               </type>
+               <component>
+                  <value value="api"/>
+               </component>
+               <value value="dev"/>
+            </version>
+            <note>
+               <text value="Event: AfterPatientDataQuery executes com.lantanagroup.link.events.FixResourceId"/>
+            </note>
+            <note>
+               <text value="Event: AfterPatientDataQuery executes com.lantanagroup.link.events.CodeSystemCleanup"/>
+            </note>
+            <note>
+               <text value="Event: AfterPatientDataQuery executes com.lantanagroup.link.events.ContainedResourceCleanup"/>
+            </note>
+            <note>
+               <text value="Event: AfterPatientDataQuery executes com.lantanagroup.link.events.CopyLocationIdentifierToType"/>
+            </note>
+            <note>
+               <text value="Event: AfterPatientDataQuery executes com.lantanagroup.link.events.EncounterStatusTransformer"/>
+            </note>
+            <note>
+               <text value="Implementation Guide: Clinical Quality Framework Common FHIR Assets - http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common - 4.0.1 - Fri Nov 12 05:27:35 UTC 2021"/>
+            </note>
+            <note>
+               <text value="Implementation Guide: CDC National Healthcare Safety Network (NHSN) Digital Quality Measures (dQM) - http://www.cdc.gov/nhsn/fhirportal/dqm/ig/ImplementationGuide/gov.cdc.nhsn.measures - 1.0.0-cibuild - Thu Sep 14 00:00:00 UTC 2023"/>
+            </note>
+            <note>
+               <text value="Implementation Guide: US Core - http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core - 3.1.1 - Fri Aug 28 00:54:27 UTC 2020"/>
+            </note>
+            <note>
+               <text value="Implementation Guide: Quality Measure Implementation Guide (STU3) - http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures - 3.0.0 - Thu Nov 01 06:00:00 UTC 2018"/>
+            </note>
+            <note>
+               <text value="Implementation Guide: Data Exchange For Quality Measures Implementation Guide - http://hl7.org/fhir/us/davinci-deqm/ImplementationGuide/hl7.fhir.us.davinci-deqm - 3.1.0 - Mon Nov 21 21:29:16 UTC 2022"/>
+            </note>
+            <note>
+               <text value="Implementation Guide: QI-Core Implementation Guide - http://hl7.org/fhir/us/qicore/ImplementationGuide/hl7.fhir.us.qicore - 4.1.1 - Thu Mar 31 16:41:58 UTC 2022"/>
+            </note>
+            <note>
+               <text value="Implementation Guide: Clinical Practice Guidelines - http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg - 1.0.0 - Wed May 08 00:00:00 UTC 2019"/>
+            </note>
+            <note>
+               <text value="Implementation Guide: FHIR Extensions Pack - http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions - 1.0.0 - Sat Mar 25 22:00:24 UTC 2023"/>
+            </note>
+            <note>
+               <text value="Implementation Guide: HL7 Terminology (THO) - http://terminology.hl7.org/ImplementationGuide/hl7.terminology - 5.3.0 - Fri Sep 08 23:52:31 UTC 2023"/>
+            </note>
+         </Device>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/List/28f878f5-98e2-4871-bd1c-0df677b2a96d"/>
+      <resource>
+         <List>
+            <id value="28f878f5-98e2-4871-bd1c-0df677b2a96d"/>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/poi-list"/>
+            </meta>
+            <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-patient-list-applicable-period-extension">
+               <valuePeriod>
+                  <start value="2025-06-01T00:00:00.000Z"/>
+                  <end value="2025-06-30T23:59:59.000Z"/>
+               </valuePeriod>
+            </extension>
+            <identifier>
+               <system value="https://nhsnlink.org"/>
+               <value value="NHSNAcuteCareHospitalMonthlyInitialPopulation"/>
+            </identifier>
+            <status value="current"/>
+            <mode value="snapshot"/>
+            <entry>
+               <item>
+                  <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               </item>
+            </entry>
+         </List>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Library/63097895-5f26-4775-b771-bfd34feb47ba"/>
+      <resource>
+         <Library>
+            <id value="63097895-5f26-4775-b771-bfd34feb47ba"/>
+            <title value="Link Query Plan"/>
+            <status value="active"/>
+            <type>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/library-type"/>
+                  <code value="model-definition"/>
+               </coding>
+            </type>
+            <content>
+               <contentType value="text/yml"/>
+               <data value="LS0tCmxvb2tiYWNrOiAiUDBEIgppbml0aWFsOgotIHJlc291cmNlVHlwZTogIkVuY291bnRlciIKICBwYXJhbWV0ZXJzOgogIC0gbmFtZTogInBhdGllbnQiCiAgICBsaXRlcmFsOiBudWxsCiAgICB2YXJpYWJsZTogInBhdGllbnRJZCIKICAgIGZvcm1hdDogbnVsbAogICAgaWRzOiBudWxsCiAgICBwYWdlZDogMAogIC0gbmFtZTogImRhdGUiCiAgICBsaXRlcmFsOiBudWxsCiAgICB2YXJpYWJsZTogImxvb2tiYWNrU3RhcnQiCiAgICBmb3JtYXQ6ICJnZSVzIgogICAgaWRzOiBudWxsCiAgICBwYWdlZDogMAogIC0gbmFtZTogImRhdGUiCiAgICBsaXRlcmFsOiBudWxsCiAgICB2YXJpYWJsZTogInBlcmlvZEVuZCIKICAgIGZvcm1hdDogImxlJXMiCiAgICBpZHM6IG51bGwKICAgIHBhZ2VkOiAwCiAgcmVmZXJlbmNlczogbnVsbAogIGVhcmx5RXhpdDogdHJ1ZQotIHJlc291cmNlVHlwZTogIkxvY2F0aW9uIgogIHBhcmFtZXRlcnM6IFtdCiAgcmVmZXJlbmNlczoKICAgIG9wZXJhdGlvblR5cGU6ICJTRUFSQ0giCiAgICBwYWdlZDogMTAwCiAgZWFybHlFeGl0OiBmYWxzZQpzdXBwbGVtZW50YWw6Ci0gcmVzb3VyY2VUeXBlOiAiQ29uZGl0aW9uIgogIHBhcmFtZXRlcnM6CiAgLSBuYW1lOiAicGF0aWVudCIKICAgIGxpdGVyYWw6IG51bGwKICAgIHZhcmlhYmxlOiAicGF0aWVudElkIgogICAgZm9ybWF0OiBudWxsCiAgICBpZHM6IG51bGwKICAgIHBhZ2VkOiAwCiAgLSBuYW1lOiAiZW5jb3VudGVyIgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6IG51bGwKICAgIGZvcm1hdDogbnVsbAogICAgaWRzOiAiRW5jb3VudGVyIgogICAgcGFnZWQ6IDEwMAogIHJlZmVyZW5jZXM6IG51bGwKICBlYXJseUV4aXQ6IGZhbHNlCi0gcmVzb3VyY2VUeXBlOiAiQ292ZXJhZ2UiCiAgcGFyYW1ldGVyczoKICAtIG5hbWU6ICJwYXRpZW50IgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6ICJwYXRpZW50SWQiCiAgICBmb3JtYXQ6IG51bGwKICAgIGlkczogbnVsbAogICAgcGFnZWQ6IDAKICByZWZlcmVuY2VzOiBudWxsCiAgZWFybHlFeGl0OiBmYWxzZQotIHJlc291cmNlVHlwZTogIkRpYWdub3N0aWNSZXBvcnQiCiAgcGFyYW1ldGVyczoKICAtIG5hbWU6ICJwYXRpZW50IgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6ICJwYXRpZW50SWQiCiAgICBmb3JtYXQ6IG51bGwKICAgIGlkczogbnVsbAogICAgcGFnZWQ6IDAKICAtIG5hbWU6ICJkYXRlIgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6ICJsb29rYmFja1N0YXJ0IgogICAgZm9ybWF0OiAiZ2UlcyIKICAgIGlkczogbnVsbAogICAgcGFnZWQ6IDAKICAtIG5hbWU6ICJkYXRlIgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6ICJwZXJpb2RFbmQiCiAgICBmb3JtYXQ6ICJsZSVzIgogICAgaWRzOiBudWxsCiAgICBwYWdlZDogMAogIHJlZmVyZW5jZXM6IG51bGwKICBlYXJseUV4aXQ6IGZhbHNlCi0gcmVzb3VyY2VUeXBlOiAiTWVkaWNhdGlvblJlcXVlc3QiCiAgcGFyYW1ldGVyczoKICAtIG5hbWU6ICJwYXRpZW50IgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6ICJwYXRpZW50SWQiCiAgICBmb3JtYXQ6IG51bGwKICAgIGlkczogbnVsbAogICAgcGFnZWQ6IDAKICByZWZlcmVuY2VzOiBudWxsCiAgZWFybHlFeGl0OiBmYWxzZQotIHJlc291cmNlVHlwZTogIk9ic2VydmF0aW9uIgogIHBhcmFtZXRlcnM6CiAgLSBuYW1lOiAicGF0aWVudCIKICAgIGxpdGVyYWw6IG51bGwKICAgIHZhcmlhYmxlOiAicGF0aWVudElkIgogICAgZm9ybWF0OiBudWxsCiAgICBpZHM6IG51bGwKICAgIHBhZ2VkOiAwCiAgLSBuYW1lOiAiY2F0ZWdvcnkiCiAgICBsaXRlcmFsOiAiaW1hZ2luZyxsYWJvcmF0b3J5LHNvY2lhbC1oaXN0b3J5LHZpdGFsLXNpZ25zIgogICAgdmFyaWFibGU6IG51bGwKICAgIGZvcm1hdDogbnVsbAogICAgaWRzOiBudWxsCiAgICBwYWdlZDogMAogIC0gbmFtZTogImRhdGUiCiAgICBsaXRlcmFsOiBudWxsCiAgICB2YXJpYWJsZTogImxvb2tiYWNrU3RhcnQiCiAgICBmb3JtYXQ6ICJnZSVzIgogICAgaWRzOiBudWxsCiAgICBwYWdlZDogMAogIC0gbmFtZTogImRhdGUiCiAgICBsaXRlcmFsOiBudWxsCiAgICB2YXJpYWJsZTogInBlcmlvZEVuZCIKICAgIGZvcm1hdDogImxlJXMiCiAgICBpZHM6IG51bGwKICAgIHBhZ2VkOiAwCiAgcmVmZXJlbmNlczogbnVsbAogIGVhcmx5RXhpdDogZmFsc2UKLSByZXNvdXJjZVR5cGU6ICJQcm9jZWR1cmUiCiAgcGFyYW1ldGVyczoKICAtIG5hbWU6ICJwYXRpZW50IgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6ICJwYXRpZW50SWQiCiAgICBmb3JtYXQ6IG51bGwKICAgIGlkczogbnVsbAogICAgcGFnZWQ6IDAKICAtIG5hbWU6ICJkYXRlIgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6ICJsb29rYmFja1N0YXJ0IgogICAgZm9ybWF0OiAiZ2UlcyIKICAgIGlkczogbnVsbAogICAgcGFnZWQ6IDAKICAtIG5hbWU6ICJkYXRlIgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6ICJwZXJpb2RFbmQiCiAgICBmb3JtYXQ6ICJsZSVzIgogICAgaWRzOiBudWxsCiAgICBwYWdlZDogMAogIHJlZmVyZW5jZXM6IG51bGwKICBlYXJseUV4aXQ6IGZhbHNlCi0gcmVzb3VyY2VUeXBlOiAiU2VydmljZVJlcXVlc3QiCiAgcGFyYW1ldGVyczoKICAtIG5hbWU6ICJwYXRpZW50IgogICAgbGl0ZXJhbDogbnVsbAogICAgdmFyaWFibGU6ICJwYXRpZW50SWQiCiAgICBmb3JtYXQ6IG51bGwKICAgIGlkczogbnVsbAogICAgcGFnZWQ6IDAKICAtIG5hbWU6ICJlbmNvdW50ZXIiCiAgICBsaXRlcmFsOiBudWxsCiAgICB2YXJpYWJsZTogbnVsbAogICAgZm9ybWF0OiBudWxsCiAgICBpZHM6ICJFbmNvdW50ZXIiCiAgICBwYWdlZDogMTAwCiAgcmVmZXJlbmNlczogbnVsbAogIGVhcmx5RXhpdDogZmFsc2UKLSByZXNvdXJjZVR5cGU6ICJEZXZpY2UiCiAgcGFyYW1ldGVyczogW10KICByZWZlcmVuY2VzOgogICAgb3BlcmF0aW9uVHlwZTogIlNFQVJDSCIKICAgIHBhZ2VkOiAxMDAKICBlYXJseUV4aXQ6IGZhbHNlCi0gcmVzb3VyY2VUeXBlOiAiTWVkaWNhdGlvbiIKICBwYXJhbWV0ZXJzOiBbXQogIHJlZmVyZW5jZXM6CiAgICBvcGVyYXRpb25UeXBlOiAiU0VBUkNIIgogICAgcGFnZWQ6IDEwMAogIGVhcmx5RXhpdDogZmFsc2UKLSByZXNvdXJjZVR5cGU6ICJTcGVjaW1lbiIKICBwYXJhbWV0ZXJzOiBbXQogIHJlZmVyZW5jZXM6CiAgICBvcGVyYXRpb25UeXBlOiAiU0VBUkNIIgogICAgcGFnZWQ6IDEwMAogIGVhcmx5RXhpdDogZmFsc2UK"/>
+            </content>
+         </Library>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/MeasureReport/131c3f19-c8ad0afe"/>
+      <resource>
+         <MeasureReport>
+            <id value="131c3f19-c8ad0afe"/>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm"/>
+            </meta>
+            <contained>
+               <List>
+                  <id value="1"/>
+                  <meta>
+                     <profile value="http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-list"/>
+                  </meta>
+                  <status value="current"/>
+                  <mode value="snapshot"/>
+                  <entry>
+                     <item>
+                        <reference value="MeasureReport/131c3f19-c8ad0afe-866162a5"/>
+                     </item>
+                  </entry>
+               </List>
+            </contained>
+            <extension url="http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring">
+               <valueCodeableConcept>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/measure-scoring"/>
+                     <code value="cohort"/>
+                     <display value="Cohort"/>
+                  </coding>
+               </valueCodeableConcept>
+            </extension>
+            <status value="complete"/>
+            <type value="subject-list"/>
+            <measure value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Measure/NHSNAcuteCareHospitalMonthlyInitialPopulation"/>
+            <date>
+               <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                  <valueCode value="unknown"/>
+               </extension>
+            </date>
+            <reporter>
+               <reference value="Organization/a76e4464-0d74-4150-9af0-bd6998d024ef"/>
+            </reporter>
+            <period>
+               <start value="2025-06-01T00:00:00+00:00"/>
+               <end value="2025-06-30T23:59:59+00:00"/>
+            </period>
+            <group>
+               <population>
+                  <code>
+                     <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+                        <code value="initial-population"/>
+                        <display value="Initial Population"/>
+                     </coding>
+                  </code>
+                  <count value="2"/>
+                  <subjectResults>
+                     <reference value="#1"/>
+                  </subjectResults>
+               </population>
+            </group>
+         </MeasureReport>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/MeasureReport/131c3f19-c8ad0afe-866162a5"/>
+      <resource>
+         <MeasureReport>
+            <id value="131c3f19-c8ad0afe-866162a5"/>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-deqm"/>
+            </meta>
+            <extension url="http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring">
+               <valueCodeableConcept>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/measure-scoring"/>
+                     <code value="cohort"/>
+                     <display value="Cohort"/>
+                  </coding>
+               </valueCodeableConcept>
+            </extension>
+            <status value="complete"/>
+            <type value="individual"/>
+            <measure value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Measure/NHSNAcuteCareHospitalMonthlyInitialPopulation"/>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            </subject>
+            <date value="2025-07-15T15:52:35+00:00"/>
+            <reporter>
+               <reference value="Organization/a76e4464-0d74-4150-9af0-bd6998d024ef"/>
+            </reporter>
+            <period>
+               <start value="2025-06-01T00:00:00+00:00"/>
+               <end value="2025-06-30T23:59:59+00:00"/>
+            </period>
+            <improvementNotation>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/measure-improvement-notation"/>
+                  <code value="increase"/>
+               </coding>
+            </improvementNotation>
+            <group>
+               <population id="initial-population">
+                  <code>
+                     <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
+                        <code value="initial-population"/>
+                        <display value="Initial Population"/>
+                     </coding>
+                  </code>
+                  <count value="2"/>
+               </population>
+               <measureScore>
+                  <value value="2"/>
+               </measureScore>
+            </group>
+            <evaluatedResource>
+               <reference value="MedicationRequest/XKJtTfsGqILE3wgjPKOsb32hNnsTrMDr1Td6qRWLsRnUx"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/g1inWtwMMqWsvvtkjD9DCt9rWBXC9acq547rxt39rY6ud"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/PiWzbxYVphOYPUdGtQmi7PdoJtzGxOaWKCc4OBn91BR2d"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/WQonFLNbpObWiIG4t0DW1zYMPSNWtXUiVMYLS4KEMgOaJ"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Procedure/vNFdo00l22ByCPVFjvJnAGIm5DQ8gmTSUAxzFiiL34I4k"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/kpk1mTaRS7an0xghkICJJ4RHiIoLW2gwx8oOCCzWHDNuR"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="DiagnosticReport/h1bSmwH19xMCjob43lXY5HhFmuyAALQ2Wz8nhwt7pWZDn"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="MedicationRequest/k7d8JbBvhaFuqASUAHZFd16vNn9Ofv5NaBqlyYIL7UnHd"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Procedure/JkRVnoEqmPD2N38SP94IrFALfBBYyZSHc9Z2FIWlALv5y"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/FN8mPmdAWeZBbimGN2PoySY0fqozbGbveHGcw3djO4AHF"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Coverage/wr4R6ZEm"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/8hoBYbl09dUgpQfeI7IfvKLi23HeiUIN987HYucO9i4tX"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="DiagnosticReport/1uHbK5oPUNAkDmEd7TyPMBEtyZ4JYzitSgg6FSdKBOMMs"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="MedicationRequest/J8sAtFKGVRbf02IVbjqnHZUEc4IjDObRfK7GX8HNcU0xr"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/3sPco95C5gtC62wWOgVUaUBeuhxqOQiRs7R1XPjyjR8YX"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Coverage/TBLrhENO"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/8iVAH2PJK4fz7xpr0oV1S14N1IbFaWEYbBzEg1H1w0YY3"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/M99eiaDQ1SKEnn5qakbPI4eHwaE77r4KyFNYMS8zbU3jA"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="MedicationRequest/UCrQc76x8WNl6YWrFbX5F8xZkoFXvygbssczIBZB3GZnC"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Procedure/VohqtUOQfL5oo2F5zrtwPR14E4GQCNuKeGiy60gyn7aYp"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="MedicationRequest/bzdacODbXa4EpXbohDAhCl08KSQ9wKvTDqYaJh9OSr7vi"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/ze9Dxqu23q2Cc7UaaRDOM6zlsi8ZTuo9BA1DmZBmFVT7d"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Procedure/H8ze0mYO4WciIzYHYgUlD7fRjkEclzbTr64JgiEPE14OU"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/SK4dgxKidmDHTLE5NEQemm5nFIviQ83zN8cEJKUqgRqX5"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Observation/WBYrSyUfsrGh12WyJDtLwaz18JooqTwmayZ9RGg45IEGc"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="MedicationRequest/WubEYvfr5B08nDPZAEybmfxHgDqe8BHVEqy9U1Z3jGZYC"/>
+            </evaluatedResource>
+            <evaluatedResource>
+               <reference value="Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+            </evaluatedResource>
+         </MeasureReport>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+      <resource>
+         <Patient>
+            <id value="L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:29+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"/>
+            </meta>
+            <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+               <extension url="ombCategory">
+                  <valueCoding>
+                     <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                     <code value="2135-2"/>
+                     <display value="Hispanic or Latino"/>
+                  </valueCoding>
+               </extension>
+               <extension url="text">
+                  <valueString value="Hispanic or Latino"/>
+               </extension>
+            </extension>
+            <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
+               <valueCode value="F"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+               <extension url="ombCategory">
+                  <valueCoding>
+                     <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                     <code value="2106-3"/>
+                     <display value="White"/>
+                  </valueCoding>
+               </extension>
+               <extension url="text">
+                  <valueString value="White"/>
+               </extension>
+            </extension>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="CEID"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.93.3.7.3.688884.100"/>
+               <value value="XXX9UEX2JFUI6JX"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="EPI"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.93.3.7.5.737384.0"/>
+               <value value="E02545"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="EXTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.93.3.7.2.698084"/>
+               <value value="Z26220"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="FHIR"/>
+               </type>
+               <system value="http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id"/>
+               <value value="L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="FHIR STU3"/>
+               </type>
+               <system value="http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id"/>
+               <value value="eoljdYW6LwzWDBd5szXJTzYWd7x8lmkTWKJ3gn3NZ9gmz"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="INTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.93.3.7.2.698084"/>
+               <value value="Z35562"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="MRN"/>
+               </type>
+               <system value="urn:oid:2.16.840.1.113883.3.16.100.1"/>
+               <value value="338023153"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <system value="https://open.epic.com/FHIR/StructureDefinition/PayerMemberId"/>
+               <value value="2768834416"/>
+            </identifier>
+            <active value="true"/>
+            <name>
+               <text value="Wanda026 Karen010 Washington001"/>
+               <family value="Washington001"/>
+               <given value="Wanda026"/>
+               <given value="Karen010"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="+1 008-555-4343"/>
+            </telecom>
+            <gender value="female"/>
+            <birthDate value="1968-12-29"/>
+            <deceasedBoolean value="false"/>
+            <address>
+               <use value="home"/>
+               <line value="91152 Kelly Motorway095"/>
+               <city value="Juanville"/>
+               <state value="PA"/>
+               <postalCode value="23017"/>
+            </address>
+            <contact>
+               <name>
+                  <use value="usual"/>
+                  <text value="Bell022, Sue053"/>
+               </name>
+            </contact>
+            <communication>
+               <language>
+                  <coding>
+                     <system value="urn:ietf:bcp:47"/>
+                     <code value="en"/>
+                     <display value="English"/>
+                  </coding>
+                  <text value="English"/>
+               </language>
+               <preferred value="true"/>
+            </communication>
+         </Patient>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Coverage/TBLrhENO"/>
+      <resource>
+         <Coverage>
+            <id value="TBLrhENO"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-coverage"/>
+            </meta>
+            <extension url="http://open.epic.com/FHIR/StructureDefinition/extension/billing-organization">
+               <valueReference>
+                        <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Organization/OzPgLIEVdzoB6TJfc2BIuUgfe7qNfHTd4hfx7sRKx9YVM in Bundle. Replacing with identifier reference.-->
+                  <identifier>
+                     <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                     <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Organization/OzPgLIEVdzoB6TJfc2BIuUgfe7qNfHTd4hfx7sRKx9YVM"/>
+                  </identifier>
+               </valueReference>
+            </extension>
+            <extension url="https://www.cdc.gov/nhsn/fhir/nhsnlink/StructureDefinition/nhsnlink-original-id">
+               <valueString value="B9ECv3XhFT3PlFxjwRdRdvdwiWtZPSjmlZcGnmd71VKkaWe09K2gMfy4h6c6"/>
+            </extension>
+            <status value="active"/>
+            <subscriber>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subscriber>
+            <subscriberId value="2768834416"/>
+            <beneficiary>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </beneficiary>
+            <relationship>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.277.3.7.10.678671.305"/>
+                  <code value="01"/>
+                  <display value="Self"/>
+               </coding>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/subscriber-relationship"/>
+                  <code value="self"/>
+                  <display value="Self"/>
+               </coding>
+               <text value="Self"/>
+            </relationship>
+            <period>
+               <start value="2025-01-01T00:00:00Z"/>
+               <end value="2025-12-31T00:00:00Z"/>
+            </period>
+            <payor>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Organization/OzPgLIEVdzoB6TJfc2BIuUgfe7qNfHTd4hfx7sRKx9YVM in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Organization/OzPgLIEVdzoB6TJfc2BIuUgfe7qNfHTd4hfx7sRKx9YVM"/>
+               </identifier>
+               <display value="WORKERS COMP OTHER"/>
+            </payor>
+            <class>
+               <type>
+                  <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                     <valueCode value="unknown"/>
+                  </extension>
+               </type>
+               <value value="9850913"/>
+            </class>
+            <class>
+               <type>
+                  <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                     <valueCode value="unknown"/>
+                  </extension>
+               </type>
+               <value value="102201"/>
+               <name value="UHC GOLDEN RULE"/>
+            </class>
+         </Coverage>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Coverage/wr4R6ZEm"/>
+      <resource>
+         <Coverage>
+            <id value="wr4R6ZEm"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-coverage"/>
+            </meta>
+            <extension url="http://open.epic.com/FHIR/StructureDefinition/extension/billing-organization">
+               <valueReference>
+                        <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Organization/9QNBoVymMimKSd6kC5OI16RYqP6hj32z6vdWELUL5cRmA in Bundle. Replacing with identifier reference.-->
+                  <identifier>
+                     <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                     <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Organization/9QNBoVymMimKSd6kC5OI16RYqP6hj32z6vdWELUL5cRmA"/>
+                  </identifier>
+               </valueReference>
+            </extension>
+            <extension url="https://www.cdc.gov/nhsn/fhir/nhsnlink/StructureDefinition/nhsnlink-original-id">
+               <valueString value="mOJxc03gqcNZqEIoJY8E1MIkFKCecKujwdeafAkARsWUMSHJoGOVog3qtixL"/>
+            </extension>
+            <status value="active"/>
+            <subscriber>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subscriber>
+            <subscriberId value="2768834416"/>
+            <beneficiary>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </beneficiary>
+            <relationship>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.277.3.7.10.678671.305"/>
+                  <code value="01"/>
+                  <display value="Self"/>
+               </coding>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/subscriber-relationship"/>
+                  <code value="self"/>
+                  <display value="Self"/>
+               </coding>
+               <text value="Self"/>
+            </relationship>
+            <period>
+               <start value="2025-01-01T00:00:00Z"/>
+               <end value="2025-12-31T00:00:00Z"/>
+            </period>
+            <payor>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Organization/9QNBoVymMimKSd6kC5OI16RYqP6hj32z6vdWELUL5cRmA in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Organization/9QNBoVymMimKSd6kC5OI16RYqP6hj32z6vdWELUL5cRmA"/>
+               </identifier>
+               <display value="MEDICO"/>
+            </payor>
+            <class>
+               <type>
+                  <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                     <valueCode value="unknown"/>
+                  </extension>
+               </type>
+               <value value="6334286"/>
+            </class>
+            <class>
+               <type>
+                  <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                     <valueCode value="unknown"/>
+                  </extension>
+               </type>
+               <value value="10000204"/>
+               <name value="BCN PREMIER CARE NON UM PCP"/>
+            </class>
+         </Coverage>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/DiagnosticReport/1uHbK5oPUNAkDmEd7TyPMBEtyZ4JYzitSgg6FSdKBOMMs"/>
+      <resource>
+         <DiagnosticReport>
+            <id value="1uHbK5oPUNAkDmEd7TyPMBEtyZ4JYzitSgg6FSdKBOMMs"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-diagnosticreport-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+                  <code value="LAB"/>
+                  <display value="Laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="5895-7"/>
+                  <display value="Hemoglobin A1c/Hemoglobin.total in Blood"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            </subject>
+            <effectiveDateTime value="2025-06-06T17:24:03Z"/>
+            <issued>
+               <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                  <valueCode value="unknown"/>
+               </extension>
+            </issued>
+            <performer id="Practitioner/17Yt7cTj1hwkWYQ86CToR5FK">
+               <display value="Brenda009 Kirby039, MD"/>
+            </performer>
+         </DiagnosticReport>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/DiagnosticReport/h1bSmwH19xMCjob43lXY5HhFmuyAALQ2Wz8nhwt7pWZDn"/>
+      <resource>
+         <DiagnosticReport>
+            <id value="h1bSmwH19xMCjob43lXY5HhFmuyAALQ2Wz8nhwt7pWZDn"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-diagnosticreport-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+                  <code value="LAB"/>
+                  <display value="Laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2823-3"/>
+                  <display value="Potassium [Moles/volume] in Serum or Plasma"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            </subject>
+            <effectiveDateTime value="2025-06-13T01:21:39Z"/>
+            <issued>
+               <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+                  <valueCode value="unknown"/>
+               </extension>
+            </issued>
+            <performer id="Practitioner/5IfoyZp1kQ975xKridINTHiP">
+               <display value="Chris020 Hoffman088, MD"/>
+            </performer>
+         </DiagnosticReport>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+      <resource>
+         <Encounter>
+            <id value="Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:30+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"/>
+            </meta>
+            <extension url="https://www.lantanagroup.com/fhir/StructureDefinition/nhsn-encounter-original-status">
+               <valueCoding>
+                  <code value="CANCELLED"/>
+               </valueCoding>
+            </extension>
+            <status value="finished">
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-original-element-value-extension">
+                  <valueCode value="in-progress"/>
+               </extension>
+            </status>
+            <class>
+               <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+               <code value="IMP"/>
+               <display value="inpatient encounter"/>
+            </class>
+            <type>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="4525004"/>
+                  <display value="Emergency department patient visit (procedure)"/>
+               </coding>
+               <text value="Emergency department patient visit (procedure)"/>
+            </type>
+            <serviceType>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/service-type"/>
+                  <code value="480"/>
+                  <display value="Gastroenterology"/>
+               </coding>
+               <text value="Gastroenterology"/>
+            </serviceType>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <period>
+               <start value="2025-06-05T07:00:26Z"/>
+               <end value="2025-06-18T20:23:13Z"/>
+            </period>
+            <reasonCode>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="5758002"/>
+                  <display value="Bacteremia (finding)"/>
+               </coding>
+               <text value="Bacteremia"/>
+            </reasonCode>
+            <reasonCode>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.277.3.7.2.728286"/>
+                  <code value="47"/>
+                  <display value="Fever"/>
+               </coding>
+               <text value="Fever"/>
+            </reasonCode>
+            <diagnosis>
+               <condition>
+                        <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Condition/mHdLxfGB in Bundle. Replacing with identifier reference.-->
+                  <identifier>
+                     <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                     <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Condition/mHdLxfGB"/>
+                  </identifier>
+               </condition>
+               <use>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/diagnosis-role"/>
+                     <code value="AD"/>
+                     <display value="Admission diagnosis"/>
+                  </coding>
+               </use>
+            </diagnosis>
+            <hospitalization>
+               <admitSource>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/admit-source"/>
+                     <code value="psych"/>
+                     <display value="From psychiatric hospital"/>
+                  </coding>
+                  <text value="From psychiatric hospital"/>
+               </admitSource>
+               <dischargeDisposition>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/discharge-disposition"/>
+                     <code value="psy"/>
+                     <display value="Psychiatric hospital"/>
+                  </coding>
+                  <text value="Psychiatric hospital"/>
+               </dischargeDisposition>
+            </hospitalization>
+            <location>
+               <location>
+                        <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Location/qp3UylgIlrQ4byEPFUvPdJXFSlwQGk8bk8h6ybIiVQLfR in Bundle. Replacing with identifier reference.-->
+                  <identifier>
+                     <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                     <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Location/qp3UylgIlrQ4byEPFUvPdJXFSlwQGk8bk8h6ybIiVQLfR"/>
+                  </identifier>
+                  <display value="Sanchez079 Hospital"/>
+               </location>
+               <period>
+                  <start value="2025-06-09T01:23:14Z"/>
+                  <end value="2025-06-18T20:23:13Z"/>
+               </period>
+            </location>
+         </Encounter>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+      <resource>
+         <Encounter>
+            <id value="LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:30+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"/>
+            </meta>
+            <extension url="https://www.lantanagroup.com/fhir/StructureDefinition/nhsn-encounter-original-status">
+               <valueCoding>
+                  <code value="TRIAGED"/>
+               </valueCoding>
+            </extension>
+            <status value="finished">
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-original-element-value-extension">
+                  <valueCode value="in-progress"/>
+               </extension>
+            </status>
+            <class>
+               <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+               <code value="IMP"/>
+               <display value="inpatient encounter"/>
+            </class>
+            <type>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="183452005"/>
+                  <display value="Emergency hospital admission (procedure)"/>
+               </coding>
+               <text value="Emergency hospital admission (procedure)"/>
+            </type>
+            <serviceType>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/service-type"/>
+                  <code value="117"/>
+                  <display value="Emergency Medical"/>
+               </coding>
+               <text value="Emergency Medical"/>
+            </serviceType>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <period>
+               <start value="2025-06-06T05:40:24Z"/>
+               <end value="2025-06-18T17:45:08Z"/>
+            </period>
+            <reasonCode>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="75694006"/>
+                  <display value="Pancreatitis (disorder)"/>
+               </coding>
+               <text value="Pancreatitis"/>
+            </reasonCode>
+            <reasonCode>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.277.3.7.2.728286"/>
+                  <code value="70"/>
+                  <display value="Nausea"/>
+               </coding>
+               <text value="Nausea"/>
+            </reasonCode>
+            <reasonCode>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.277.3.7.2.728286"/>
+                  <code value="160381"/>
+                  <display value="Vomiting"/>
+               </coding>
+               <text value="Vomiting"/>
+            </reasonCode>
+            <diagnosis>
+               <condition>
+                        <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Condition/4IoGPsmf in Bundle. Replacing with identifier reference.-->
+                  <identifier>
+                     <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                     <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Condition/4IoGPsmf"/>
+                  </identifier>
+               </condition>
+               <use>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/diagnosis-role"/>
+                     <code value="CC"/>
+                     <display value="Chief complaint"/>
+                  </coding>
+               </use>
+            </diagnosis>
+            <hospitalization>
+               <admitSource>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/admit-source"/>
+                     <code value="mp"/>
+                     <display value="Medical Practitioner/physician referral"/>
+                  </coding>
+                  <text value="Medical Practitioner/physician referral"/>
+               </admitSource>
+               <dischargeDisposition>
+                  <coding>
+                     <system value="http://terminology.hl7.org/CodeSystem/discharge-disposition"/>
+                     <code value="aadvice"/>
+                     <display value="Left against advice"/>
+                  </coding>
+                  <text value="Left against advice"/>
+               </dischargeDisposition>
+            </hospitalization>
+            <location>
+               <location>
+                        <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Location/sPsPlyk34thDtv47J61SyPo0kt8iRe4GTp7txPhtUKsbo in Bundle. Replacing with identifier reference.-->
+                  <identifier>
+                     <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                     <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Location/sPsPlyk34thDtv47J61SyPo0kt8iRe4GTp7txPhtUKsbo"/>
+                  </identifier>
+                  <display value="Johnston089 Hospital"/>
+               </location>
+               <period>
+                  <start value="2025-06-15T06:51:33Z"/>
+                  <end value="2025-06-18T17:45:08Z"/>
+               </period>
+            </location>
+         </Encounter>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/MedicationRequest/J8sAtFKGVRbf02IVbjqnHZUEc4IjDObRfK7GX8HNcU0xr"/>
+      <resource>
+         <MedicationRequest>
+            <id value="J8sAtFKGVRbf02IVbjqnHZUEc4IjDObRfK7GX8HNcU0xr"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <status value="completed"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location"/>
+                  <code value="community"/>
+                  <display value="Community"/>
+               </coding>
+            </category>
+            <medicationReference>
+               <extension url="https://www.cdc.gov/nhsn/fhir/nhsnlink/StructureDefinition/nhsnlink-original-id">
+                  <valueString value="Medication/TestMedf981gorbMIgU48mgWPfXi1wGZul2oGgFgH5XtNxy4xCs4"/>
+               </extension>
+               <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedf981gorbMIgU48mgWPfXi1wGZul2oGgFgH5XtNxy4xCs4 in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedf981gorbMIgU48mgWPfXi1wGZul2oGgFgH5XtNxy4xCs4"/>
+               </identifier>
+               <display value="vancomycin (VANCOCIN) capsule"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <authoredOn value="2025-06-16T14:02:54Z"/>
+            <requester>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/frVjxEoKH7d11dk7I9vrL3TH in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/frVjxEoKH7d11dk7I9vrL3TH"/>
+               </identifier>
+               <display value="Brandy054 Miller050, MD"/>
+            </requester>
+            <recorder>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/1RiH3zDJVt4N1XChvz04HzUB in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/1RiH3zDJVt4N1XChvz04HzUB"/>
+               </identifier>
+               <display value="Andrea075 Torres022, MD"/>
+            </recorder>
+            <courseOfTherapyType>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"/>
+                  <code value="acute"/>
+                  <display value="Short course (acute) therapy"/>
+               </coding>
+               <text value="Short course (acute) therapy"/>
+            </courseOfTherapyType>
+            <dosageInstruction>
+               <text value="125 mg, Oral, EVERY 6 HOURS, 24 doses, First dose on Mon xx/xx/xxxx at 0000, Last dose on Sat xx/xx/xxxx at 1800"/>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2025-06-16T14:02:54Z"/>
+                        <end value="2025-06-21T14:02:54Z"/>
+                     </boundsPeriod>
+                     <count value="24"/>
+                     <frequency value="1"/>
+                     <period value="6"/>
+                     <periodUnit value="h"/>
+                  </repeat>
+                  <code>
+                     <text value="Q6H"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.277.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="125"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="1"/>
+                     <unit value="capsule"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="{capsule}"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="125"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/MedicationRequest/UCrQc76x8WNl6YWrFbX5F8xZkoFXvygbssczIBZB3GZnC"/>
+      <resource>
+         <MedicationRequest>
+            <id value="UCrQc76x8WNl6YWrFbX5F8xZkoFXvygbssczIBZB3GZnC"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <status value="draft"/>
+            <intent value="proposal"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location"/>
+                  <code value="community"/>
+                  <display value="Community"/>
+               </coding>
+            </category>
+            <medicationReference>
+               <extension url="https://www.cdc.gov/nhsn/fhir/nhsnlink/StructureDefinition/nhsnlink-original-id">
+                  <valueString value="Medication/TestMedsf0KfRq3D4D8bjCKFXH2jg4BtK25W4zG2YIQDmrcKqt3E"/>
+               </extension>
+               <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedsf0KfRq3D4D8bjCKFXH2jg4BtK25W4zG2YIQDmrcKqt3E in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedsf0KfRq3D4D8bjCKFXH2jg4BtK25W4zG2YIQDmrcKqt3E"/>
+               </identifier>
+               <display value="acetaminophen (TYLENOL) 160 mg/5 mL oral liquid"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <authoredOn value="2025-06-12T12:26:53Z"/>
+            <requester>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/7420ZxWAMfmZp2q870brluch in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/7420ZxWAMfmZp2q870brluch"/>
+               </identifier>
+               <display value="Samantha095 Morris071, MD"/>
+            </requester>
+            <recorder>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/JEE1ueYU9Scr3R59xbK0Kf4j in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/JEE1ueYU9Scr3R59xbK0Kf4j"/>
+               </identifier>
+               <display value="Kimberly026 Stewart081, MD"/>
+            </recorder>
+            <courseOfTherapyType>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"/>
+                  <code value="acute"/>
+                  <display value="Short course (acute) therapy"/>
+               </coding>
+               <text value="Short course (acute) therapy"/>
+            </courseOfTherapyType>
+            <dosageInstruction>
+               <text value="Take 15 mg/kg  per DOSE by mouth every four hours as needed for fever., Historical Med"/>
+               <patientInstruction value="Take 15 mg/kg  per DOSE by mouth every four hours as needed for fever."/>
+               <timing>
+                  <repeat>
+                     <frequency value="1"/>
+                     <period value="4"/>
+                     <periodUnit value="h"/>
+                  </repeat>
+                  <code>
+                     <text value="Q4H PRN"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="true"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.277.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="15"/>
+                     <unit value="mg/kg  per DOSE"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg/kg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/MedicationRequest/WubEYvfr5B08nDPZAEybmfxHgDqe8BHVEqy9U1Z3jGZYC"/>
+      <resource>
+         <MedicationRequest>
+            <id value="WubEYvfr5B08nDPZAEybmfxHgDqe8BHVEqy9U1Z3jGZYC"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <status value="active"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+            </category>
+            <medicationReference>
+               <extension url="https://www.cdc.gov/nhsn/fhir/nhsnlink/StructureDefinition/nhsnlink-original-id">
+                  <valueString value="Medication/TestMedYNcK813o6Mn6JKRWSU8K1Je0bHLUcXYueg3xKCcSmYxGs"/>
+               </extension>
+               <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedYNcK813o6Mn6JKRWSU8K1Je0bHLUcXYueg3xKCcSmYxGs in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedYNcK813o6Mn6JKRWSU8K1Je0bHLUcXYueg3xKCcSmYxGs"/>
+               </identifier>
+               <display value="vancomycin (VANCOCIN) capsule"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <authoredOn value="2025-06-13T18:12:33Z"/>
+            <requester>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/eMkA67Lh3CSrwfgaPFUiW1Wr in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/eMkA67Lh3CSrwfgaPFUiW1Wr"/>
+               </identifier>
+               <display value="Dennis082 Lowery042, MD"/>
+            </requester>
+            <recorder>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/7QRN1QCJisPwPEIEVtTTthMl in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/7QRN1QCJisPwPEIEVtTTthMl"/>
+               </identifier>
+               <display value="Travis056 Price070, MD"/>
+            </recorder>
+            <courseOfTherapyType>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"/>
+                  <code value="acute"/>
+                  <display value="Short course (acute) therapy"/>
+               </coding>
+               <text value="Short course (acute) therapy"/>
+            </courseOfTherapyType>
+            <dosageInstruction>
+               <text value="250 mg, Oral, 2 TIMES DAILY, 16 doses, First dose on Sun xx/xx/xxxx at 0900, Last dose on Sun xx/xx/xxxx at 2100"/>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2025-06-13T18:12:33Z"/>
+                        <end value="2025-06-20T18:12:33Z"/>
+                     </boundsPeriod>
+                     <count value="16"/>
+                     <frequency value="2"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="2x Daily"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.277.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="250"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="2"/>
+                     <unit value="capsule"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="{capsule}"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="250"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/MedicationRequest/XKJtTfsGqILE3wgjPKOsb32hNnsTrMDr1Td6qRWLsRnUx"/>
+      <resource>
+         <MedicationRequest>
+            <id value="XKJtTfsGqILE3wgjPKOsb32hNnsTrMDr1Td6qRWLsRnUx"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <status value="completed"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+            </category>
+            <medicationReference>
+               <extension url="https://www.cdc.gov/nhsn/fhir/nhsnlink/StructureDefinition/nhsnlink-original-id">
+                  <valueString value="Medication/TestMed6rKhSBsjyaiaPrCRvzLjOtWqmdsCc5kgm7Q5mVXlekxhm"/>
+               </extension>
+               <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMed6rKhSBsjyaiaPrCRvzLjOtWqmdsCc5kgm7Q5mVXlekxhm in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMed6rKhSBsjyaiaPrCRvzLjOtWqmdsCc5kgm7Q5mVXlekxhm"/>
+               </identifier>
+               <display value="sodium chloride 0.9% IV"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <authoredOn value="2025-06-09T19:11:56Z"/>
+            <requester>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/lZtOo3q4vd6J3nnA5XN1jEEy in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/lZtOo3q4vd6J3nnA5XN1jEEy"/>
+               </identifier>
+               <display value="Renee066 Mathews010, MD"/>
+            </requester>
+            <recorder>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/NrsqpgyRQtmX66A0Pvuped1E in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/NrsqpgyRQtmX66A0Pvuped1E"/>
+               </identifier>
+               <display value="Jessica015 Mays089, MD"/>
+            </recorder>
+            <courseOfTherapyType>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"/>
+                  <code value="acute"/>
+                  <display value="Short course (acute) therapy"/>
+               </coding>
+               <text value="Short course (acute) therapy"/>
+            </courseOfTherapyType>
+            <dosageInstruction>
+               <text value="125 mL/hr, Intravenous, CONTINUOUS, Starting on Sun xx/xx/xxxx at 0000"/>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2025-06-09T19:11:56Z"/>
+                        <end value="2025-07-03T19:11:56Z"/>
+                     </boundsPeriod>
+                  </repeat>
+                  <code>
+                     <text value="Continuous"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.277.3.7.4.798268.7025"/>
+                     <code value="11"/>
+                     <display value="Intravenous"/>
+                  </coding>
+                  <text value="Intravenous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="125"/>
+                     <unit value="mL/hr"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mL/h"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="125"/>
+                     <unit value="mL/hr"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mL/h"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/MedicationRequest/bzdacODbXa4EpXbohDAhCl08KSQ9wKvTDqYaJh9OSr7vi"/>
+      <resource>
+         <MedicationRequest>
+            <id value="bzdacODbXa4EpXbohDAhCl08KSQ9wKvTDqYaJh9OSr7vi"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <status value="on-hold"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location"/>
+                  <code value="outpatient"/>
+                  <display value="Outpatient"/>
+               </coding>
+            </category>
+            <medicationReference>
+               <extension url="https://www.cdc.gov/nhsn/fhir/nhsnlink/StructureDefinition/nhsnlink-original-id">
+                  <valueString value="Medication/TestMedFjnAL3y3OYdHhFB7sb6nEOuq5G2fHDJUWhawuHS593ZWn"/>
+               </extension>
+               <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedFjnAL3y3OYdHhFB7sb6nEOuq5G2fHDJUWhawuHS593ZWn in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedFjnAL3y3OYdHhFB7sb6nEOuq5G2fHDJUWhawuHS593ZWn"/>
+               </identifier>
+               <display value="Losartan 50 mg Tablet"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <authoredOn value="2025-06-16T14:21:00Z"/>
+            <requester>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/Vog41dQGNCg3oIsYpsY78k9O in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/Vog41dQGNCg3oIsYpsY78k9O"/>
+               </identifier>
+               <display value="Chelsea067 Lee051, MD"/>
+            </requester>
+            <recorder>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/vwWqwWQ3ADSFP3ue7Nk53Cgg in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/vwWqwWQ3ADSFP3ue7Nk53Cgg"/>
+               </identifier>
+               <display value="Victoria044 Gray043, MD"/>
+            </recorder>
+            <courseOfTherapyType>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"/>
+                  <code value="continuous"/>
+                  <display value="Continuous long term therapy"/>
+               </coding>
+               <text value="Continuous long term therapy"/>
+            </courseOfTherapyType>
+            <dosageInstruction>
+               <text value="Take 50 mg by mouth every day., 50 mg, Long-term, Historical"/>
+               <patientInstruction value="Take 50 mg by mouth every day."/>
+               <timing>
+                  <repeat>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="Daily"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.93.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="ORAL"/>
+                  </coding>
+                  <text value="ORAL"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="50"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/MedicationRequest/k7d8JbBvhaFuqASUAHZFd16vNn9Ofv5NaBqlyYIL7UnHd"/>
+      <resource>
+         <MedicationRequest>
+            <id value="k7d8JbBvhaFuqASUAHZFd16vNn9Ofv5NaBqlyYIL7UnHd"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:32+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <status value="completed"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location"/>
+                  <code value="outpatient"/>
+                  <display value="Outpatient"/>
+               </coding>
+            </category>
+            <medicationReference>
+               <extension url="https://www.cdc.gov/nhsn/fhir/nhsnlink/StructureDefinition/nhsnlink-original-id">
+                  <valueString value="Medication/TestMedayPg3pflUdd73PxFhdIcagUurQIpyT50aIhEFauzpMag9"/>
+               </extension>
+               <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedayPg3pflUdd73PxFhdIcagUurQIpyT50aIhEFauzpMag9 in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Medication/TestMedayPg3pflUdd73PxFhdIcagUurQIpyT50aIhEFauzpMag9"/>
+               </identifier>
+               <display value="aspirin (ECOTRIN) enteric coated tablet"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <authoredOn value="2025-06-06T19:46:58Z"/>
+            <requester>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/mjc4JtTAqUrzb43tRUuG6302 in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/mjc4JtTAqUrzb43tRUuG6302"/>
+               </identifier>
+               <display value="Kathleen050 Brewer072, MD"/>
+            </requester>
+            <recorder>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/jyBJZJxI7kvZpKyHnBZZEkTE in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Practitioner/jyBJZJxI7kvZpKyHnBZZEkTE"/>
+               </identifier>
+               <display value="Allison096 Macias041, MD"/>
+            </recorder>
+            <courseOfTherapyType>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"/>
+                  <code value="continuous"/>
+                  <display value="Continuous long term therapy"/>
+               </coding>
+               <text value="Continuous long term therapy"/>
+            </courseOfTherapyType>
+            <dosageInstruction>
+               <text value="Take 81 mg by mouth once daily., Historical Med"/>
+               <patientInstruction value="Take 81 mg by mouth once daily."/>
+               <timing>
+                  <repeat>
+                     <timeOfDay value="09:00:00"/>
+                  </repeat>
+                  <code>
+                     <text value="0900"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.277.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="81"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/3sPco95C5gtC62wWOgVUaUBeuhxqOQiRs7R1XPjyjR8YX"/>
+      <resource>
+         <Observation>
+            <id value="3sPco95C5gtC62wWOgVUaUBeuhxqOQiRs7R1XPjyjR8YX"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="vital-signs"/>
+                  <display value="Vital Signs"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="29463-7"/>
+                  <display value="Body weight"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectiveDateTime value="2025-06-07T20:54:38Z"/>
+            <valueQuantity>
+               <value value="82.0"/>
+               <unit value="kg"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="kg"/>
+            </valueQuantity>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/8hoBYbl09dUgpQfeI7IfvKLi23HeiUIN987HYucO9i4tX"/>
+      <resource>
+         <Observation>
+            <id value="8hoBYbl09dUgpQfeI7IfvKLi23HeiUIN987HYucO9i4tX"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="vital-signs"/>
+                  <display value="Vital Signs"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="29463-7"/>
+                  <display value="Body weight"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectiveDateTime value="2025-06-15T12:08:04Z"/>
+            <valueQuantity>
+               <value value="140.0"/>
+               <unit value="kg"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="kg"/>
+            </valueQuantity>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/8iVAH2PJK4fz7xpr0oV1S14N1IbFaWEYbBzEg1H1w0YY3"/>
+      <resource>
+         <Observation>
+            <id value="8iVAH2PJK4fz7xpr0oV1S14N1IbFaWEYbBzEg1H1w0YY3"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="vital-signs"/>
+                  <display value="Vital Signs"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="9279-1"/>
+                  <display value="Respiratory rate"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectiveDateTime value="2025-06-08T01:49:55Z"/>
+            <valueQuantity>
+               <value value="18.0"/>
+               <unit value="breaths per minute"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="/min"/>
+            </valueQuantity>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/FN8mPmdAWeZBbimGN2PoySY0fqozbGbveHGcw3djO4AHF"/>
+      <resource>
+         <Observation>
+            <id value="FN8mPmdAWeZBbimGN2PoySY0fqozbGbveHGcw3djO4AHF"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+                  <display value="Laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2340-8"/>
+                  <display value="Glucose [Mass/volume] in Blood by Automated test strip"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectivePeriod>
+               <start value="2025-06-09T17:57:00Z"/>
+               <end value="2025-06-12T01:26:19Z"/>
+            </effectivePeriod>
+            <valueQuantity>
+               <value value="105.0"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/hbLjxzLP48mqfupE6VSTkHzfEl0ZGjYw5dxcy9q6ss7Mw in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/hbLjxzLP48mqfupE6VSTkHzfEl0ZGjYw5dxcy9q6ss7Mw"/>
+               </identifier>
+               <display value="Specimen"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="79.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+               <high>
+                  <value value="99.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+               <text value="79 - 99 mg/dL"/>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/M99eiaDQ1SKEnn5qakbPI4eHwaE77r4KyFNYMS8zbU3jA"/>
+      <resource>
+         <Observation>
+            <id value="M99eiaDQ1SKEnn5qakbPI4eHwaE77r4KyFNYMS8zbU3jA"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="vital-signs"/>
+                  <display value="Vital Signs"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="8480-6"/>
+                  <display value="Systolic blood pressure"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectiveDateTime value="2025-06-13T05:17:52Z"/>
+            <valueQuantity>
+               <value value="126.0"/>
+               <unit value="mmHg"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mm[Hg]"/>
+            </valueQuantity>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/PiWzbxYVphOYPUdGtQmi7PdoJtzGxOaWKCc4OBn91BR2d"/>
+      <resource>
+         <Observation>
+            <id value="PiWzbxYVphOYPUdGtQmi7PdoJtzGxOaWKCc4OBn91BR2d"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+                  <display value="Laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2340-8"/>
+                  <display value="Glucose [Mass/volume] in Blood by Automated test strip"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectivePeriod>
+               <start value="2025-06-17T08:00:43Z"/>
+               <end value="2025-06-17T13:38:38Z"/>
+            </effectivePeriod>
+            <valueQuantity>
+               <value value="105.0"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/h5DFwr7pXMMpaYwBteDe6kMTEQX9Q7oCaoz9VPshGA7FZ in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/h5DFwr7pXMMpaYwBteDe6kMTEQX9Q7oCaoz9VPshGA7FZ"/>
+               </identifier>
+               <display value="Specimen"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="79.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+               <high>
+                  <value value="99.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+               <text value="79 - 99 mg/dL"/>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/SK4dgxKidmDHTLE5NEQemm5nFIviQ83zN8cEJKUqgRqX5"/>
+      <resource>
+         <Observation>
+            <id value="SK4dgxKidmDHTLE5NEQemm5nFIviQ83zN8cEJKUqgRqX5"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+                  <display value="Laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2340-8"/>
+                  <display value="Glucose [Mass/volume] in Blood by Automated test strip"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectivePeriod>
+               <start value="2025-06-14T06:06:09Z"/>
+               <end value="2025-06-15T12:16:14Z"/>
+            </effectivePeriod>
+            <valueQuantity>
+               <value value="102.0"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/jhvo3yJ2ARqIiwHaNAsjojd8LZgkikWs4yGFXYWhsVTwn in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/jhvo3yJ2ARqIiwHaNAsjojd8LZgkikWs4yGFXYWhsVTwn"/>
+               </identifier>
+               <display value="Specimen"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="79.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+               <high>
+                  <value value="99.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+               <text value="79 - 99 mg/dL"/>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/WBYrSyUfsrGh12WyJDtLwaz18JooqTwmayZ9RGg45IEGc"/>
+      <resource>
+         <Observation>
+            <id value="WBYrSyUfsrGh12WyJDtLwaz18JooqTwmayZ9RGg45IEGc"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+                  <display value="Laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2340-8"/>
+                  <display value="Glucose [Mass/volume] in Blood by Automated test strip"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectivePeriod>
+               <start value="2025-06-07T15:11:36Z"/>
+               <end value="2025-06-18T14:29:03Z"/>
+            </effectivePeriod>
+            <valueQuantity>
+               <value value="94.0"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/iAhHq1XH62POZYZZUkyE1W519jxk8w6jHudBiJIuzVqIY in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/iAhHq1XH62POZYZZUkyE1W519jxk8w6jHudBiJIuzVqIY"/>
+               </identifier>
+               <display value="Specimen"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="79.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+               <high>
+                  <value value="99.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+               <text value="79 - 99 mg/dL"/>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/WQonFLNbpObWiIG4t0DW1zYMPSNWtXUiVMYLS4KEMgOaJ"/>
+      <resource>
+         <Observation>
+            <id value="WQonFLNbpObWiIG4t0DW1zYMPSNWtXUiVMYLS4KEMgOaJ"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+                  <display value="Laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2340-8"/>
+                  <display value="Glucose [Mass/volume] in Blood by Automated test strip"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectivePeriod>
+               <start value="2025-06-15T09:04:03Z"/>
+               <end value="2025-06-17T21:39:32Z"/>
+            </effectivePeriod>
+            <valueQuantity>
+               <value value="46.0"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/mqvgLwMKuQnBJavemm5JHmgHYevycNLESN0KLqYshjmJS in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/mqvgLwMKuQnBJavemm5JHmgHYevycNLESN0KLqYshjmJS"/>
+               </identifier>
+               <display value="Specimen"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="79.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+               <high>
+                  <value value="99.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+               <text value="79 - 99 mg/dL"/>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/g1inWtwMMqWsvvtkjD9DCt9rWBXC9acq547rxt39rY6ud"/>
+      <resource>
+         <Observation>
+            <id value="g1inWtwMMqWsvvtkjD9DCt9rWBXC9acq547rxt39rY6ud"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+                  <display value="Laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2340-8"/>
+                  <display value="Glucose [Mass/volume] in Blood by Automated test strip"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectivePeriod>
+               <start value="2025-06-13T15:19:41Z"/>
+               <end value="2025-06-14T19:25:41Z"/>
+            </effectivePeriod>
+            <valueQuantity>
+               <value value="105.0"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/EhGpdAXHvUShHS7Fe5jtqpLncMtsarPLnUwRHIqpSHJFV in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/EhGpdAXHvUShHS7Fe5jtqpLncMtsarPLnUwRHIqpSHJFV"/>
+               </identifier>
+               <display value="Specimen"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="79.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+               <high>
+                  <value value="99.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+               <text value="79 - 99 mg/dL"/>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/kpk1mTaRS7an0xghkICJJ4RHiIoLW2gwx8oOCCzWHDNuR"/>
+      <resource>
+         <Observation>
+            <id value="kpk1mTaRS7an0xghkICJJ4RHiIoLW2gwx8oOCCzWHDNuR"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="laboratory"/>
+                  <display value="Laboratory"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2340-8"/>
+                  <display value="Glucose [Mass/volume] in Blood by Automated test strip"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectivePeriod>
+               <start value="2025-06-11T11:43:17Z"/>
+               <end value="2025-06-12T13:43:55Z"/>
+            </effectivePeriod>
+            <valueQuantity>
+               <value value="38.0"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>
+            <specimen>
+                    <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/NDvWt7pNmmf8TEcn2Wopjaz4hOuzmhrXt20QFVTB7nquj in Bundle. Replacing with identifier reference.-->
+               <identifier>
+                  <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                  <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Specimen/NDvWt7pNmmf8TEcn2Wopjaz4hOuzmhrXt20QFVTB7nquj"/>
+               </identifier>
+               <display value="Specimen"/>
+            </specimen>
+            <referenceRange>
+               <low>
+                  <value value="79.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </low>
+               <high>
+                  <value value="99.0"/>
+                  <unit value="mg/dL"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="mg/dL"/>
+               </high>
+               <text value="79 - 99 mg/dL"/>
+            </referenceRange>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Observation/ze9Dxqu23q2Cc7UaaRDOM6zlsi8ZTuo9BA1DmZBmFVT7d"/>
+      <resource>
+         <Observation>
+            <id value="ze9Dxqu23q2Cc7UaaRDOM6zlsi8ZTuo9BA1DmZBmFVT7d"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs"/>
+            </meta>
+            <status value="final"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+                  <code value="vital-signs"/>
+                  <display value="Vital Signs"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="29463-7"/>
+                  <display value="Body weight"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+               <display value="Wanda026 Karen010 Washington001"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+               <display value="Hospital Encounter"/>
+            </encounter>
+            <effectiveDateTime value="2025-06-17T11:51:57Z"/>
+            <valueQuantity>
+               <value value="62.0"/>
+               <unit value="kg"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="kg"/>
+            </valueQuantity>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Procedure/H8ze0mYO4WciIzYHYgUlD7fRjkEclzbTr64JgiEPE14OU"/>
+      <resource>
+         <Procedure>
+            <id value="H8ze0mYO4WciIzYHYgUlD7fRjkEclzbTr64JgiEPE14OU"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+            </meta>
+            <status value="completed"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="185349003"/>
+                  <display value="Insertion of subcutaneous infusion pump"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+            </encounter>
+            <performedPeriod>
+               <start value="2025-06-06T06:10:24Z"/>
+               <end value="2025-06-06T07:00:24Z"/>
+            </performedPeriod>
+            <focalDevice>
+               <action>
+                  <coding>
+                     <system value="http://hl7.org/fhir/device-action"/>
+                     <code value="implanted"/>
+                  </coding>
+               </action>
+               <manipulated>
+                        <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Device/FJDp1vAAFNgwWOi3J2GCwGX16Spsck5fxBJ9KThyoBBAQ in Bundle. Replacing with identifier reference.-->
+                  <identifier>
+                     <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                     <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Device/FJDp1vAAFNgwWOi3J2GCwGX16Spsck5fxBJ9KThyoBBAQ"/>
+                  </identifier>
+               </manipulated>
+            </focalDevice>
+         </Procedure>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Procedure/JkRVnoEqmPD2N38SP94IrFALfBBYyZSHc9Z2FIWlALv5y"/>
+      <resource>
+         <Procedure>
+            <id value="JkRVnoEqmPD2N38SP94IrFALfBBYyZSHc9Z2FIWlALv5y"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+            </meta>
+            <status value="completed"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="185349003"/>
+                  <display value="Insertion of subcutaneous infusion pump"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+            </encounter>
+            <performedPeriod>
+               <start value="2025-06-05T07:30:26Z"/>
+               <end value="2025-06-05T08:20:26Z"/>
+            </performedPeriod>
+            <focalDevice>
+               <action>
+                  <coding>
+                     <system value="http://hl7.org/fhir/device-action"/>
+                     <code value="implanted"/>
+                  </coding>
+               </action>
+               <manipulated>
+                        <!--Unable to find http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Device/D4pMJYa2TH3IJyZZhvqTdExYYAXDnktTtrRCB9BmniJev in Bundle. Replacing with identifier reference.-->
+                  <identifier>
+                     <system value="http://example.org/fhir/resources-missing-from-bundle"/>
+                     <value value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Device/D4pMJYa2TH3IJyZZhvqTdExYYAXDnktTtrRCB9BmniJev"/>
+                  </identifier>
+               </manipulated>
+            </focalDevice>
+         </Procedure>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Procedure/VohqtUOQfL5oo2F5zrtwPR14E4GQCNuKeGiy60gyn7aYp"/>
+      <resource>
+         <Procedure>
+            <id value="VohqtUOQfL5oo2F5zrtwPR14E4GQCNuKeGiy60gyn7aYp"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+            </meta>
+            <status value="completed"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="118817003"/>
+                  <display value="Percutaneous transluminal coronary angioplasty"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/LCWIFwjFvnAQSASjfHeKzYIqsjwj0H8xjkd7DOiJu3PnG"/>
+            </encounter>
+            <performedPeriod>
+               <start value="2025-06-06T06:10:24Z"/>
+               <end value="2025-06-06T08:15:24Z"/>
+            </performedPeriod>
+         </Procedure>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Procedure/vNFdo00l22ByCPVFjvJnAGIm5DQ8gmTSUAxzFiiL34I4k"/>
+      <resource>
+         <Procedure>
+            <id value="vNFdo00l22ByCPVFjvJnAGIm5DQ8gmTSUAxzFiiL34I4k"/>
+            <meta>
+               <extension url="http://www.cdc.gov/nhsn/fhirportal/dqm/ig/StructureDefinition/link-received-date-extension">
+                  <valueDateTime value="2025-07-15T15:52:33+00:00"/>
+               </extension>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
+            </meta>
+            <status value="completed"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="185349003"/>
+                  <display value="Insertion of subcutaneous infusion pump"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/L27vpQ4Rh3Cf0LmehkMzVNqtVqPvuVJqHpk6vSSdA4E5C"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/Hjbc3oA0ILb1nduAl8WPs37fMEzLqkgO12AmR2iYE3Ox5"/>
+            </encounter>
+            <performedPeriod>
+               <start value="2025-06-05T07:30:26Z"/>
+               <end value="2025-06-05T08:20:26Z"/>
+            </performedPeriod>
+         </Procedure>
+      </resource>
+   </entry>
+</Bundle>

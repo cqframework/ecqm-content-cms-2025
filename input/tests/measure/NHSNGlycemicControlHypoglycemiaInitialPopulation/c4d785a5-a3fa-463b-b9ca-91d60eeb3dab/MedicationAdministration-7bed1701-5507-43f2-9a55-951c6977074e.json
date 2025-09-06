@@ -1,0 +1,21 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "7bed1701-5507-43f2-9a55-951c6977074e",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationadministration" ]
+  },
+  "status": "completed",
+  "medicationCodeableConcept": {
+    "coding": [ {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1654862",
+      "display": "3 ML insulin isophane, human 100 UNT/ML Pen Injector"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/c4d785a5-a3fa-463b-b9ca-91d60eeb3dab"
+  },
+  "effectivePeriod": {
+    "start": "2026-01-11T08:00:00.000Z"
+  }
+}

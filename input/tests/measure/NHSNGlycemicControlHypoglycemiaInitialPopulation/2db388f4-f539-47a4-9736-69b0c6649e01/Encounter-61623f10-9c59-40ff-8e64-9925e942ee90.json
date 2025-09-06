@@ -1,0 +1,27 @@
+{
+  "resourceType": "Encounter",
+  "id": "61623f10-9c59-40ff-8e64-9925e942ee90",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter" ]
+  },
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "IMP",
+    "display": "Inpatient encounter"
+  },
+  "type": [ {
+    "coding": [ {
+      "system": "http://www.ama-assn.org/go/cpt",
+      "code": "99212",
+      "display": "Office or other outpatient visit, established patient"
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/2db388f4-f539-47a4-9736-69b0c6649e01"
+  },
+  "period": {
+    "start": "2026-07-11T08:00:00.000Z",
+    "end": "2026-07-11T09:00:00.000Z"
+  }
+}

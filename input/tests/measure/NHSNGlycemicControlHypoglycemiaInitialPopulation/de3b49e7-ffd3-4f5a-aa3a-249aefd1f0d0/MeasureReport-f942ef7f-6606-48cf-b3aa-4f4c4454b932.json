@@ -1,0 +1,67 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "f942ef7f-6606-48cf-b3aa-4f4c4454b932",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "fba90772-bf7a-4583-86fb-52f3cc208976-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "de3b49e7-ffd3-4f5a-aa3a-249aefd1f0d0"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#fba90772-bf7a-4583-86fb-52f3cc208976-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "Inpatient encounter with diabetic medication administration with location- entered in error, class = inpatient acute"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 1
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Patient/de3b49e7-ffd3-4f5a-aa3a-249aefd1f0d0"
+  }, {
+    "reference": "Encounter/6f9c0f64-74b8-4276-91fe-5649026aed4b"
+  }, {
+    "reference": "Location/b75b8bf2-6772-4e0d-9640-fc3f32fd4262"
+  }, {
+    "reference": "MedicationAdministration/6edbbb48-96da-4245-8c6b-bb39a60a7155"
+  }, {
+    "reference": "Coverage/8654130f-c2bf-43bd-8527-1951dd7a264c"
+  }, {
+    "reference": "Organization/851d25cf-3910-4cf5-b1d5-9ead035b6524"
+  }, {
+    "reference": "Practitioner/fbcdc160-006a-44e1-baaa-06f5f7fd8739"
+  } ]
+}

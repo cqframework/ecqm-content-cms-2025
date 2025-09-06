@@ -1,0 +1,59 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "87c85d0f-dc93-478e-95c5-151729287923",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "5a0150d0-1e2f-4f24-9719-9cd9c188a84d-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "5eca21fd-71d4-4543-aed0-95f7240628ac"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#5a0150d0-1e2f-4f24-9719-9cd9c188a84d-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "Patient inpatient, but the medication administered was not hypoglycemic med. Hypo med must be administered during encounter to meet IPP. \n\n(CMS #12)"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 0
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Encounter/dc2d3a9b-3ef1-4553-acf4-a36aec6dc66f"
+  }, {
+    "reference": "MedicationAdministration/c1b8f386-29c2-498d-9ea8-9ecf679c61ca"
+  }, {
+    "reference": "Patient/5eca21fd-71d4-4543-aed0-95f7240628ac"
+  } ]
+}

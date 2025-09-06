@@ -1,0 +1,59 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "7139596c-e060-46af-a0bf-292e4130c4fa",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "a82d4070-c861-4130-a8d4-67d9839249f1-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "2db388f4-f539-47a4-9736-69b0c6649e01"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#a82d4070-c861-4130-a8d4-67d9839249f1-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "Patient had hypoglycemic medication administered, but was during a non-qualifying encounter (outpatient visit code). No inpatient encounter so does not meet IPP/Denom. \n\n(CMS #15)"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 0
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Encounter/61623f10-9c59-40ff-8e64-9925e942ee90"
+  }, {
+    "reference": "MedicationAdministration/25a87cb6-f037-4576-ad48-a33d7a6e93f9"
+  }, {
+    "reference": "Patient/2db388f4-f539-47a4-9736-69b0c6649e01"
+  } ]
+}

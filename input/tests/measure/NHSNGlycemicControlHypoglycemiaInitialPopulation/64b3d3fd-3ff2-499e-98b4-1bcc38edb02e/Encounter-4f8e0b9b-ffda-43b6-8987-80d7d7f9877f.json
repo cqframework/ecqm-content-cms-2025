@@ -1,0 +1,41 @@
+{
+  "resourceType": "Encounter",
+  "id": "4f8e0b9b-ffda-43b6-8987-80d7d7f9877f",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter" ]
+  },
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "ACUTE",
+    "display": "inpatient acute"
+  },
+  "type": [ {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "version": "2024",
+      "code": "32485007",
+      "display": "Hospital admission (procedure)",
+      "userSelected": true
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/64b3d3fd-3ff2-499e-98b4-1bcc38edb02e"
+  },
+  "period": {
+    "start": "2026-01-01T08:00:00.000+00:00",
+    "end": "2026-01-02T09:15:00.000+00:00"
+  },
+  "diagnosis": [ {
+    "condition": {
+      "reference": "Condition/4a99f01c-e257-4b61-b9e0-190d3d4848fc"
+    },
+    "use": {
+      "coding": [ {
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "code": "CC",
+        "display": "Chief complaint"
+      } ]
+    }
+  } ]
+}

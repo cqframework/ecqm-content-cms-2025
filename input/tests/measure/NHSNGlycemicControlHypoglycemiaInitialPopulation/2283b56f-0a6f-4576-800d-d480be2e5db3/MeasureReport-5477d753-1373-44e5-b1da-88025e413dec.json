@@ -1,0 +1,61 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "5477d753-1373-44e5-b1da-88025e413dec",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "0283d889-f38d-4c0e-a8f6-d86ebce6a2ac-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "2283b56f-0a6f-4576-800d-d480be2e5db3"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#0283d889-f38d-4c0e-a8f6-d86ebce6a2ac-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "IP Encounter with meds administered, but glucose lab <40 was before med. Must be <40 within 24 hours after med to meet numerator. Numerator fails.\n\n(CMS #20)"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 1
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Encounter/9f443c26-643d-49e5-acd2-87a40afce75f"
+  }, {
+    "reference": "MedicationAdministration/4aeeef4e-ad84-4f1d-9d3b-88529ce526fe"
+  }, {
+    "reference": "Observation/37be89ee-3b29-4aef-9b6a-f9ea210254a5"
+  }, {
+    "reference": "Patient/2283b56f-0a6f-4576-800d-d480be2e5db3"
+  } ]
+}

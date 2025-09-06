@@ -1,0 +1,27 @@
+{
+  "resourceType": "Group",
+  "id": "TimezoneTesting",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/TimezoneTesting"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/comparison-example-after",
+      "display": "After ComparisonExample"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/comparison-example-before",
+      "display": "Before ComparisonExample"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/comparison-example-on",
+      "display": "On ComparisonExample"
+    }
+  } ]
+}

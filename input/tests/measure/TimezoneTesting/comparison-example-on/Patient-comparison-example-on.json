@@ -1,0 +1,23 @@
+{
+  "resourceType": "Patient",
+  "id": "comparison-example-on",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient" ]
+  },
+  "identifier": [ {
+    "type": {
+      "coding": [ {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code": "MR"
+      } ]
+    },
+    "system": "https://bonnie-fhir.healthit.gov/",
+    "value": "comparison-example-on"
+  } ],
+  "name": [ {
+    "family": "ComparisonExample",
+    "given": [ "On" ]
+  } ],
+  "gender": "male",
+  "birthDate": "2009-01-01"
+}

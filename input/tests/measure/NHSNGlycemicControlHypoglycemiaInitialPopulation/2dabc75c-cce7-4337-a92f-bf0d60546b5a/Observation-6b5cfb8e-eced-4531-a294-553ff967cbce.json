@@ -1,0 +1,38 @@
+{
+  "resourceType": "Observation",
+  "id": "6b5cfb8e-eced-4531-a294-553ff967cbce",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation-lab" ]
+  },
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "laboratory",
+      "display": "Laboratory"
+    } ],
+    "text": "Laboratory"
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "version": "2.72",
+      "code": "2339-0",
+      "display": "Glucose [Mass/volume] in Blood",
+      "userSelected": true
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/2dabc75c-cce7-4337-a92f-bf0d60546b5a"
+  },
+  "effectiveDateTime": "2026-01-01T08:10:00.000+00:00",
+  "performer": [ {
+    "reference": "Organization/Organization-1"
+  } ],
+  "valueQuantity": {
+    "value": 179,
+    "unit": "mg/dL",
+    "system": "http://unitsofmeasure.org",
+    "code": "mg/dL"
+  }
+}

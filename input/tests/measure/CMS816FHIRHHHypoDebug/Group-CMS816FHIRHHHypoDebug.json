@@ -1,0 +1,22 @@
+{
+  "resourceType": "Group",
+  "id": "CMS816FHIRHHHypoDebug",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/CMS816FHIRHHHypoDebug"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/1d298cf0-aa38-4943-ba4c-f7209cf59e63",
+      "display": "John Doe"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1d298cf0-aa38-4943-ba4c-f7209cf59e63",
+      "display": "John Doe"
+    }
+  } ]
+}

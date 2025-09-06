@@ -1,0 +1,126 @@
+{
+  "resourceType": "Encounter",
+  "id": "2f658482-e8f7-4f2c-931b-d091f2a9bc3e",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter" ]
+  },
+  "identifier": [ {
+    "type": {
+      "coding": [ {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code": "MR"
+      } ]
+    },
+    "system": "https://bonnie-fhir.healthit.gov/",
+    "value": "657cbdc9b4f1f0343662347a"
+  } ],
+  "status": "entered-in-error",
+  "statusHistory": [ {
+    "status": "finished",
+    "period": {
+      "start": "2026-01-01",
+      "end": "2026-01-07"
+    }
+  } ],
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "ACUTE",
+    "display": "inpatient acute"
+  },
+  "classHistory": [ {
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "IMP",
+      "display": "Inpatient"
+    },
+    "period": {
+      "start": "2026-01-06",
+      "end": "2026-01-07"
+    }
+  } ],
+  "type": [ {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "version": "2024",
+      "code": "32485007",
+      "display": "Hospital admission (procedure)",
+      "userSelected": true
+    } ]
+  } ],
+  "serviceType": {
+    "coding": [ {
+      "system": "https://hl7.org/fhir/R4/codesystem-service-type.html",
+      "code": "21",
+      "display": "Hydrotherapy"
+    } ]
+  },
+  "priority": {
+    "coding": [ {
+      "system": "https://terminology.hl7.org/5.5.0/CodeSystem-v3-ActPriority.html",
+      "code": "R",
+      "display": "routine"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/37487559-c99d-4919-a6a8-661ed96a9692"
+  },
+  "period": {
+    "start": "2026-01-01T08:00:00.000+00:00",
+    "end": "2026-01-02T09:15:00.000+00:00"
+  },
+  "length": {
+    "value": 25,
+    "unit": "sec",
+    "system": "http://unitsofmeasure.org",
+    "code": "s"
+  },
+  "reasonCode": [ {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "code": "183932001",
+      "display": "Procedure contraindicated (situation)",
+      "userSelected": true
+    } ]
+  } ],
+  "reasonReference": [ {
+    "reference": "Condition/96515cbe-4dfe-43a9-97c9-49bf5aab7b66"
+  } ],
+  "diagnosis": [ {
+    "condition": {
+      "reference": "Condition/96515cbe-4dfe-43a9-97c9-49bf5aab7b66"
+    },
+    "use": {
+      "coding": [ {
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "code": "billing"
+      } ]
+    },
+    "rank": 1
+  } ],
+  "account": [ {
+    "reference": "Account/example"
+  } ],
+  "hospitalization": {
+    "dischargeDisposition": {
+      "coding": [ {
+        "system": "http://snomed.info/sct",
+        "code": "371828006",
+        "display": "Patient deceased during stay (discharge status = dead) (finding)",
+        "userSelected": true
+      } ]
+    }
+  },
+  "location": [ {
+    "location": {
+      "reference": "Location/6190cd5f-b246-4bcc-beeb-baf3c8714956"
+    },
+    "period": {
+      "start": "2026-01-01T08:00:00.000+00:00",
+      "end": "2026-01-02T09:15:00.000+00:00"
+    }
+  } ],
+  "partOf": {
+    "reference": "Location/2",
+    "display": "USS Enterprise"
+  }
+}

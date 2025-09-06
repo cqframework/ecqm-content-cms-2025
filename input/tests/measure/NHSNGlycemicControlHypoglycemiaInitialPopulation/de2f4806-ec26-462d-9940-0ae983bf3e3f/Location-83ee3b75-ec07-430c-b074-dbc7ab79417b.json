@@ -1,0 +1,21 @@
+{
+  "resourceType": "Location",
+  "id": "83ee3b75-ec07-430c-b074-dbc7ab79417b",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location" ]
+  },
+  "identifier": [ {
+    "use": "usual",
+    "system": "http://exampleoflocation.com",
+    "value": "B1-S.F2"
+  } ],
+  "name": "Medical Surgical East, first floor",
+  "type": [ {
+    "coding": [ {
+      "system": "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html",
+      "code": "1028-0",
+      "display": "Medical Cardiac Critical Care",
+      "userSelected": true
+    } ]
+  } ]
+}

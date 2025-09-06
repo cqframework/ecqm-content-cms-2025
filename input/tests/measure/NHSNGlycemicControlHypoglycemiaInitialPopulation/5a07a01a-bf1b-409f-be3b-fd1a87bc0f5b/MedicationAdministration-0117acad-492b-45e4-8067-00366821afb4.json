@@ -1,0 +1,23 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "0117acad-492b-45e4-8067-00366821afb4",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationadministration" ]
+  },
+  "status": "completed",
+  "medicationCodeableConcept": {
+    "coding": [ {
+      "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code": "1361493",
+      "display": "glimepiride 6 MG Oral Tablet",
+      "userSelected": true
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/5a07a01a-bf1b-409f-be3b-fd1a87bc0f5b"
+  },
+  "effectivePeriod": {
+    "start": "2026-01-16T08:00:00.000+00:00",
+    "end": "2026-01-16T09:00:00.000+00:00"
+  }
+}

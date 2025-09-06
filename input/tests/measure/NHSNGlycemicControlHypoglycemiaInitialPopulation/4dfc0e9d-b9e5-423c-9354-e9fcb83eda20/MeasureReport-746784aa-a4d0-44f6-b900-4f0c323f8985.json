@@ -1,0 +1,63 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "746784aa-a4d0-44f6-b900-4f0c323f8985",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "366c60b6-fdad-4c06-84a4-07c72e40439e-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "4dfc0e9d-b9e5-423c-9354-e9fcb83eda20"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#366c60b6-fdad-4c06-84a4-07c72e40439e-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "Encounter, meds administered, two glucose lab tests but no results. Must have results and must be LT 40 to meet numerator. \n\n(CMS #18)"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 1
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Encounter/94915d88-61b7-40fd-b35f-bdd4edaf53f4"
+  }, {
+    "reference": "MedicationAdministration/0c55f98d-4859-4276-8316-afa6f834655c"
+  }, {
+    "reference": "Observation/c216b848-9b8f-493d-b3b5-d5a448765d77"
+  }, {
+    "reference": "Observation/7f8fad2a-93ef-40e3-b8c2-6164460a1d69"
+  }, {
+    "reference": "Patient/4dfc0e9d-b9e5-423c-9354-e9fcb83eda20"
+  } ]
+}

@@ -1,0 +1,67 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "d3084ef7-3d0d-4219-ba19-850d35f91d25",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "c07a35c6-6320-4c09-8b1c-d0211c32f2d0-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "a190f096-6d74-476a-853d-0d5c5d5df1a6"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#c07a35c6-6320-4c09-8b1c-d0211c32f2d0-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "Inpatient encounter with diabetic medication and SDE encounter location"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 1
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Patient/a190f096-6d74-476a-853d-0d5c5d5df1a6"
+  }, {
+    "reference": "Encounter/7825957d-b42c-48d4-97d9-3d8de6220b6b"
+  }, {
+    "reference": "Location/7adc2348-b27c-4fdd-8a9a-913f7f582951"
+  }, {
+    "reference": "MedicationAdministration/84b8ff89-5429-47ab-8d02-50bcdc014249"
+  }, {
+    "reference": "Coverage/779c3af0-cce3-4a8b-9f97-84df14e22e9c"
+  }, {
+    "reference": "Organization/b42ed7ed-4127-4dca-82f7-50f335752f38"
+  }, {
+    "reference": "Practitioner/0f34b13b-664d-44db-9e1e-21c697198cd8"
+  } ]
+}

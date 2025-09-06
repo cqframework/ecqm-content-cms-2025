@@ -1064,11 +1064,6 @@
     "valueReference": {
       "reference": "#effective-data-requirements"
     }
-  }, {
-    "url": "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-softwaresystem",
-    "valueReference": {
-      "reference": "Device/cqf-tooling"
-    }
   } ],
   "url": "https://madie.cms.gov/Measure/CMS124FHIRCervicalCancerScreening",
   "identifier": [ {
@@ -1124,7 +1119,7 @@
   "title": "Cervical Cancer ScreeningFHIR",
   "status": "active",
   "experimental": false,
-  "date": "2025-07-09T18:23:36+00:00",
+  "date": "2025-07-16T18:07:23+00:00",
   "publisher": "National Committee for Quality Assurance",
   "contact": [ {
     "telecom": [ {

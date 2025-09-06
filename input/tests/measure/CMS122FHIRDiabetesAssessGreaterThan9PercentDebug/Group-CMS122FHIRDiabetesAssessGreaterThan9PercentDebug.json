@@ -1,0 +1,22 @@
+{
+  "resourceType": "Group",
+  "id": "CMS122FHIRDiabetesAssessGreaterThan9PercentDebug",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/CMS122FHIRDiabetesAssessGreaterThan9PercentDebug"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/3b62b0a8-44f2-4365-bcb9-7cadef5bab2e",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3b62b0a8-44f2-4365-bcb9-7cadef5bab2e",
+      "display": "Betty Bertha"
+    }
+  } ]
+}

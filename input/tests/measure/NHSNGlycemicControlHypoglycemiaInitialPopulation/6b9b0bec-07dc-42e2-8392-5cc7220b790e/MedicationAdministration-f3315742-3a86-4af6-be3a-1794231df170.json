@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "f3315742-3a86-4af6-be3a-1794231df170",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationadministration" ]
+  },
+  "status": "completed",
+  "medicationReference": {
+    "reference": "Medication/0195af64-18bb-7050-a09b-fd52ccef123a"
+  },
+  "subject": {
+    "reference": "Patient/6b9b0bec-07dc-42e2-8392-5cc7220b790e"
+  },
+  "context": {
+    "reference": "Encounter/0195917c-35dc-7667-a14f-1bc2c7481b78"
+  },
+  "supportingInformation": [ {
+    "reference": "Condition/019595f8-e3af-7a05-bd02-cb1d0344a4b5"
+  } ],
+  "effectivePeriod": {
+    "start": "2026-01-01T10:05:00.000+00:00",
+    "end": "2026-01-01T10:10:00.000+00:00"
+  },
+  "dosage": {
+    "route": {
+      "coding": [ {
+        "system": "http://snomed.info/sct",
+        "code": "26643006",
+        "display": "Oral route (qualifier value)"
+      } ]
+    },
+    "dose": {
+      "value": 600,
+      "unit": "mg",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg"
+    }
+  }
+}

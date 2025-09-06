@@ -1,0 +1,67 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "e67111e8-60cf-4603-9ab3-ccf7b10bbe3b",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm" ]
+  },
+  "contained": [ {
+    "resourceType": "Parameters",
+    "id": "3e717874-e546-4285-95a7-527775c032e9-parameters",
+    "parameter": [ {
+      "name": "subject",
+      "valueString": "8d3864cd-d022-4067-941c-c42087e3bc86"
+    } ]
+  } ],
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/cqf-inputParameters",
+    "valueReference": {
+      "reference": "#3e717874-e546-4285-95a7-527775c032e9-parameters"
+    }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+    "valueMarkdown": "Minimal patient SDE fails, encounter before MP"
+  } ],
+  "modifierExtension": [ {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+    "valueBoolean": true
+  } ],
+  "status": "complete",
+  "type": "individual",
+  "measure": "https://madie.cms.gov/Measure/NHSNGlycemicControlHypoglycemiaInitialPopulation",
+  "period": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "group": [ {
+    "id": "Group_1",
+    "population": [ {
+      "id": "InitialPopulation_1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "count": 0
+    } ],
+    "measureScore": {
+      "value": 0.0
+    }
+  } ],
+  "evaluatedResource": [ {
+    "reference": "Patient/8d3864cd-d022-4067-941c-c42087e3bc86"
+  }, {
+    "reference": "Encounter/1c64a077-37af-4576-bb0b-131e0799646d"
+  }, {
+    "reference": "Location/1c9cab51-b817-4e3e-b44d-8a6b39b4baee"
+  }, {
+    "reference": "MedicationRequest/f814dc26-7998-4c2b-84f8-dc37b6991892"
+  }, {
+    "reference": "Coverage/84355518-5dfc-499a-9b6d-7ba66e19ca76"
+  }, {
+    "reference": "Organization/c46b7820-a630-43af-b102-14025c354fcf"
+  }, {
+    "reference": "Practitioner/8e2bc145-bb3d-4d06-bf06-134cf5a25503"
+  } ]
+}

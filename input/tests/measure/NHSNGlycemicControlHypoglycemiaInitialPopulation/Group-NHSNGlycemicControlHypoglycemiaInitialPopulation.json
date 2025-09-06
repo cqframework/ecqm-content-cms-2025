@@ -10,63 +10,13 @@
   "actual": true,
   "member": [ {
     "entity": {
-      "reference": "Patient/62cfb49d-d68f-4366-ada1-977e827ca7e2",
-      "display": "InptEncStatusFinished IPOPPass"
+      "reference": "Patient/081a12b5-6d27-4380-9085-d44680b7bb3b",
+      "display": "InptEncDiabeticMedEncClassShortStay IPOPPass"
     }
   }, {
     "entity": {
-      "reference": "Patient/62cfb49d-d68f-4366-ada1-977e827ca7e2",
-      "display": "InptEncStatusFinished IPOPPass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/b247e1af-4d1a-42c1-be34-7c74987da0bd",
-      "display": "Condition ConditionPass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/b247e1af-4d1a-42c1-be34-7c74987da0bd",
-      "display": "Condition ConditionPass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/1e403fe4-88cd-4dbf-8942-e262ae91b2c4",
-      "display": "InptEncStatusInProgress IPOPPass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/1e403fe4-88cd-4dbf-8942-e262ae91b2c4",
-      "display": "InptEncStatusInProgress IPOPPass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/de3b49e7-ffd3-4f5a-aa3a-249aefd1f0d0",
-      "display": "InptEncStatusEnteredInErrorLocationEncClassInptAcute IPOPPass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/de3b49e7-ffd3-4f5a-aa3a-249aefd1f0d0",
-      "display": "InptEncStatusEnteredInErrorLocationEncClassInptAcute IPOPPass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/62f50a3d-3fd0-4e3c-a163-3bc6f35ce8da",
-      "display": "InptEncDiabeticMedEncClassInpatientEncounter IPOPPass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/62f50a3d-3fd0-4e3c-a163-3bc6f35ce8da",
-      "display": "InptEncDiabeticMedEncClassInpatientEncounter IPOPPass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/2dabc75c-cce7-4337-a92f-bf0d60546b5a",
-      "display": "BloodGlucoseEffective BloodGlucosePass"
-    }
-  }, {
-    "entity": {
-      "reference": "Patient/2dabc75c-cce7-4337-a92f-bf0d60546b5a",
-      "display": "BloodGlucoseEffective BloodGlucosePass"
+      "reference": "Patient/0abd9346-f086-4111-8614-d41be2e03979",
+      "display": "HypoMedRelativeDateTimeDuringInPtEnc CMSDENOMPass"
     }
   }, {
     "entity": {
@@ -75,18 +25,153 @@
     }
   }, {
     "entity": {
-      "reference": "Patient/0b97cf11-42c5-4f2d-b80d-be2f0e3d2501",
-      "display": "InptEncDiabeticMedEncClassInptNonAcute IPOPPass"
+      "reference": "Patient/0dc78b19-e1f7-4a30-adb1-b2359b85a10a",
+      "display": "MedicationPriortoMP MedicationFail"
     }
   }, {
     "entity": {
-      "reference": "Patient/7ce282c2-9138-457b-9ef5-3de129f81dac",
-      "display": "InptEncStatusOnLeave IPOPPass"
+      "reference": "Patient/0e6e69d4-03d4-4f3d-80d2-802995c3a221",
+      "display": "TwoEncountersOneWithMed CMSDENOMPass"
     }
   }, {
     "entity": {
-      "reference": "Patient/7ce282c2-9138-457b-9ef5-3de129f81dac",
-      "display": "InptEncStatusOnLeave IPOPPass"
+      "reference": "Patient/12283321-75ca-4c3a-9019-002284d81e89",
+      "display": "MedicationRequestAfterEncEnd InitialPopulationEncountersFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/14648731-7c20-4237-a0d1-df253fe93f40",
+      "display": "MedsinEDNotPartofEncounter CMSIPPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/16a98469-0589-4cc4-964d-d37f043cd11b",
+      "display": "LocationICU LocationPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1e403fe4-88cd-4dbf-8942-e262ae91b2c4",
+      "display": "InptEncStatusInProgress IPOPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/205dcfc1-5483-48eb-a54a-8648d130d73a",
+      "display": "LabLT80within5minutes CMSNUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/213c6814-bde6-4401-b700-a35e429ac104",
+      "display": "3Encounters3Harms CMSNUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2283b56f-0a6f-4576-800d-d480be2e5db3",
+      "display": "LabBeforeMed CMSNUMERFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2dabc75c-cce7-4337-a92f-bf0d60546b5a",
+      "display": "BloodGlucoseEffective BloodGlucosePass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2db388f4-f539-47a4-9736-69b0c6649e01",
+      "display": "OutpatientEncounter CMSIPPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2f23d669-d298-4aa1-9e00-36e334cb6f09",
+      "display": "LocationICU LocationPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2f5f0d25-506b-482a-9465-91137ed0e845",
+      "display": "InitialPopulationEncounters InitialPopulationEncountersPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/37487559-c99d-4919-a6a8-661ed96a9692",
+      "display": "EncounterLocationsAttributes EncounterLocationsPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3f89276c-e75b-4619-9f93-f0f9c58ea699",
+      "display": "NoChiefComplaintDuringEncounter ChiefComplaintFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3fdb535d-0a7f-4ec9-80a6-845e002a76cb",
+      "display": "LabTest2Equals81Exactly5MinBasedOnRelDateTime CMSNUMERFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/49766095-dc01-4019-9bbe-79c5eade2b74",
+      "display": "ServiceRequestNotPerformed ServiceRequestNotPerformedPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4dfc0e9d-b9e5-423c-9354-e9fcb83eda20",
+      "display": "TwoLabTestsNoGlucoseResults CMSNUMERFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/56c7677a-d509-474e-911a-7e8ebd446cdd",
+      "display": "BloodGlucoseEffective BloodGlucosePass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/57365859-6f37-4647-b0e1-14eee92ebb71",
+      "display": "LabTest2Equals80 CMSNUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5a07a01a-bf1b-409f-be3b-fd1a87bc0f5b",
+      "display": "LabGT80within5minutes CMSNUMERFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5a2ea578-db19-487b-9ee2-27abaaa76383",
+      "display": "MedicationRequestDoNotPerform MedicationRequestNotPerformedPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5eca21fd-71d4-4543-aed0-95f7240628ac",
+      "display": "MedGivenIsNotHypoglycemic CMSIPPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/62cfb49d-d68f-4366-ada1-977e827ca7e2",
+      "display": "InptEncStatusFinished IPOPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/62f50a3d-3fd0-4e3c-a163-3bc6f35ce8da",
+      "display": "InptEncDiabeticMedEncClassInpatientEncounter IPOPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/63011803-dd5d-4a7b-a823-34d311f2ab67",
+      "display": "NoHypoglycemicGiven CMSIPPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/64b3d3fd-3ff2-499e-98b4-1bcc38edb02e",
+      "display": "ChiefCompaint ChiefComplaintPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/694f7e5e-053a-4730-b94c-73e5aacb86c2",
+      "display": "MedicationRequestAttributes MedicationRequestPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6b9b0bec-07dc-42e2-8392-5cc7220b790e",
+      "display": "DiabeticMedicationAdministration MedicationAdministrationPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6d2ba015-ead4-4a64-b3c2-91798444d44b",
+      "display": "BloodGlucoseValueDateTime BloodGlucosePass"
     }
   }, {
     "entity": {
@@ -95,18 +180,183 @@
     }
   }, {
     "entity": {
-      "reference": "Patient/6e88eab1-b0a7-42b6-a257-253da0447fc5",
-      "display": "InptEncStatusTriaged IPOPPass"
+      "reference": "Patient/732a880c-7f86-4b14-a086-0e5541e3b487",
+      "display": "ConditionOnsetAfterEncounter ConditionFail"
     }
   }, {
     "entity": {
-      "reference": "Patient/081a12b5-6d27-4380-9085-d44680b7bb3b",
-      "display": "InptEncDiabeticMedEncClassShortStay IPOPPass"
+      "reference": "Patient/78865fb4-49a4-42a3-b493-052f152b7482",
+      "display": "MedIsNotHypoMedGlucoseLT40 CMSIPPFail"
     }
   }, {
     "entity": {
-      "reference": "Patient/081a12b5-6d27-4380-9085-d44680b7bb3b",
-      "display": "InptEncDiabeticMedEncClassShortStay IPOPPass"
+      "reference": "Patient/7bcb6920-f361-4121-82a5-31fed13e65d6",
+      "display": "MedsEndOfEncounterEdgeCase CMSDENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7c853331-48a7-492f-9060-795009f8cc7b",
+      "display": "BloodGlucoseDayAfterEncounter BloodGlucoseFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7ce282c2-9138-457b-9ef5-3de129f81dac",
+      "display": "InptEncStatusOnLeave IPOPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7f501eae-84a0-49a4-a598-aae63772a030",
+      "display": "DiabeticMedicationAdminAndRequest MedicationPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7fef44cf-ef02-4bca-8e88-ebf5b72a212f",
+      "display": "ServiceRequest1MinAfterEncounterEnd ServiceRequestFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/865c6188-e4ad-4ca2-90e2-64bc6c93bcf1",
+      "display": "Medication MedicationPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8bd7f76b-8d5a-42b8-8900-ec2e1ab5c0d1",
+      "display": "LabTest2GT80 CMSNUMERFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8d3864cd-d022-4067-941c-c42087e3bc86",
+      "display": "MinimalPatientEncBeforeMP MinimalPatientFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/914a8308-9d17-41a5-a38a-fae14a9669ea",
+      "display": "ConditionReason ConditionReasonPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9507a390-e7a0-4e14-8869-69fe0e7fbe77",
+      "display": "MedicarePayer CoveragePass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/950d0fc0-914c-40e9-ae8f-5d06c0a8edf5",
+      "display": "ServiceRequest1MinBeforeEncounter ServiceRequestFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/986750bc-7ca8-43ae-886b-9ed6daaf9bb2",
+      "display": "1Encounter3GlucoseResultsLT40 CMSNUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9d6e376f-0bd5-4a36-8991-435c0e7c1bcc",
+      "display": "EncounterStatusUnknown InitialPopulationEncounterFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9dedcbcd-e0e4-4841-b6a1-971321758ab2",
+      "display": "Age17inEDAge18StartOfIPEncounter CMSDENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a190f096-6d74-476a-853d-0d5c5d5df1a6",
+      "display": "EncounterLocations EncounterLocationsPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a3d7add3-8a14-4c22-a510-ddf143c477c1",
+      "display": "2EncOneNumerator CMSNUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/af316d7c-666a-45d1-905c-20ed90640ac3",
+      "display": "CMSDENOMPass MedPeriodEndsAfterEnc"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b247e1af-4d1a-42c1-be34-7c74987da0bd",
+      "display": "Condition ConditionPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b3041236-6bfd-46ce-9da9-aea81c0abf5b",
+      "display": "LabTestLT40 CMSNUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bee09e12-d66f-48c2-9dc5-6271644e2dc2",
+      "display": "MedGivenInObservTransferToIPMoreThan1Hour CMSIPPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bfef7cf8-a7f7-42aa-bad4-3c6291bf1a3e",
+      "display": "ConditionReasonMissingFromEncounter ConditionReasonFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c4d785a5-a3fa-463b-b9ca-91d60eeb3dab",
+      "display": "MedRelPeriodStartsNoEnd CMSDENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c61005f2-b932-45eb-a8b8-03f834b7adac",
+      "display": "EncounterLocationMissing EncounterLocationsFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/dbb0a2c9-509e-49e7-8f3d-822ea7f5aa65",
+      "display": "MinimalPatient MinimalPatientPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/de2f4806-ec26-462d-9940-0ae983bf3e3f",
+      "display": "InitialPopulationEncountersAttributesAccountAndHistory InitialPopulationEncountersPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/de3b49e7-ffd3-4f5a-aa3a-249aefd1f0d0",
+      "display": "InptEncStatusEnteredInErrorLocationEncClassInptAcute IPOPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/deeb9e7e-4c29-45e6-a27e-1fc4f987f59f",
+      "display": "1Enc2ResultsLT40UsedRelevantPeriod CMSNUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e066b98f-0c36-4f71-9b18-ad76854e27c6",
+      "display": "GlucoseLT40BeforeHypoMed CMSNUMERFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e7ada800-676f-48e9-9a4b-f505901d3c95",
+      "display": "InitialPopulationEncountersAttributes InitialPopulationEncountersPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f04cffb2-a121-4198-a501-68aea7edde8f",
+      "display": "DiabeticMedicationRequest MedicationRequestPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f3a5ce49-9f1f-455b-8f44-2389c61d5850",
+      "display": "Age18EDEnc CMSDENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f6646c57-1402-4a37-ac29-9f5f315a65be",
+      "display": "Lab2is81AfterEncounterEnd CMSNUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fbc4c7bb-5c04-4c9f-8164-552c02ccdfa8",
+      "display": "ChiefCompaintAttributes ChiefComplaintPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fcda2c9b-c817-4181-a477-19cc9c6317e3",
+      "display": "BloodGlucoseDayBeforeEncounter BloodGlucoseFail"
     }
   } ]
 }

@@ -1,0 +1,25 @@
+{
+  "resourceType": "Encounter",
+  "id": "77fa3f42-8b89-4c8f-84de-3107ef3bc76e",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter" ]
+  },
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "IMP"
+  },
+  "type": [ {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "code": "183452005"
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/14648731-7c20-4237-a0d1-df253fe93f40"
+  },
+  "period": {
+    "start": "2025-07-11T10:00:00.000+00:00",
+    "end": "2025-07-14T21:00:00.000+00:00"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "resourceType": "Condition",
+  "id": "7c83407b-058b-4767-a7f6-aa46c397c067",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition-problems-health-concerns" ]
+  },
+  "clinicalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code": "active",
+      "display": "Active",
+      "userSelected": true
+    } ]
+  },
+  "verificationStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "code": "confirmed",
+      "display": "confirmed",
+      "userSelected": true
+    } ]
+  },
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+      "code": "encounter-diagnosis",
+      "display": "Encounter Diagnosis"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "439401001",
+      "display": "Diagnosis"
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+      "code": "problem-list-item",
+      "display": "Problem List Item"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "version": "2023-09",
+      "code": "46635009",
+      "display": "Diabetes mellitus type 1",
+      "userSelected": true
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/732a880c-7f86-4b14-a086-0e5541e3b487"
+  },
+  "onsetDateTime": "2026-02-01T08:00:00.000+00:00",
+  "recordedDate": "2026-03-01T08:10:00.000+00:00"
+}
